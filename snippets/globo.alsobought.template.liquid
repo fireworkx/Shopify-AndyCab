@@ -40,7 +40,7 @@
             </div>
             {% if box.template.elements contains 'price' %}
             <span class="ga-product_price-container">
-              <span class="ga-product_price money">{{first_available_variant.price | money}}</span>
+              <span class="ga-product_price money  {% if first_available_variant.compare_at_price > first_available_variant.price %} ga-product_have_oldprice {% endif %}">{{first_available_variant.price | money}}</span>
               {% if first_available_variant.compare_at_price > first_available_variant.price %}
               <s class="ga-product_oldprice money">{{first_available_variant.compare_at_price | money}}</s>
               {% endif %}
@@ -121,7 +121,7 @@
         </div>
         {% if box.template.elements contains 'price' %}
         <span class="ga-product_price-container">
-          <span class="ga-product_price money">{{first_available_variant.price | money}}</span>
+          <span class="ga-product_price money   {% if first_available_variant.compare_at_price > first_available_variant.price %} ga-product_have_oldprice {% endif %}">{{first_available_variant.price | money}}</span>
           {% if first_available_variant.compare_at_price > first_available_variant.price %}
           <s class="ga-product_oldprice money">{{first_available_variant.compare_at_price | money}}</s>
           {% endif %}
@@ -177,7 +177,7 @@
           </div>
           {% if box.template.elements contains 'price' %}
           <span class="ga-product_price-container">
-            <span class="ga-product_price money">{{first_available_variant.price | money}}</span>
+            <span class="ga-product_price money   {% if first_available_variant.compare_at_price > first_available_variant.price %} ga-product_have_oldprice {% endif %}">{{first_available_variant.price | money}}</span>
             {% if first_available_variant.compare_at_price > first_available_variant.price %}
             <s class="ga-product_oldprice money">{{first_available_variant.compare_at_price | money}}</s>
             {% endif %}
