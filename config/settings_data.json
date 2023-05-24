@@ -25,7 +25,7 @@
             "type": "announcement",
             "settings": {
               "text": "Competition Time - Click Here",
-              "color_scheme": "accent-1",
+              "color_scheme": "background-1",
               "link": "https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSfJnWFUrd3RMf5xQuoaHv3sNt5eW41_XI25j8H140Wl4EY6Gg\/viewform"
             }
           }
