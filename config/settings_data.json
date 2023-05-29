@@ -23,6 +23,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Competition Time – ENTER HERE!",
               "color_scheme": "inverse",
