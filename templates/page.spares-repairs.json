@@ -114,16 +114,16 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Canopy_handles.jpg",
-            "title": "Canopy handles",
-            "text": ""
+            "title": "Canopy Handles",
+            "text": "<p><a href=\"\/products\/canopy-handles\" title=\"Canopy Handles\">View Product<\/a><\/p>"
           }
         },
         "template--15924919697579__d9a9b4f5-cd55-4b7a-9db3-87974c994f29-16651395131d15951d-1": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Replacing_of_gas_lifts.jpg",
-            "title": "Replacing of gas lifts",
-            "text": ""
+            "title": "Gas Stay",
+            "text": "<p><a href=\"\/products\/gas-lifts\" title=\"Gas Stay\">View Product<\/a><\/p>"
           }
         },
         "2b2d769d-d9b3-4ccf-ab12-a582874f348a": {
@@ -131,7 +131,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Replacing_broken_doors.jpg",
             "title": "Replacing broken doors",
-            "text": ""
+            "text": "<p><a href=\"\/pages\/contact-us\" title=\"Contact us\">Enquire Now<\/a><\/p>"
           }
         },
         "a407cd40-83ad-4f0a-9d54-63561042ae3f": {
@@ -139,7 +139,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Respraying_canopies.jpg",
             "title": "Respraying canopies",
-            "text": ""
+            "text": "<p><a href=\"\/pages\/contact-us\" title=\"Contact us\">Enquire Now<\/a><\/p>"
           }
         },
         "template--15924919697579__d9a9b4f5-cd55-4b7a-9db3-87974c994f29-16651395131d15951d-2": {
@@ -147,7 +147,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Fixing_glass_windows.jpg",
             "title": "Fixing glass windows",
-            "text": ""
+            "text": "<p><a href=\"\/pages\/contact-us\" title=\"Contact us\">Enquire Now<\/a><\/p>"
           }
         },
         "e3b53f8e-2a4e-4c14-a9f9-387b3a23cc24": {
@@ -155,7 +155,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Andy_Cab_-_Spares_Repairs_-_13.jpg",
             "title": "Leaking Canopies",
-            "text": ""
+            "text": "<p><a href=\"\/pages\/contact-us\" title=\"Contact us\">Enquire Now<\/a><\/p>"
           }
         },
         "3c5e5945-dfec-4b71-912f-afab129450a6": {
@@ -163,7 +163,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Fibreglass_repairs.jpg",
             "title": "Fibreglass repairs",
-            "text": ""
+            "text": "<p><a href=\"\/pages\/contact-us\" title=\"Contact us\">Enquire Now<\/a><\/p>"
           }
         },
         "f30d9837-c0b2-4988-878c-2dfab55b07e8": {
@@ -171,7 +171,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Andy_Cab_-_Spares_-_Repairs_-_Replace_Broken_Hinges_-_Square.jpg",
             "title": "Broken Hinges",
-            "text": ""
+            "text": "<p><a href=\"\/pages\/contact-us\" title=\"Contact us\">Enquire Now<\/a><\/p>"
           }
         }
       },
