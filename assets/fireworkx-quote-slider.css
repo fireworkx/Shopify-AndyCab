@@ -4,7 +4,7 @@ body.modal-open {
 	overflow: hidden;
 }
 
-ul li {
+ul li { 
 	list-style: none;
 }
 
@@ -258,7 +258,7 @@ ul li {
 	justify-content: center;
 	flex-direction: column;
 	border: none;
-	background-color: var(--gradient-base-accent-1);
+	background-color: rgb(1, 33, 105);
 	/* box-shadow: var(--box-shadow-link); */
 	border-radius: var(--border-radius);
 	padding: 3rem;

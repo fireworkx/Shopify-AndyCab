@@ -4,10 +4,10 @@
 	padding-bottom: 0.8rem;
 }
 
-@media screen and (min-width: 750px) {
+/* @media screen and (min-width: 750px) {
 	.fwx-fitment-centre {
 	}
-}
+} */
 .fwx-fitment-centre details {
 	transition: box-shadow 0.15s;
 	box-shadow: var(--card-box-shadow);
@@ -93,7 +93,7 @@
 .fwx-country summary .icon-caret {
 	width: 3.2rem;
 	height: 3.2rem;
-	background-color: var(--gradient-base-accent-1);
+	background-color: rgb(1, 33, 105);
 	padding: 0.7rem;
 	border: 0.2rem solid transparent;
 	border-radius: 50%;

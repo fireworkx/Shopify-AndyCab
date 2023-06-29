@@ -1,59 +1,36 @@
 {
   "sections": {
-    "1633079619888bf7f1": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1ae185f7-83ac-4bbc-a365-be079cca5691": {
       "type": "fireworkx-hero",
       "settings": {
       }
     },
-    "fireworkx_about_us_slider": {
-      "type": "fireworkx-about-us-slider",
-      "disabled": true,
-      "blocks": {
-        "da10946b-1571-4374-b53e-d9925e755eea": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image03_380428bd-824a-40c2-9bdc-4934ba414d3c.jpg"
-          }
-        },
-        "5c37cd4a-e113-4b97-8796-91f8376d769f": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image01_0e2054b4-cdae-4418-b79e-855256483a9e.jpg"
-          }
-        },
-        "ffbc6c9b-1eec-4013-890d-ddaf01eb5a7f": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image02_b237c5b4-afe9-4680-9b30-809b57df818f.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "da10946b-1571-4374-b53e-d9925e755eea",
-        "5c37cd4a-e113-4b97-8796-91f8376d769f",
-        "ffbc6c9b-1eec-4013-890d-ddaf01eb5a7f"
-      ],
-      "settings": {
-        "heading": "High-quality & Locally manufactured",
-        "description": "<p>We use high-quality internationally recognized components for the leading utility vehicle brands. We combine over 20 years of experience to produce high-quality products. With structural integrity throughout our product range that comes standard with an industry leading canopy warranty.<\/p>"
-      }
-    },
-    "5706598f-7566-4094-a4b3-ea98087aed48": {
+    "2fb196ac-1907-493f-86d3-43418a4bde8b": {
       "type": "image-with-text",
       "blocks": {
-        "template--15980502548651__5706598f-7566-4094-a4b3-ea98087aed48-16690497913bcad989-0": {
+        "template--16130433319083__2fb196ac-1907-493f-86d3-43418a4bde8b-16850090746c794c17-0": {
           "type": "heading",
           "settings": {
-            "heading": "Make an enquiry"
+            "heading": "Make an enquiry",
+            "heading_size": "h1"
           }
         },
-        "template--15980502548651__5706598f-7566-4094-a4b3-ea98087aed48-16690497913bcad989-1": {
+        "template--16130433319083__2fb196ac-1907-493f-86d3-43418a4bde8b-16850090746c794c17-1": {
           "type": "text",
           "settings": {
-            "text": "<p>On every product page, we have a blue “<strong>Make and Enquiry<\/strong>” button, just click this at any stage if you are unsure or want to ask any questions at any stage of the buying process, fill in your details and a friendly consultant will call you back.<\/p>"
+            "text": "<p>On every product page, we have a blue “<strong>Make and Enquiry<\/strong>” button, just click this at any stage if you are unsure or want to ask any questions at any stage of the buying process, fill in your details and a friendly consultant will call you back.<\/p>",
+            "text_style": "body"
           }
         },
-        "template--15980502548651__5706598f-7566-4094-a4b3-ea98087aed48-16690497913bcad989-2": {
+        "template--16130433319083__2fb196ac-1907-493f-86d3-43418a4bde8b-16850090746c794c17-2": {
           "type": "button",
           "settings": {
             "button_label": "Make an enquiry",
@@ -62,33 +39,44 @@
         }
       },
       "block_order": [
-        "template--15980502548651__5706598f-7566-4094-a4b3-ea98087aed48-16690497913bcad989-0",
-        "template--15980502548651__5706598f-7566-4094-a4b3-ea98087aed48-16690497913bcad989-1",
-        "template--15980502548651__5706598f-7566-4094-a4b3-ea98087aed48-16690497913bcad989-2"
+        "template--16130433319083__2fb196ac-1907-493f-86d3-43418a4bde8b-16850090746c794c17-0",
+        "template--16130433319083__2fb196ac-1907-493f-86d3-43418a4bde8b-16850090746c794c17-1",
+        "template--16130433319083__2fb196ac-1907-493f-86d3-43418a4bde8b-16850090746c794c17-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Andy_Cab_-_Process_-_1.jpg",
+        "spaced-section": true,
         "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-2",
-        "layout": "image_first"
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 20
       }
     },
-    "7d58e230-2584-4822-b203-a7fafed6f095": {
+    "5abb0dff-577f-49be-a9fd-92a3b57898fb": {
       "type": "image-with-text",
       "blocks": {
-        "template--15980502548651__7d58e230-2584-4822-b203-a7fafed6f095-16690497913bcad989-0": {
+        "template--16130433319083__5abb0dff-577f-49be-a9fd-92a3b57898fb-16850090746c794c17-0": {
           "type": "heading",
           "settings": {
-            "heading": "Talk to Us"
+            "heading": "Talk to Us",
+            "heading_size": "h1"
           }
         },
-        "template--15980502548651__7d58e230-2584-4822-b203-a7fafed6f095-16690497913bcad989-1": {
+        "template--16130433319083__5abb0dff-577f-49be-a9fd-92a3b57898fb-16850090746c794c17-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We’re available via phone, email or WhatsApp (<em>Click the WhatsApp icon below<\/em>)<\/p><p>During this time, we will sort the particulars, finer details of shipment, fitment details or any other questions to make the buying process easier and more efficient experience for you.<\/p>"
+            "text": "<p>We’re available via phone, email or WhatsApp (<em>Click the WhatsApp icon below<\/em>)<\/p><p>During this time, we will sort the particulars, finer details of shipment, fitment details or any other questions to make the buying process easier and more efficient experience for you.<\/p>",
+            "text_style": "body"
           }
         },
-        "template--15980502548651__7d58e230-2584-4822-b203-a7fafed6f095-16690497913bcad989-2": {
+        "template--16130433319083__5abb0dff-577f-49be-a9fd-92a3b57898fb-16850090746c794c17-2": {
           "type": "button",
           "settings": {
             "button_label": "Contact us",
@@ -97,33 +85,44 @@
         }
       },
       "block_order": [
-        "template--15980502548651__7d58e230-2584-4822-b203-a7fafed6f095-16690497913bcad989-0",
-        "template--15980502548651__7d58e230-2584-4822-b203-a7fafed6f095-16690497913bcad989-1",
-        "template--15980502548651__7d58e230-2584-4822-b203-a7fafed6f095-16690497913bcad989-2"
+        "template--16130433319083__5abb0dff-577f-49be-a9fd-92a3b57898fb-16850090746c794c17-0",
+        "template--16130433319083__5abb0dff-577f-49be-a9fd-92a3b57898fb-16850090746c794c17-1",
+        "template--16130433319083__5abb0dff-577f-49be-a9fd-92a3b57898fb-16850090746c794c17-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Andy_Cab_-_Process_-_2.jpg",
+        "spaced-section": false,
         "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-2",
-        "layout": "image_first"
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
-    "3bb47d3b-b64b-4767-8385-03bbdb8f2190": {
+    "bce231a0-1387-4c5b-bc30-7d55632aacc3": {
       "type": "image-with-text",
       "blocks": {
-        "template--15980502548651__3bb47d3b-b64b-4767-8385-03bbdb8f2190-16690497913bcad989-0": {
+        "template--16130433319083__bce231a0-1387-4c5b-bc30-7d55632aacc3-16850090746c794c17-0": {
           "type": "heading",
           "settings": {
-            "heading": "Reserve your product"
+            "heading": "Reserve your product",
+            "heading_size": "h1"
           }
         },
-        "template--15980502548651__3bb47d3b-b64b-4767-8385-03bbdb8f2190-16690497913bcad989-1": {
+        "template--16130433319083__bce231a0-1387-4c5b-bc30-7d55632aacc3-16850090746c794c17-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Once you have found the product that you’re after, click on <strong>reservation fee<\/strong>, and <strong>add this to your cart.<\/strong><\/p><p><strong>Check out <\/strong>and make the <strong>payment.<\/strong><\/p><p>A friendly consultant will call you to arrange your confirmed fitment details.<\/p>"
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
           }
         },
-        "template--15980502548651__3bb47d3b-b64b-4767-8385-03bbdb8f2190-16690497913bcad989-2": {
+        "template--16130433319083__bce231a0-1387-4c5b-bc30-7d55632aacc3-16850090746c794c17-2": {
           "type": "button",
           "settings": {
             "button_label": "Browse products",
@@ -132,105 +131,120 @@
         }
       },
       "block_order": [
-        "template--15980502548651__3bb47d3b-b64b-4767-8385-03bbdb8f2190-16690497913bcad989-0",
-        "template--15980502548651__3bb47d3b-b64b-4767-8385-03bbdb8f2190-16690497913bcad989-1",
-        "template--15980502548651__3bb47d3b-b64b-4767-8385-03bbdb8f2190-16690497913bcad989-2"
+        "template--16130433319083__bce231a0-1387-4c5b-bc30-7d55632aacc3-16850090746c794c17-0",
+        "template--16130433319083__bce231a0-1387-4c5b-bc30-7d55632aacc3-16850090746c794c17-1",
+        "template--16130433319083__bce231a0-1387-4c5b-bc30-7d55632aacc3-16850090746c794c17-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Andy_Cab_-_Process_-_3.jpg",
+        "spaced-section": false,
         "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-2",
-        "layout": "image_first"
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
-    "0328c76d-9b32-4a8c-826b-9a76281c0ef3": {
+    "cd626ae4-faeb-4e40-9ea3-32a3fc3c59c8": {
       "type": "image-with-text",
       "blocks": {
-        "template--15980502548651__0328c76d-9b32-4a8c-826b-9a76281c0ef3-16690497913bcad989-0": {
+        "template--16130433319083__cd626ae4-faeb-4e40-9ea3-32a3fc3c59c8-16850090746c794c17-0": {
           "type": "heading",
           "settings": {
-            "heading": "Make an appointment"
+            "heading": "Make an appointment",
+            "heading_size": "h1"
           }
         },
-        "template--15980502548651__0328c76d-9b32-4a8c-826b-9a76281c0ef3-16690497913bcad989-1": {
+        "template--16130433319083__cd626ae4-faeb-4e40-9ea3-32a3fc3c59c8-16850090746c794c17-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Once we have confirmed your order (after placing your reservation), we will contact you to <strong>make an appointment <\/strong>for your fitting.<\/p><p>We have over <a href=\"\/pages\/fitment-centres\" title=\"Fitment Centres\">20 Andy Cab fitment centres<\/a> across <strong>Southern Africa<\/strong>, all the way to our fitment centres in <strong>Namibia<\/strong> and <strong>Zimbabwe<\/strong>.<\/p>"
-          }
-        },
-        "template--15980502548651__0328c76d-9b32-4a8c-826b-9a76281c0ef3-16690497913bcad989-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "text": "<p>Once we have confirmed your order (after placing your reservation), we will contact you to <strong>make an appointment <\/strong>for your fitting.<\/p><p>We have over <a href=\"https:\/\/andycab.co.za\/pages\/fitment-centres\" title=\"Fitment Centres\">20 Andy Cab fitment centres<\/a> across <strong>Southern Africa<\/strong>, all the way to our fitment centres in <strong>Namibia<\/strong> and <strong>Zimbabwe<\/strong>.<\/p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "template--15980502548651__0328c76d-9b32-4a8c-826b-9a76281c0ef3-16690497913bcad989-0",
-        "template--15980502548651__0328c76d-9b32-4a8c-826b-9a76281c0ef3-16690497913bcad989-1",
-        "template--15980502548651__0328c76d-9b32-4a8c-826b-9a76281c0ef3-16690497913bcad989-2"
+        "template--16130433319083__cd626ae4-faeb-4e40-9ea3-32a3fc3c59c8-16850090746c794c17-0",
+        "template--16130433319083__cd626ae4-faeb-4e40-9ea3-32a3fc3c59c8-16850090746c794c17-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Andy_Cab_-_Process_-_4.jpg",
+        "spaced-section": false,
         "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-2",
-        "layout": "image_first"
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
-    "cb4fcdad-4b12-47fc-814b-9fb3977da973": {
+    "75c99849-6e87-48c0-8992-940f1d363780": {
       "type": "image-with-text",
       "blocks": {
-        "template--15980502548651__cb4fcdad-4b12-47fc-814b-9fb3977da973-16690497913bcad989-0": {
+        "template--16130433319083__75c99849-6e87-48c0-8992-940f1d363780-16850090746c794c17-0": {
           "type": "heading",
           "settings": {
-            "heading": "Final payment"
+            "heading": "Final payment",
+            "heading_size": "h1"
           }
         },
-        "template--15980502548651__cb4fcdad-4b12-47fc-814b-9fb3977da973-16690497913bcad989-1": {
+        "template--16130433319083__75c99849-6e87-48c0-8992-940f1d363780-16850090746c794c17-1": {
           "type": "text",
           "settings": {
-            "text": "<p>When your fitment is complete to your satisfaction, you will make your final payment. <em>(Unless you paid in full upfront). <\/em><\/p>"
-          }
-        },
-        "template--15980502548651__cb4fcdad-4b12-47fc-814b-9fb3977da973-16690497913bcad989-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "text": "<p>When your fitment is complete to your satisfaction, you will make your final payment.<em>(Unless you paid in full upfront).<\/em><\/p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "template--15980502548651__cb4fcdad-4b12-47fc-814b-9fb3977da973-16690497913bcad989-0",
-        "template--15980502548651__cb4fcdad-4b12-47fc-814b-9fb3977da973-16690497913bcad989-1",
-        "template--15980502548651__cb4fcdad-4b12-47fc-814b-9fb3977da973-16690497913bcad989-2"
+        "template--16130433319083__75c99849-6e87-48c0-8992-940f1d363780-16850090746c794c17-0",
+        "template--16130433319083__75c99849-6e87-48c0-8992-940f1d363780-16850090746c794c17-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Andy_Cab_-_Process_-_5.jpg",
+        "spaced-section": false,
         "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-2",
-        "layout": "image_first"
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
-    "ed61de40-ca28-48dc-b51d-ea1d38ed6146": {
+    "cbd7400d-b73b-46a5-b120-00bfc6ced86a": {
       "type": "image-with-text",
       "blocks": {
-        "template--15980502548651__ed61de40-ca28-48dc-b51d-ea1d38ed6146-16690497913bcad989-0": {
+        "template--16130433319083__cbd7400d-b73b-46a5-b120-00bfc6ced86a-16850090746c794c17-0": {
           "type": "heading",
           "settings": {
-            "heading": "Satisfaction guaranteed"
+            "heading": "Satisfaction guaranteed",
+            "heading_size": "h1"
           }
         },
-        "template--15980502548651__ed61de40-ca28-48dc-b51d-ea1d38ed6146-16690497913bcad989-1": {
+        "template--16130433319083__cbd7400d-b73b-46a5-b120-00bfc6ced86a-16850090746c794c17-1": {
           "type": "text",
           "settings": {
-            "text": "<p>With over 20 years of experience, our <strong>quality workmanship<\/strong> has been refined to ensure our customers receive a superior product that we are proud to put our name on it.<\/p><p>We provide a <strong>3-year warranty on the fiberglass shell<\/strong> of the canopy and a <strong>1-year warranty <\/strong>on<strong> mechanical items<\/strong>.<\/p>"
+            "text": "<p>With over 20 years of experience, our <strong>quality workmanship<\/strong> has been refined to ensure our customers receive a superior product that we are proud to put our name on it.<\/p><p>We provide a <strong>3-year warranty on the fiberglass shell<\/strong> of the canopy and a <strong>1-year warranty <\/strong>on<strong> mechanical items<\/strong>.<\/p>",
+            "text_style": "body"
           }
         },
-        "template--15980502548651__ed61de40-ca28-48dc-b51d-ea1d38ed6146-16690497913bcad989-2": {
+        "template--16130433319083__cbd7400d-b73b-46a5-b120-00bfc6ced86a-16850090746c794c17-2": {
           "type": "button",
           "settings": {
             "button_label": "Our warranty",
@@ -239,33 +253,42 @@
         }
       },
       "block_order": [
-        "template--15980502548651__ed61de40-ca28-48dc-b51d-ea1d38ed6146-16690497913bcad989-0",
-        "template--15980502548651__ed61de40-ca28-48dc-b51d-ea1d38ed6146-16690497913bcad989-1",
-        "template--15980502548651__ed61de40-ca28-48dc-b51d-ea1d38ed6146-16690497913bcad989-2"
+        "template--16130433319083__cbd7400d-b73b-46a5-b120-00bfc6ced86a-16850090746c794c17-0",
+        "template--16130433319083__cbd7400d-b73b-46a5-b120-00bfc6ced86a-16850090746c794c17-1",
+        "template--16130433319083__cbd7400d-b73b-46a5-b120-00bfc6ced86a-16850090746c794c17-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Andy_Cab_-_Process_-_6.jpg",
+        "spaced-section": false,
         "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-2",
-        "layout": "image_first"
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 20,
+        "padding_bottom": 0
       }
     },
-    "a9781cf2-b327-41aa-9230-665538ba3c5b": {
+    "a84f3b46-6a1a-49fd-947a-b05bcaf3050b": {
       "type": "collection-list",
       "blocks": {
-        "template--15980502548651__a9781cf2-b327-41aa-9230-665538ba3c5b-1669049690115448b4-0": {
+        "template--16130433319083__a84f3b46-6a1a-49fd-947a-b05bcaf3050b-168500765807861292-0": {
           "type": "featured_collection",
           "settings": {
             "collection": "accessories"
           }
         },
-        "template--15980502548651__a9781cf2-b327-41aa-9230-665538ba3c5b-1669049690115448b4-1": {
+        "template--16130433319083__a84f3b46-6a1a-49fd-947a-b05bcaf3050b-168500765807861292-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "new-canopies"
           }
         },
-        "template--15980502548651__a9781cf2-b327-41aa-9230-665538ba3c5b-1669049690115448b4-2": {
+        "template--16130433319083__a84f3b46-6a1a-49fd-947a-b05bcaf3050b-168500765807861292-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "used-canopies"
@@ -273,29 +296,33 @@
         }
       },
       "block_order": [
-        "template--15980502548651__a9781cf2-b327-41aa-9230-665538ba3c5b-1669049690115448b4-0",
-        "template--15980502548651__a9781cf2-b327-41aa-9230-665538ba3c5b-1669049690115448b4-1",
-        "template--15980502548651__a9781cf2-b327-41aa-9230-665538ba3c5b-1669049690115448b4-2"
+        "template--16130433319083__a84f3b46-6a1a-49fd-947a-b05bcaf3050b-168500765807861292-0",
+        "template--16130433319083__a84f3b46-6a1a-49fd-947a-b05bcaf3050b-168500765807861292-1",
+        "template--16130433319083__a84f3b46-6a1a-49fd-947a-b05bcaf3050b-168500765807861292-2"
       ],
       "settings": {
-        "title": "Browse our products",
+        "title": "Collections",
+        "heading_size": "h2",
         "image_ratio": "square",
-        "color_scheme": "background-1",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
-    "1633079619888bf7f1",
-    "fireworkx_about_us_slider",
-    "5706598f-7566-4094-a4b3-ea98087aed48",
-    "7d58e230-2584-4822-b203-a7fafed6f095",
-    "3bb47d3b-b64b-4767-8385-03bbdb8f2190",
-    "0328c76d-9b32-4a8c-826b-9a76281c0ef3",
-    "cb4fcdad-4b12-47fc-814b-9fb3977da973",
-    "ed61de40-ca28-48dc-b51d-ea1d38ed6146",
-    "a9781cf2-b327-41aa-9230-665538ba3c5b"
+    "main",
+    "1ae185f7-83ac-4bbc-a365-be079cca5691",
+    "2fb196ac-1907-493f-86d3-43418a4bde8b",
+    "5abb0dff-577f-49be-a9fd-92a3b57898fb",
+    "bce231a0-1387-4c5b-bc30-7d55632aacc3",
+    "cd626ae4-faeb-4e40-9ea3-32a3fc3c59c8",
+    "75c99849-6e87-48c0-8992-940f1d363780",
+    "cbd7400d-b73b-46a5-b120-00bfc6ced86a",
+    "a84f3b46-6a1a-49fd-947a-b05bcaf3050b"
   ]
 }

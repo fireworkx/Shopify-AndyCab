@@ -1,4 +1,10 @@
 @media screen and (min-width: 1320px) {
+	.article-template__hero-container:first-child {
+		margin-top: 7rem;
+	}
+}
+
+@media screen and (min-width: 1320px) {
 	.article-template__hero-container {
 		max-width: 80rem;
 	}
@@ -8,7 +14,7 @@
 	font-size: 2.4rem;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 750px) { 
 	.article-template__title {
 		font-size: 3.2rem;
 	}
@@ -38,4 +44,8 @@
 
 .fwx-article-back-button svg {
 	transform: rotate(180deg);
+}
+
+.fwx-article-template a {
+	color: rgb(1, 33, 105);
 }

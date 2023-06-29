@@ -70,8 +70,8 @@
 }
 
 .fwx-collection-block:hover {
-	border-color: rgb(var(--color-base-accent-2));
-	box-shadow: var(--box-shadow-link-hover);
+	border-color: rgb(14, 172, 59);
+	box-shadow: 0 0 0 .4rem rgb(14, 172, 59), 0 0 0 1rem rgb(14, 172, 59, .2);
 }
 
 .fwx-collection-block img {
