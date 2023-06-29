@@ -6,7 +6,7 @@
       }
     },
     "main": {
-      "type": "fireworkx-main-blog",
+      "type": "main-blog",
       "settings": {
       }
     }

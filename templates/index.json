@@ -1,83 +1,82 @@
 {
   "sections": {
-    "image_banner": {
+    "16321314267e35a828": {
       "type": "fireworkx-image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Andy_Cab_-_Cover_Image.jpg",
-        "heading": "Locally manufactured canopies built with internationally recognised components.",
-        "color_scheme": ""
+        "image": "shopify:\/\/shop_images\/Andy_Cab_Home_Screen_Image.jpg",
+        "heading": "Locally manufactured canopies built with internationally recognised components"
       }
     },
-    "b99f01c1-7fa6-4b8a-b444-5481142ff4d2": {
+    "1631607828e1f4e3b3": {
       "type": "fireworkx-collection-list",
       "blocks": {
-        "template--16130433220779__b99f01c1-7fa6-4b8a-b444-5481142ff4d2-1684825329d70eaeff-0": {
+        "1631607828e1f4e3b3-0": {
           "type": "featured_collection",
           "settings": {
             "collection": "ford-canopies"
           }
         },
-        "template--16130433220779__b99f01c1-7fa6-4b8a-b444-5481142ff4d2-1684825329d70eaeff-1": {
+        "1631607828e1f4e3b3-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "toyota-canopies"
           }
         },
-        "template--16130433220779__b99f01c1-7fa6-4b8a-b444-5481142ff4d2-1684825329d70eaeff-2": {
+        "1631607828e1f4e3b3-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "isuzu-canopies"
           }
         },
-        "6a14ca74-1a70-4bff-9ca6-98e7c338caaf": {
+        "2d28418d-e95c-402d-ab32-ea730df1da6a": {
           "type": "featured_collection",
           "settings": {
             "collection": "jac-canopies"
           }
         },
-        "923db077-f2df-42f6-a1b4-6001d0353106": {
+        "c5a0e01d-6b21-44a8-b7ca-bc3037cdbb70": {
           "type": "featured_collection",
           "settings": {
             "collection": "gwm-canopies"
           }
         },
-        "7efbd5e1-65b2-4194-a2dc-04f95ea034ee": {
+        "4ec336c5-b7f2-497c-9b96-bc2b6cbe74d8": {
           "type": "featured_collection",
           "settings": {
             "collection": "nissan-canopies"
           }
         },
-        "21dd2159-b52b-4af4-942a-00c1b8e1ef9c": {
+        "0de68f01-b372-41ac-8d5a-7f160b2f10d4": {
           "type": "featured_collection",
           "settings": {
             "collection": "volkswagen-canopies"
           }
         },
-        "92db534a-0c23-47b3-bd8b-ff3fc5ca13fa": {
+        "478e23f4-3c2c-4ce0-82ec-b4212a4decfd": {
           "type": "featured_collection",
           "settings": {
             "collection": "mahindra-canopies"
           }
         },
-        "5fd71c42-7679-46a8-9682-4ad915cf92e4": {
+        "641ab3d5-0c17-45d5-95eb-9a3b82c964d4": {
           "type": "featured_collection",
           "settings": {
             "collection": "suzuki-canopies"
           }
         },
-        "a67165f1-58f3-49cf-b153-4d43e8ff2cc5": {
+        "56fb5feb-584a-4889-9e32-b3e081fc3e4f": {
           "type": "featured_collection",
           "settings": {
             "collection": "hyundai-canopies"
           }
         },
-        "5769f0b8-c4ff-4f85-9611-a374f1749d64": {
+        "dca1b0b8-2802-4cef-aabd-9c5e14fe13de": {
           "type": "featured_collection",
           "settings": {
             "collection": "kia-canopies"
           }
         },
-        "2bd68ccf-2802-46d8-9faf-7b8097b432b1": {
+        "5058abc5-b349-4e0b-bea4-4bc78d36b89a": {
           "type": "featured_collection",
           "settings": {
             "collection": "mazda-canopies"
@@ -85,18 +84,18 @@
         }
       },
       "block_order": [
-        "template--16130433220779__b99f01c1-7fa6-4b8a-b444-5481142ff4d2-1684825329d70eaeff-0",
-        "template--16130433220779__b99f01c1-7fa6-4b8a-b444-5481142ff4d2-1684825329d70eaeff-1",
-        "template--16130433220779__b99f01c1-7fa6-4b8a-b444-5481142ff4d2-1684825329d70eaeff-2",
-        "6a14ca74-1a70-4bff-9ca6-98e7c338caaf",
-        "923db077-f2df-42f6-a1b4-6001d0353106",
-        "7efbd5e1-65b2-4194-a2dc-04f95ea034ee",
-        "21dd2159-b52b-4af4-942a-00c1b8e1ef9c",
-        "92db534a-0c23-47b3-bd8b-ff3fc5ca13fa",
-        "5fd71c42-7679-46a8-9682-4ad915cf92e4",
-        "a67165f1-58f3-49cf-b153-4d43e8ff2cc5",
-        "5769f0b8-c4ff-4f85-9611-a374f1749d64",
-        "2bd68ccf-2802-46d8-9faf-7b8097b432b1"
+        "1631607828e1f4e3b3-0",
+        "1631607828e1f4e3b3-1",
+        "1631607828e1f4e3b3-2",
+        "2d28418d-e95c-402d-ab32-ea730df1da6a",
+        "c5a0e01d-6b21-44a8-b7ca-bc3037cdbb70",
+        "4ec336c5-b7f2-497c-9b96-bc2b6cbe74d8",
+        "0de68f01-b372-41ac-8d5a-7f160b2f10d4",
+        "478e23f4-3c2c-4ce0-82ec-b4212a4decfd",
+        "641ab3d5-0c17-45d5-95eb-9a3b82c964d4",
+        "56fb5feb-584a-4889-9e32-b3e081fc3e4f",
+        "dca1b0b8-2802-4cef-aabd-9c5e14fe13de",
+        "5058abc5-b349-4e0b-bea4-4bc78d36b89a"
       ],
       "settings": {
         "title": "Our Canopy Range",
@@ -106,26 +105,22 @@
         "style": "fwx-brands"
       }
     },
-    "c407098c-19e7-4e3e-8212-484a5f1162fd": {
+    "1631607855e74a9155": {
       "type": "fireworkx-fitment-center-cta",
       "settings": {
         "textbox": "Find a Fitment Centre",
-        "text": "With over 20 Andy Cab fitment centres across Southern Africa, you will find high-quality canopies for sale or on special from our Head Office in Cape Town – all the way to our fitment centres in Namibia and Zimbabwe.",
-        "link": "",
+        "text": "With over 20 Andy Cab fitment centres across Southern Africa, you will find high-quality canopies for sale or on special from our Head Office in Cape Town  – all the way to our fitment centres in Namibia and Zimbabwe.",
+        "link": "shopify:\/\/pages\/fitment-centres",
         "linktext": "Find a Fitment Centre"
       }
     },
-    "75fde80e-3b75-4ba0-98cc-396df90b4b8f": {
+    "9687cc34-7e84-4ddd-911d-289344606ed8": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script \n            type=\"text\/javascript\" \n            src=\"https:\/\/cdn.grw.reputon.com\/assets\/widget.js?shop=andycab.myshopify.com\"><\/script>\n<div class=\"reputon-google-reviews-widget\"\n                 data-theme=\"light\"\n                 data-autoscroll=\"true\"\n                 data-show-review-photos=\"true\"\n                 data-write-review=\"true\"\n                 data-type=\"carousel_extended\"\n                 data-position-type=\"regular\"\n                 data-position-vertical=\"bottom\"\n                 data-position-horizontal=\"center\"><\/div>",
-        "spaced-section": true,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "custom_liquid": ""
       }
     },
-    "16ea5a7d-23d3-499e-90b9-a521740b0349": {
+    "fireworkx_grid_products": {
       "type": "fireworkx-grid-products",
       "settings": {
         "title": "Accessories",
@@ -133,24 +128,24 @@
         "linktext": "View All Accessories"
       }
     },
-    "d5396c3d-d4d7-4c3a-a723-958f9b7c564d": {
+    "16321314514478a79f": {
       "type": "fireworkx-why-choose-andycab",
       "settings": {
       }
     },
-    "c483c779-d4cb-4071-8b4c-9c8133f9bb75": {
+    "firework_quote_slider": {
       "type": "fireworkx-quote-slider",
       "settings": {
       }
     }
   },
   "order": [
-    "image_banner",
-    "b99f01c1-7fa6-4b8a-b444-5481142ff4d2",
-    "c407098c-19e7-4e3e-8212-484a5f1162fd",
-    "75fde80e-3b75-4ba0-98cc-396df90b4b8f",
-    "16ea5a7d-23d3-499e-90b9-a521740b0349",
-    "d5396c3d-d4d7-4c3a-a723-958f9b7c564d",
-    "c483c779-d4cb-4071-8b4c-9c8133f9bb75"
+    "16321314267e35a828",
+    "1631607828e1f4e3b3",
+    "1631607855e74a9155",
+    "9687cc34-7e84-4ddd-911d-289344606ed8",
+    "fireworkx_grid_products",
+    "16321314514478a79f",
+    "firework_quote_slider"
   ]
 }

@@ -1,8 +1,7 @@
 .customer:not(.account):not(.order) {
-  margin: 0 auto;
+  margin: 6rem auto 9rem;
   max-width: 33.4rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding: 0 1.5rem;
   text-align: center;
 }
 
@@ -10,11 +9,6 @@
   .customer:not(.account):not(.order) {
     max-width: 47.8rem;
   }
-}
-
-.customer > h1,
-.customer__title {
-  margin-top: 0;
 }
 
 .customer form {
@@ -26,7 +20,7 @@
 }
 
 .customer ul {
-  line-height: calc(1 + 0.6 / var(--font-body-scale));
+  line-height: 1.6;
   padding-left: 4.4rem;
   text-align: left;
   margin-bottom: 4rem;
@@ -42,12 +36,12 @@
 }
 
 .customer h2.form__message {
-  font-size: calc(var(--font-heading-scale) * 1.8rem);
+  font-size: 1.8rem;
 }
 
 @media only screen and (min-width: 750px) {
   .customer h2.form__message {
-    font-size: calc(var(--font-heading-scale) * 2.2rem);
+    font-size: 2.2rem;
   }
 }
 
@@ -351,7 +345,7 @@
 .login h3 {
   margin-top: 1.5rem;
   text-align: left;
-  font-size: calc(var(--font-heading-scale) * 1.6rem);
+  font-size: 1.6rem;
 }
 
 #customer_login_guest button {
@@ -388,8 +382,15 @@
 .activate button[name='decline'],
 .addresses li > button,
 .addresses form button[type] {
-  background-color: rgba(var(--color-background), var(--alpha-button-background));
+  background-color: transparent;
+  box-shadow: 0 0 0 0.1rem rgb(var(--color-link));
   color: rgb(var(--color-link));
+}
+
+.activate button[name='decline']:hover,
+.addresses li > button:hover,
+.addresses form button[type]:hover {
+  box-shadow: 0 0 0 0.2rem rgb(var(--color-link));
 }
 
 @media only screen and (min-width: 750px) {
@@ -401,16 +402,14 @@
 
 /* Account/Order */
 :is(.account, .order) {
-  margin: 0 auto;
+  margin: 6rem auto 9rem;
   max-width: var(--page-width);
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding: 0 2rem;
 }
 
 @media screen and (min-width: 750px) {
   :is(.account, .order) {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding: 0 5rem;
   }
 }
 
@@ -546,7 +545,7 @@
 
 .order .item-props > span {
   word-break: break-all;
-  line-height: calc(1 + 0.2 / var(--font-body-scale));
+  line-height: 1.2;
 }
 
 .order .fulfillment {
@@ -595,7 +594,7 @@
 }
 
 .order table a {
-  line-height: calc(1 + 0.3 / var(--font-body-scale));
+  line-height: 1.3;
 }
 
 .order tbody tr:first-of-type td:first-of-type > div {
@@ -617,12 +616,12 @@
 
 .order .properties span {
   display: block;
-  line-height: calc(1 + 0.2 / var(--font-body-scale));
+  line-height: 1.2;
 }
 
 .order svg {
   width: 1.1rem;
-  color: rgb(var(--color-foreground));
+  color: rgb(var(--color-base-accent-2));
   margin-right: 0.5rem;
 }
 
@@ -632,7 +631,7 @@
 
 .order dd {
   margin-left: 0;
-  line-height: calc(1 + 0.3 / var(--font-body-scale));
+  line-height: 1.3;
 }
 
 .order dd s {
@@ -642,7 +641,7 @@
 .order .unit-price {
   font-size: 1.1rem;
   letter-spacing: 0.07rem;
-  line-height: calc(1 + 0.2 / var(--font-body-scale));
+  line-height: 1.2;
   margin-top: 0.2rem;
   text-transform: uppercase;
   color: rgba(var(--color-foreground), 0.7);
@@ -714,13 +713,13 @@ li[data-address] {
 
 li[data-address] > h2 {
   text-align: center;
-  font-size: calc(var(--font-heading-scale) * 1.8rem);
+  font-size: 1.8rem;
   margin-bottom: 0;
 }
 
 @media only screen and (min-width: 750px) {
   li[data-address] > h2 {
-    font-size: calc(var(--font-heading-scale) * 2.2rem);
+    font-size: 2.2rem;
   }
 }
 
@@ -735,7 +734,7 @@ li[data-address] > h2 {
 
 @media only screen and (min-width: 750px) {
   .addresses form > div:nth-of-type(1) {
-    margin-right: 2rem;
+    padding-right: 2rem;
   }
 
   .addresses form > div:nth-of-type(2) {
@@ -744,8 +743,8 @@ li[data-address] > h2 {
 
   .addresses form > div:nth-of-type(1),
   .addresses form > div:nth-of-type(2) {
+    flex-basis: 50%;
     box-sizing: border-box;
-    flex-basis: calc(50% - 1rem);
   }
 }
 

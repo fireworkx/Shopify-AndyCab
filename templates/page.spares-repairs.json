@@ -187,19 +187,13 @@
       ],
       "settings": {
         "title": "Spares & Repairs of:",
-        "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "circle",
-        "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "secondary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "background-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "swipe_on_mobile": false
       }
     },
     "a3976241-e921-4f81-8124-6051d4428bd7": {
@@ -208,15 +202,13 @@
         "template--15924919697579__a3976241-e921-4f81-8124-6051d4428bd7-1665139513bdd8c4e4-0": {
           "type": "heading",
           "settings": {
-            "heading": "Contact us",
-            "heading_size": "h1"
+            "heading": "Contact us"
           }
         },
         "template--15924919697579__a3976241-e921-4f81-8124-6051d4428bd7-1665139513bdd8c4e4-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Contact us now for help in getting your canopy back into working order and on the road again.<\/p>",
-            "text_style": "body"
+            "text": "<p>Contact us now for help in getting your canopy back into working order and on the road again.<\/p>"
           }
         },
         "template--15924919697579__a3976241-e921-4f81-8124-6051d4428bd7-1665139513bdd8c4e4-2": {
@@ -234,28 +226,15 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/about-us-page-slider-image-1.jpg",
-        "spaced-section": false,
         "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "layout": "image_first"
       }
     },
-    "b86f1825-9629-436a-be48-7aeead69924b": {
+    "21fb166d-66b8-4f66-93bc-b84c175a5e4d": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script \n            type=\"text\/javascript\" \n            src=\"https:\/\/cdn.grw.reputon.com\/assets\/widget.js?shop=andycab.myshopify.com\"><\/script>\n<div class=\"reputon-google-reviews-widget\"\n                 data-theme=\"light\"\n                 data-autoscroll=\"true\"\n                 data-show-review-photos=\"true\"\n                 data-write-review=\"true\"\n                 data-type=\"carousel_extended\"\n                 data-position-type=\"regular\"\n                 data-position-vertical=\"bottom\"\n                 data-position-horizontal=\"center\"><\/div>",
-        "spaced-section": true,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "custom_liquid": ""
       }
     }
   },
@@ -264,6 +243,6 @@
     "fireworkx_about_us_slider",
     "d9a9b4f5-cd55-4b7a-9db3-87974c994f29",
     "a3976241-e921-4f81-8124-6051d4428bd7",
-    "b86f1825-9629-436a-be48-7aeead69924b"
+    "21fb166d-66b8-4f66-93bc-b84c175a5e4d"
   ]
 }

@@ -1,5 +1,5 @@
 .fwx-wca {
-	background-color: rgb(1, 33, 105);
+	background-color: rgb(var(--color-base-accent-1));
 }
 
 .fwx-wca h2 {
