@@ -2124,61 +2124,6 @@ product-info .loading-overlay:not(.hidden) ~ *,
 .announcement-bar,
 .announcement-bar__announcement {
   color: rgb(var(--color-foreground));
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-content: center;
-}
-
-.announcement-bar .slider--everywhere {
-  margin-bottom: 0;
-}
-
-.announcement-bar-slider,
-.announcement-bar-slider .slider {
-  width: 100%;
-}
-
-.announcement-bar .slider-button--next {
-  margin-right: -1.6rem;
-  min-width: 44px;
-}
-
-.announcement-bar .slider-button--prev {
-  margin-left: -1.6rem;
-  min-width: 44px;
-}
-
-.announcement-bar .slider-button--next:focus-visible,
-.announcement-bar .slider-button--prev:focus-visible {
-  outline-offset: -0.3rem;
-  box-shadow: 0 0 0 -0.2rem rgb(var(--color-foreground));
-}
-
-@media screen and (min-width: 750px) {
-  .announcement-bar .slider-button--next {
-    margin-right: -3.8rem;
-  }
-
-  .announcement-bar .slider-button--prev {
-    margin-left: -3.8rem;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  body:has(.section-header .header:not(.drawer-menu)) .announcement-bar-section .announcement-bar .slider-button--next {
-    margin-right: -1.8rem;
-  }
-
-  body:has(.section-header .header:not(.drawer-menu)) .announcement-bar-section .announcement-bar .slider-button--prev {
-    margin-left: -1.8rem;
-  }
-
-  .announcement-bar-slider {
-    width: 60%;
-  }
 }
 
 .announcement-bar__link {

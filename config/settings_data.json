@@ -118,6 +118,27 @@
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "disabled": true,
+            "settings": {
+              "text": "Competition Time – ENTER HERE!",
+              "color_scheme": "inverse",
+              "link": "https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSfJnWFUrd3RMf5xQuoaHv3sNt5eW41_XI25j8H140Wl4EY6Gg\/viewform"
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
         "settings": {
           "color_scheme": "background-1"
         }
