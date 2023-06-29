@@ -155,7 +155,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Fixing_glass_windows.jpg",
             "title": "Fixing glass windows",
-            "text": "",
+            "text": "<p><a href=\"\/pages\/contact-us\" title=\"Contact us\">Enquire Now<\/a><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -165,7 +165,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Andy_Cab_-_Spares_Repairs_-_13.jpg",
             "title": "Leaking Canopies",
-            "text": "",
+            "text": "<p><a href=\"\/pages\/contact-us\" title=\"Contact us\">Enquire Now<\/a><\/p>",
             "link_label": "",
             "link": ""
           }
