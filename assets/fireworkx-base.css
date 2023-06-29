@@ -712,6 +712,6 @@ h4,
   position: absolute;
 }
 
-.multicolumn .multicolumn-card .content-container {
+.multicolumn:not(.background-none) .multicolumn-card {
   background-color: white;
 }
