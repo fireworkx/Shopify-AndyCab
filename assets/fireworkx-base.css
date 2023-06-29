@@ -711,7 +711,3 @@ h4,
 .template-search__results .card-wrapper .card__media {
   position: absolute;
 }
-
-.multicolumn:not(.background-none) .multicolumn-card {
-  background-color: white !important;
-}
