@@ -135,7 +135,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Replacing_broken_doors.jpg",
             "title": "Replacing broken doors",
-            "text": "",
+            "text": "<p><a href=\"\/pages\/contact-us\" title=\"Contact us\">Enquire Now<\/a><\/p>",
             "link_label": "",
             "link": ""
           }
@@ -145,7 +145,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Respraying_canopies.jpg",
             "title": "Respraying canopies",
-            "text": "",
+            "text": "<p><a href=\"\/pages\/contact-us\" title=\"Contact us\">Enquire Now<\/a><\/p>",
             "link_label": "",
             "link": ""
           }
