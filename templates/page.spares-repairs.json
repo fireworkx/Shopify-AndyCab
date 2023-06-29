@@ -115,7 +115,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Canopy_handles.jpg",
             "title": "Canopy handles",
-            "text": "",
+            "text": "<p><a href=\"\/products\/canopy-handles\" title=\"Canopy Handles\">View Product<\/a><\/p>",
             "link_label": "",
             "link": ""
           }
