@@ -261,7 +261,8 @@
         "send": "Pošlji",
         "post_success": "Hvala za vaše sporočilo. Z vami bomo v stiku takoj, ko bo mogoče.",
         "error_heading": "Prilagodite naslednje:",
-        "title": "Obrazec za stik"
+        "title": "Obrazec za stik",
+        "getHelp": "TODO"
       }
     },
     "404": {
@@ -326,7 +327,9 @@
     "collection_template": {
       "title": "Zbirka",
       "empty": "Ni najdenih izdelkov",
-      "use_fewer_filters_html": "Uporabite manj filtrov ali <a class=\"{{ class }}\" href=\"{{ link }}\">odstranite vse<\/a>"
+      "use_fewer_filters_html": "Uporabite manj filtrov ali <a class=\"{{ class }}\" href=\"{{ link }}\">odstranite vse<\/a>",
+      "product_count_simple": "TODO",
+      "product_count": "TODO"
     },
     "video": {
       "load_video": "Naloži videoposnetek: {{ description }}"

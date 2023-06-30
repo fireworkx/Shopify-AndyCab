@@ -252,7 +252,8 @@
         "send": "Pošalji",
         "post_success": "Hvala vam na javljanju. Odgovorit ćemo vam u najkraćem mogućem roku.",
         "error_heading": "Prilagodite sljedeće:",
-        "title": "Obrazac za kontakt"
+        "title": "Obrazac za kontakt",
+        "getHelp": "TODO"
       }
     },
     "404": {
@@ -316,7 +317,9 @@
     "collection_template": {
       "title": "Kolekcija",
       "empty": "Nije pronađen nijedan proizvod",
-      "use_fewer_filters_html": "Upotrijebi manje filtara ili <a class=\"{{ class }}\" href=\"{{ link }}\">ukloni sve<\/a>"
+      "use_fewer_filters_html": "Upotrijebi manje filtara ili <a class=\"{{ class }}\" href=\"{{ link }}\">ukloni sve<\/a>",
+      "product_count_simple": "TODO",
+      "product_count": "TODO"
     },
     "video": {
       "load_video": "Učitaj videozapis: {{ description }}"

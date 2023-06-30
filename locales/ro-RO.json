@@ -252,7 +252,8 @@
         "send": "Trimiteți",
         "post_success": "Vă mulțumim că ne-ați contactat. Vom lua legătura cu dvs. cât mai curând posibil.",
         "error_heading": "Vă rugăm să ajustați următoarele:",
-        "title": "Formular de contact"
+        "title": "Formular de contact",
+        "getHelp": "TODO"
       }
     },
     "404": {
@@ -316,7 +317,9 @@
     "collection_template": {
       "title": "Colecție",
       "empty": "Nu s-au găsit produse",
-      "use_fewer_filters_html": "Folosește mai puține filtre sau <a class=\"{{ class }}\" href=\"{{ link }}\">elimină-le pe toate<\/a>"
+      "use_fewer_filters_html": "Folosește mai puține filtre sau <a class=\"{{ class }}\" href=\"{{ link }}\">elimină-le pe toate<\/a>",
+      "product_count_simple": "TODO",
+      "product_count": "TODO"
     },
     "video": {
       "load_video": "Încarcă clipul video: {{ description }}"

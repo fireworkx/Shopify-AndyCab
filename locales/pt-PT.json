@@ -252,7 +252,8 @@
         "send": "Enviar",
         "post_success": "Obrigado por entrar em contacto connosco. Responder-lhe-emos logo que possível.",
         "error_heading": "Ajuste o seguinte:",
-        "title": "Formulário de contacto"
+        "title": "Formulário de contacto",
+        "getHelp": "TODO"
       }
     },
     "404": {
@@ -316,7 +317,9 @@
     "collection_template": {
       "title": "Coleção",
       "empty": "Nenhum produto encontrado",
-      "use_fewer_filters_html": "Utilizar menos filtros ou <a class=\"{{ class }}\" href=\"{{ link }}\">remover tudo<\/a>"
+      "use_fewer_filters_html": "Utilizar menos filtros ou <a class=\"{{ class }}\" href=\"{{ link }}\">remover tudo<\/a>",
+      "product_count_simple": "TODO",
+      "product_count": "TODO"
     },
     "video": {
       "load_video": "Carregar vídeo: {{ description }}"
