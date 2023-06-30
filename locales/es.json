@@ -252,7 +252,8 @@
         "send": "Enviar",
         "post_success": "Gracias por contactarnos. Te responderemos lo antes posible.",
         "error_heading": "Por favor, ajusta lo siguiente:",
-        "title": "Formulario de contacto"
+        "title": "Formulario de contacto",
+        "getHelp": "TODO"
       }
     },
     "404": {
@@ -316,7 +317,9 @@
     "collection_template": {
       "title": "Colección",
       "empty": "No se encontró ningún producto",
-      "use_fewer_filters_html": "Usa menos filtros o <a class=\"{{ class }}\" href=\"{{ link }}\">elimínalos todos<\/a>"
+      "use_fewer_filters_html": "Usa menos filtros o <a class=\"{{ class }}\" href=\"{{ link }}\">elimínalos todos<\/a>",
+      "product_count_simple": "TODO",
+      "product_count": "TODO"
     },
     "video": {
       "load_video": "Cargar video: {{ description }}"

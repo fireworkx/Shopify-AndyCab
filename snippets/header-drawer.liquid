@@ -45,7 +45,7 @@
                                 <h4>{{ collection.title | remove : "Canopies" }}</h4>
                                   {%- if collection.featured_image != blank -%}
                                     <img 
-                                      src="{{ collection.featured_image | img_url: '1500x' }}"
+                                      src="{{ collection.featured_image | image_url: width: 1500 }}"
                                       loading="lazy" height="" width="">
                                   {%- endif -%} 
                                 </a>
