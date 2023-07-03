@@ -97,6 +97,13 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "43c5949f-46a3-4810-95bb-c682677b8f58": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Price excludes fitment and delivery fees<\/strong>",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -112,7 +119,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "43c5949f-46a3-4810-95bb-c682677b8f58"
       ],
       "settings": {
         "enable_sticky_info": false,
