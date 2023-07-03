@@ -13,8 +13,8 @@ if (!customElements.get('pickup-availability')) {
       }
 
       fetchAvailability(variantId) {
-        let rootUrl = this.dataset.baseUrl; 
-        if (!rootUrl.endsWith('/')) {
+        let rootUrl = this.dataset.rootUrl; 
+        if (!rootUrl.endsWith('/')) { 
           rootUrl = rootUrl + '/';
         }
         const variantSectionUrl = `${rootUrl}variants/${variantId}/?section_id=pickup-availability`;
