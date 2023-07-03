@@ -890,13 +890,13 @@ class VariantSelects extends HTMLElement {
   onVariantChange() {
     this.updateOptions();
     this.updateMasterId();
-    // this.toggleAddButton(true, '', false);
+    this.toggleAddButton(true, '', false);
     this.updatePickupAvailability();
     this.removeErrorMessage();
     this.updateVariantStatuses();
 
     if (!this.currentVariant) {
-      // this.toggleAddButton(true, '', true);
+      this.toggleAddButton(true, '', true);
       this.setUnavailable();
     } else {
       this.updateMedia();
@@ -1047,10 +1047,10 @@ class VariantSelects extends HTMLElement {
           inventoryDestination.classList.toggle('visibility-hidden', inventorySource.innerText === '');
 
         const addButtonUpdated = html.getElementById(`ProductSubmitButton-${sectionId}`);
-        // this.toggleAddButton(
-        //   addButtonUpdated ? addButtonUpdated.hasAttribute('disabled') : true,
-        //   window.variantStrings.soldOut
-        // );
+        this.toggleAddButton(
+          addButtonUpdated ? addButtonUpdated.hasAttribute('disabled') : true,
+          window.variantStrings.soldOut
+        );
 
         publish(PUB_SUB_EVENTS.variantChange, {
           data: {
@@ -1062,23 +1062,23 @@ class VariantSelects extends HTMLElement {
       });
   }
 
-  // toggleAddButton(disable = true, text, modifyClass = true) {
-  //   const productForm = document.getElementById(`product-form-${this.dataset.section}`);
-  //   if (!productForm) return;
-  //   const addButton = productForm.querySelector('[name="add"]');
-  //   const addButtonText = productForm.querySelector('[name="add"] > span');
-  //   if (!addButton) return;
+  toggleAddButton(disable = true, text, modifyClass = true) {
+    const productForm = document.getElementById(`product-form-${this.dataset.section}`);
+    if (!productForm) return;
+    const addButton = productForm.querySelector('[name="add"]');
+    const addButtonText = productForm.querySelector('[name="add"] > span');
+    if (!addButton) return;
 
-  //   if (disable) {
-  //     addButton.setAttribute('disabled', 'disabled');
-  //     if (text) addButtonText.textContent = text;
-  //   } else {
-  //     addButton.removeAttribute('disabled');
-  //     addButtonText.textContent = window.variantStrings.addToCart;
-  //   }
+    if (disable) {
+      addButton.setAttribute('disabled', 'disabled');
+      if (text) addButtonText.textContent = text;
+    } else {
+      addButton.removeAttribute('disabled');
+      addButtonText.textContent = window.variantStrings.addToCart;
+    }
 
-  //   if (!modifyClass) return;
-  // }
+    if (!modifyClass) return;
+  }
 
   setUnavailable() {
     const button = document.getElementById(`product-form-${this.dataset.section}`);
