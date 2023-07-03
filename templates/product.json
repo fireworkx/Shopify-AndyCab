@@ -22,15 +22,22 @@
             "text_style": "subtitle"
           }
         },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
           }
         },
-        "variant_picker": {
-          "type": "variant_picker",
+        "43c5949f-46a3-4810-95bb-c682677b8f58": {
+          "type": "text",
           "settings": {
-            "picker_type": "button"
+            "text": "<strong>Price excludes fitment and delivery fees<\/strong>",
+            "text_style": "body"
           }
         },
         "quantity_selector": {
@@ -97,21 +104,15 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "43c5949f-46a3-4810-95bb-c682677b8f58": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Price excludes fitment and delivery fees<\/strong>",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
         "vendor",
         "title",
         "caption",
-        "price",
         "variant_picker",
+        "price",
+        "43c5949f-46a3-4810-95bb-c682677b8f58",
         "quantity_selector",
         "buy_buttons",
         "description",
@@ -119,8 +120,7 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share",
-        "43c5949f-46a3-4810-95bb-c682677b8f58"
+        "share"
       ],
       "settings": {
         "enable_sticky_info": false,
