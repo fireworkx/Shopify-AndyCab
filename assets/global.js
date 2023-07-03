@@ -890,13 +890,13 @@ class VariantSelects extends HTMLElement {
   onVariantChange() {
     this.updateOptions();
     this.updateMasterId();
-    this.toggleAddButton(true, '', false);
+    // this.toggleAddButton(true, '', false);
     this.updatePickupAvailability();
     this.removeErrorMessage();
     this.updateVariantStatuses();
 
     if (!this.currentVariant) {
-      this.toggleAddButton(true, '', true);
+      // this.toggleAddButton(true, '', true);
       this.setUnavailable();
     } else {
       this.updateMedia();
@@ -1047,10 +1047,10 @@ class VariantSelects extends HTMLElement {
           inventoryDestination.classList.toggle('visibility-hidden', inventorySource.innerText === '');
 
         const addButtonUpdated = html.getElementById(`ProductSubmitButton-${sectionId}`);
-        this.toggleAddButton(
-          addButtonUpdated ? addButtonUpdated.hasAttribute('disabled') : true,
-          window.variantStrings.soldOut
-        );
+        // this.toggleAddButton(
+        //   addButtonUpdated ? addButtonUpdated.hasAttribute('disabled') : true,
+        //   window.variantStrings.soldOut
+        // );
 
         publish(PUB_SUB_EVENTS.variantChange, {
           data: {
