@@ -12,6 +12,7 @@
     {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
     {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
     {{ 'fireworkx-main-product.css' | asset_url | stylesheet_tag }}
+    {{ 'fireworkx-main-product-dawn-9.css' | asset_url | stylesheet_tag }}
 
     {%- style -%}
       .section-{{ section.id }}-padding {
@@ -29,6 +30,7 @@
 
     <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'fireworkx-main-product-dawn-9.js' | asset_url }}" defer="defer"></script>
     {% if section.settings.image_zoom == 'hover' %}
       <script id="EnableZoomOnHover-main" src="{{ 'magnify.js' | asset_url }}" defer="defer"></script>
     {% endif %}
@@ -397,7 +399,7 @@
                             </div>
                             {%- if number_of_slides > 1 -%}
                               <div class="slider-buttons no-js-hidden">
-                                <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}">{% render 'icon-caret' %}</button>
+                                <button type="button" class="slider-button slider-button--prev slider-button--prev-mobile" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}">{% render 'icon-caret' %}</button>
                                 <div class="slider-counter slider-counter--{{ block.settings.pagination_style }}{% if block.settings.pagination_style == 'counter' or block.settings.pagination_style == 'numbers' %} caption{% endif %}">
                                   {%- if block.settings.pagination_style == 'counter' -%}
                                     <span class="slider-counter--current">1</span>
@@ -414,7 +416,7 @@
                                     </div>
                                   {%- endif -%}
                                 </div>
-                                <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'general.slider.next_slide' | t }}">{% render 'icon-caret' %}</button>
+                                <button type="button" class="slider-button slider-button--next slider-button--next-mobile" name="next" aria-label="{{ 'general.slider.next_slide' | t }}">{% render 'icon-caret' %}</button>
                               </div>
                             {%- endif -%}
                           </slideshow-component>
@@ -449,6 +451,8 @@
           {% comment %}theme-check-enable{% endcomment %}
         </div>
         {% render 'fireworkx-need-to-chat' %}
+
+        <button class="button-test">test</button>
       </div>
       {%- if section.settings.media_position == 'right' -%}
         {% comment %} Duplicate gallery to display after product content on tablet/desktop breakpoint {% endcomment %}
