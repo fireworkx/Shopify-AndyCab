@@ -243,7 +243,8 @@
         "send": "发送",
         "post_success": "感谢您联系我们。我们会尽快回复您。",
         "error_heading": "请调整以下内容：",
-        "title": "联系表"
+        "title": "联系表",
+        "getHelp": "TODO"
       }
     },
     "404": {
@@ -306,7 +307,9 @@
     "collection_template": {
       "title": "收藏",
       "empty": "未找到产品",
-      "use_fewer_filters_html": "减少使用的筛选条件数量或<a class=\"{{ class }}\" href=\"{{ link }}\">删除所有筛选条件<\/a>"
+      "use_fewer_filters_html": "减少使用的筛选条件数量或<a class=\"{{ class }}\" href=\"{{ link }}\">删除所有筛选条件<\/a>",
+      "product_count_simple": "TODO",
+      "product_count": "TODO"
     },
     "video": {
       "load_video": "加载视频：{{ description }}"

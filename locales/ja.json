@@ -243,7 +243,8 @@
         "send": "送信する",
         "post_success": "お問い合わせいただきありがとうございます。早急に返信いたします。",
         "error_heading": "以下を確認してください。",
-        "title": "お問い合わせフォーム"
+        "title": "お問い合わせフォーム",
+        "getHelp": "TODO"
       }
     },
     "404": {
@@ -306,7 +307,9 @@
     "collection_template": {
       "title": "コレクション",
       "empty": "商品が見つかりません",
-      "use_fewer_filters_html": "絞り込みの数を減らす、または<a class=\"{{ class }}\" href=\"{{ link }}\">すべて削除する<\/a>"
+      "use_fewer_filters_html": "絞り込みの数を減らす、または<a class=\"{{ class }}\" href=\"{{ link }}\">すべて削除する<\/a>",
+      "product_count_simple": "TODO",
+      "product_count": "TODO"
     },
     "video": {
       "load_video": "動画を読み込む: {{ description }}"

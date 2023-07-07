@@ -243,7 +243,8 @@
         "send": "Gönder",
         "post_success": "Bizimle iletişime geçtiğiniz için teşekkür ederiz. Mümkün olan en kısa sürede size dönüş yapacağız.",
         "error_heading": "Lütfen aşağıdakileri düzenleyin:",
-        "title": "İletişim formu"
+        "title": "İletişim formu",
+        "getHelp": "TODO"
       }
     },
     "404": {
@@ -306,7 +307,9 @@
     "collection_template": {
       "title": "Koleksiyon",
       "empty": "Ürün bulunamadı",
-      "use_fewer_filters_html": "Daha az filtre kullan veya <a class=\"{{ class }}\" href=\"{{ link }}\">tümünü kaldır<\/a>"
+      "use_fewer_filters_html": "Daha az filtre kullan veya <a class=\"{{ class }}\" href=\"{{ link }}\">tümünü kaldır<\/a>",
+      "product_count_simple": "TODO",
+      "product_count": "TODO"
     },
     "video": {
       "load_video": "Videoyu yükle: {{ description }}"

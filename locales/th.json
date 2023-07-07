@@ -243,7 +243,8 @@
         "send": "ส่ง",
         "post_success": "ขอขอบคุณที่ติดต่อเรา เราจะติดต่อกลับไปหาคุณโดยเร็วที่สุด",
         "error_heading": "โปรดแก้ไขข้อมูลดังต่อไปนี้:",
-        "title": "แบบฟอร์มการติดต่อ"
+        "title": "แบบฟอร์มการติดต่อ",
+        "getHelp": "TODO"
       }
     },
     "404": {
@@ -306,7 +307,9 @@
     "collection_template": {
       "title": "คอลเลกชัน",
       "empty": "ไม่พบสินค้า",
-      "use_fewer_filters_html": "ใช้ตัวกรองให้น้อยลง หรือ<a class=\"{{ class }}\" href=\"{{ link }}\">ลบทั้งหมด<\/a>"
+      "use_fewer_filters_html": "ใช้ตัวกรองให้น้อยลง หรือ<a class=\"{{ class }}\" href=\"{{ link }}\">ลบทั้งหมด<\/a>",
+      "product_count_simple": "TODO",
+      "product_count": "TODO"
     },
     "video": {
       "load_video": "โหลดวิดีโอ: {{ description }}"

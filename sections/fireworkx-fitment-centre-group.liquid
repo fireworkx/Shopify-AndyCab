@@ -3,7 +3,7 @@
 <div class="page-width">
   <details class="fwx-country">
     <summary type="button">
-      <h3> {{ section.settings.flag_image | img_url: '52x' | img_tag }}{{ section.settings.title }} {% render 'icon-caret' %}</h3>
+      <h3> {{ section.settings.flag_image | image_url: width: 52 | img_tag }}{{ section.settings.title }} {% render 'icon-caret' %}</h3>
     </summary>
     <div class="fwx-country-fitment-centre">
       {%- for block in section.blocks -%}
@@ -39,19 +39,19 @@
 {
   "name": "Fitment Centre",
   "tag": "section",
-  "class": "fwx-fitment-centre", 
-  "settings": [   
+  "class": "fwx-fitment-centre",
+  "settings": [
     {
       "type": "text",
       "id": "title",
       "default": "Title",
       "label": "Title"
     },
-    {     
-      "type": "image_picker",       
-      "id": "flag_image",      
-      "label": "Flag image"       
-    }     
+    {
+      "type": "image_picker",
+      "id": "flag_image",
+      "label": "Flag image"
+    }
   ],
   "blocks": [
     {

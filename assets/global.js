@@ -520,15 +520,15 @@ class ModalDialog extends HTMLElement {
     this.addEventListener('keyup', (event) => {
       if (event.code.toUpperCase() === 'ESCAPE') this.hide();
     });
-    if (this.classList.contains('media-modal')) {
-      this.addEventListener('pointerup', (event) => {
-        if (event.pointerType === 'mouse' && !event.target.closest('deferred-media, product-model')) this.hide();
-      });
-    } else {
-      this.addEventListener('click', (event) => {
-        if (event.target === this) this.hide();
-      });
-    }
+    // if (this.classList.contains('media-modal')) {
+    //   this.addEventListener('pointerup', (event) => {
+    //     if (event.pointerType === 'mouse' && !event.target.closest('deferred-media, product-model')) this.hide();
+    //   });
+    // } else {
+    //   this.addEventListener('click', (event) => {
+    //     if (event.target === this) this.hide();
+    //   });
+    // }
   }
 
   connectedCallback() {
@@ -621,6 +621,7 @@ class SliderComponent extends HTMLElement {
     this.nextButton.addEventListener('click', this.onButtonClick.bind(this));
   }
 
+
   initPages() {
     this.sliderItemsToShow = Array.from(this.sliderItems).filter((element) => element.clientWidth > 0);
     if (this.sliderItemsToShow.length < 2) return;
@@ -663,14 +664,17 @@ class SliderComponent extends HTMLElement {
 
     if (this.enableSliderLooping) return;
 
+    // slider controls
     if (this.isSlideVisible(this.sliderItemsToShow[0]) && this.slider.scrollLeft === 0) {
-      this.prevButton.setAttribute('disabled', 'disabled');
+        // this.prevButton.setAttribute('disabled', 'disabled');
     } else {
       this.prevButton.removeAttribute('disabled');
     }
 
     if (this.isSlideVisible(this.sliderItemsToShow[this.sliderItemsToShow.length - 1])) {
-      this.nextButton.setAttribute('disabled', 'disabled');
+      if(this.currentPage === this.totalPages) {
+        // this.nextButton.setAttribute('disabled', 'disabled');
+      }
     } else {
       this.nextButton.removeAttribute('disabled');
     }
