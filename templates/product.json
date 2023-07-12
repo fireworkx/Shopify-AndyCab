@@ -27,6 +27,13 @@
           "settings": {
           }
         },
+        "971d9c1c-ab06-4a2e-8e87-381aacf5686e": {
+          "type": "text",
+          "settings": {
+            "text": "Price excludes fitment and delivery fees",
+            "text_style": "subtitle"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -104,6 +111,7 @@
         "title",
         "caption",
         "price",
+        "971d9c1c-ab06-4a2e-8e87-381aacf5686e",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
