@@ -243,7 +243,8 @@
         "post_success": "Благодарим, че се свързахте с нас. Ще се свържем с вас възможно най-скоро.",
         "error_heading": "Коригирайте следното:",
         "phone": "Телефонен номер",
-        "title": "Формуляр за контакт"
+        "title": "Формуляр за контакт",
+        "getHelp": "TODO"
       }
     },
     "404": {
@@ -306,7 +307,9 @@
     "collection_template": {
       "title": "Колекция",
       "empty": "Не са открити продукти",
-      "use_fewer_filters_html": "Използвайте по-малко филтри или <a class=\"{{ class }}\" href=\"{{ link }}\">премахнете всички<\/a>"
+      "use_fewer_filters_html": "Използвайте по-малко филтри или <a class=\"{{ class }}\" href=\"{{ link }}\">премахнете всички<\/a>",
+      "product_count_simple": "TODO",
+      "product_count": "TODO"
     },
     "video": {
       "load_video": "Зареждане на видео: {{ description }}"

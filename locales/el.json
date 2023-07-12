@@ -243,7 +243,8 @@
         "send": "Αποστολή",
         "post_success": "Ευχαριστούμε που επικοινωνήσατε μαζί μας. Θα σας απαντήσουμε το συντομότερο δυνατόν.",
         "error_heading": "Προσαρμόστε τα παρακάτω:",
-        "title": "Φόρμα επικοινωνίας"
+        "title": "Φόρμα επικοινωνίας",
+        "getHelp": "TODO"
       }
     },
     "404": {
@@ -306,7 +307,9 @@
     "collection_template": {
       "title": "Συλλογή",
       "empty": "Δεν βρέθηκαν προϊόντα",
-      "use_fewer_filters_html": "Χρησιμοποιήστε λιγότερα φίλτρα ή <a class=\"{{ class }}\" href=\"{{ link }}\">καταργήστε τα όλα<\/a>"
+      "use_fewer_filters_html": "Χρησιμοποιήστε λιγότερα φίλτρα ή <a class=\"{{ class }}\" href=\"{{ link }}\">καταργήστε τα όλα<\/a>",
+      "product_count_simple": "TODO",
+      "product_count": "TODO"
     },
     "video": {
       "load_video": "Φόρτωση βίντεο: {{ description }}"

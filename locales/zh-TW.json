@@ -243,7 +243,8 @@
         "send": "傳送",
         "post_success": "感謝您聯絡我們。我們會盡快回覆您。",
         "error_heading": "請調整以下內容：",
-        "title": "聯絡表單"
+        "title": "聯絡表單",
+        "getHelp": "TODO"
       }
     },
     "404": {
@@ -306,7 +307,9 @@
     "collection_template": {
       "title": "商品系列",
       "empty": "找不到任何產品",
-      "use_fewer_filters_html": "使用較少篩選條件或<a class=\"{{ class }}\" href=\"{{ link }}\">全部移除<\/a>"
+      "use_fewer_filters_html": "使用較少篩選條件或<a class=\"{{ class }}\" href=\"{{ link }}\">全部移除<\/a>",
+      "product_count_simple": "TODO",
+      "product_count": "TODO"
     },
     "video": {
       "load_video": "載入影片：{{ description }}"

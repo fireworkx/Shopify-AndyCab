@@ -243,7 +243,8 @@
         "send": "Gửi",
         "post_success": "Cảm ơn đã liên hệ với chúng tôi. Chúng tôi sẽ liên hệ lại với bạn trong thời gian sớm nhất.",
         "error_heading": "Vui lòng điều chỉnh các mục sau:",
-        "title": "Biểu mẫu liên hệ"
+        "title": "Biểu mẫu liên hệ",
+        "getHelp": "TODO"
       }
     },
     "404": {
@@ -306,7 +307,9 @@
     "collection_template": {
       "title": "Bộ sưu tập",
       "empty": "Không tìm thấy sản phẩm",
-      "use_fewer_filters_html": "Sử dụng ít bộ lọc hơn hoặc <a class=\"{{ class }}\" href=\"{{ link }}\">xóa tất cả<\/a>"
+      "use_fewer_filters_html": "Sử dụng ít bộ lọc hơn hoặc <a class=\"{{ class }}\" href=\"{{ link }}\">xóa tất cả<\/a>",
+      "product_count_simple": "TODO",
+      "product_count": "TODO"
     },
     "video": {
       "load_video": "Tải video: {{ description }}"

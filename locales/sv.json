@@ -243,7 +243,8 @@
         "send": "Skicka",
         "post_success": "Tack för att du kontaktar oss. Vi återkommer till dig så snart som möjligt.",
         "error_heading": "Justera följande:",
-        "title": "Kontaktformulär"
+        "title": "Kontaktformulär",
+        "getHelp": "TODO"
       }
     },
     "404": {
@@ -306,7 +307,9 @@
     "collection_template": {
       "title": "Produktserie",
       "empty": "Inga produkter hittades",
-      "use_fewer_filters_html": "Använd färre filter eller <a class=\"{{ class }}\" href=\"{{ link }}\">ta bort alla<\/a>"
+      "use_fewer_filters_html": "Använd färre filter eller <a class=\"{{ class }}\" href=\"{{ link }}\">ta bort alla<\/a>",
+      "product_count_simple": "TODO",
+      "product_count": "TODO"
     },
     "video": {
       "load_video": "Ladda video: {{ description }}"

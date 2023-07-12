@@ -216,6 +216,7 @@
     padding: 4rem;
   }
   .fwx-main-product .fwx-quote-container {
+    margin: 1.5rem 0;
     padding-bottom: 2rem;
   }
 }

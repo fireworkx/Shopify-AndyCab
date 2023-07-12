@@ -6,7 +6,7 @@
 	<div class="fwx-enquiry-product-container">
 		<div class="fwx-enquiry-product">
 			{% if product.featured_media != blank %}
-				<img src="{{ product.featured_media | img_url: '250x' }}" width="" height="" loading="lazy" />
+				<img src="{{ product.featured_media | image_url: width: 250 }}" width="" height="" loading="lazy" />
 			{% endif %} 
 			{% if product.type == "Canopy" %}
 				{% render 'fireworkx-product-title', 

@@ -21,7 +21,7 @@
               <li class="product-name show-product" data-handle="{{ product.handle }}">
                 <a href="/products/{{ product.handle }}?enquiry=open">
                   {% if product.featured_media != blank %}
-                    <img src="{{ product.featured_media | img_url: '155px' }}" class="product-icon" loading="lazy">
+                    <img src="{{ product.featured_media | img_url: '155px' }}" class="product-icon" loading="lazy" width="100" height="65" >
                   {% endif %}
                   {% if collection.title contains "Canopies" %}
                     {% render 'fireworkx-product-title', 
@@ -53,13 +53,17 @@
                   <div class="enquiry-type">
                     <div class="enquiry-choice-cta">
                       <button data-enquiry-type="new-canopies">
-                        <img src="{{ newCanopiesImage | img_url: '250x' }}" loading="lazy">
+                        {% comment %}theme-check-disable{% endcomment %}
+                        <img src="{{ newCanopiesImage | image_url: width: 250 }}" loading="lazy">
+                        {% comment %}theme-check-enable{% endcomment %}
                         <h3>New Canopies</h3>
                       </button>
                     </div>
                     <div class="enquiry-choice-cta">
                       <button data-enquiry-type="accessories">
-                        <img src="{{ accessoriesImage | img_url: '250x' }}" loading="lazy">
+                        {% comment %}theme-check-disable{% endcomment %}
+                        <img src="{{ accessoriesImage | image_url: width: 250 }}" loading="lazy">
+                        {% comment %}theme-check-enable{% endcomment %}
                         <h3>Accessories</h3>
                       </button>
                     </div>
@@ -78,7 +82,7 @@
                           <a href="/collections/{{ collection.handle }}?enquiry=open">
                             {%- if collection.featured_image != blank -%}
                               <img 
-                                src="{{ collection.featured_image | img_url: '1500x' }}"
+                                src="{{ collection.featured_image | image_url: width: 1500 }}"
                                 loading="lazy" height="" width="">
                             {%- endif -%} 
                           </a>
@@ -96,8 +100,8 @@
 </div>
 {% render 'fireworkx-success-message' %}
 
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="{{ 'fireworkx-quote-slider.js' | asset_url }}"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer="defer"></script>
+<script src="{{ 'fireworkx-quote-slider.js' | asset_url }}" defer="defer"></script>
 {% schema %}
 {
   "name": "Fireworkx Make Enquiry",

@@ -11,6 +11,7 @@ if (!customElements.get('product-modal')) {
       }
 
       show(opener) {
+        console.log("test");
         super.show(opener);
         this.showActiveMedia();
       }

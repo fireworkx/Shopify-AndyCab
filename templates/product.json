@@ -1,9 +1,9 @@
 {
   "sections": {
     "main": {
-      "type": "fireworkx-main-product",
+      "type": "fireworkx-main-product-dawn-9",
       "blocks": {
-        "cb4f5132-00cd-47d7-9a51-149d7e1a4949": {
+        "vendor": {
           "type": "text",
           "settings": {
             "text": "{{ product.vendor }}",
@@ -15,22 +15,11 @@
           "settings": {
           }
         },
-        "subtitle": {
+        "caption": {
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "d21b5212-adb9-4148-bead-fea4c9b77cd2": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
           }
         },
         "price": {
@@ -38,34 +27,106 @@
           "settings": {
           }
         },
-        "e8c2b5cb-527a-4167-8832-132208f04eaf": {
-          "type": "text",
+        "variant_picker": {
+          "type": "variant_picker",
           "settings": {
-            "text": "Price excludes fitment and delivery fees",
-            "text_style": "subtitle"
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": false
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Materials",
+            "icon": "leather",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "truck",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Dimensions",
+            "icon": "ruler",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
       "block_order": [
-        "cb4f5132-00cd-47d7-9a51-149d7e1a4949",
+        "vendor",
         "title",
-        "subtitle",
-        "description",
-        "d21b5212-adb9-4148-bead-fea4c9b77cd2",
+        "caption",
         "price",
-        "e8c2b5cb-527a-4167-8832-132208f04eaf",
-        "buy_buttons"
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "collapsible-row-0",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "collapsible-row-3",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": true,
-        "hide_variants": true,
-        "enable_video_looping": false
+        "media_size": "large",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
       }
     },
     "fireworkx-how-buying-online": {
@@ -73,12 +134,12 @@
       "settings": {
       }
     },
-    "163307955296408917": {
+    "1633079569e84b10cd": {
       "type": "fireworkx-quote-slider",
       "settings": {
       }
     },
-    "824f84d7-9526-4f4a-a693-b67778819ce4": {
+    "71490deb-d4ad-4fd9-b1b0-d9f28194bf6d": {
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<script \n            type=\"text\/javascript\" \n            src=\"https:\/\/cdn.grw.reputon.com\/assets\/widget.js?shop=andycab.myshopify.com\"><\/script>\n<div class=\"reputon-google-reviews-widget\"\n                 data-theme=\"light\"\n                 data-autoscroll=\"true\"\n                 data-show-review-photos=\"true\"\n                 data-write-review=\"true\"\n                 data-type=\"carousel_extended\"\n                 data-position-type=\"regular\"\n                 data-position-vertical=\"bottom\"\n                 data-position-horizontal=\"center\"><\/div>",
@@ -92,7 +153,7 @@
   "order": [
     "main",
     "fireworkx-how-buying-online",
-    "163307955296408917",
-    "824f84d7-9526-4f4a-a693-b67778819ce4"
+    "1633079569e84b10cd",
+    "71490deb-d4ad-4fd9-b1b0-d9f28194bf6d"
   ]
 }

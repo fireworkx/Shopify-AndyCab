@@ -68,7 +68,7 @@
   <div class="page-width fwx-collection-description">
     {%- if collection.featured_image != blank -%}
       <img
-        src="{{ collection.featured_image | img_url: '250x' }}"
+        src="{{ collection.featured_image | image_url: width: 250 }}"
         loading="lazy" height="" width="" />
     {%- endif -%}
     <div class="rte">

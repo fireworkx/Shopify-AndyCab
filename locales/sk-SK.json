@@ -261,7 +261,8 @@
         "send": "Odoslať",
         "post_success": "Ďakujeme, že ste nás kontaktovali. Budeme sa vám venovať čo najskôr.",
         "error_heading": "Upravte tieto údaje:",
-        "title": "Kontaktný formulár"
+        "title": "Kontaktný formulár",
+        "getHelp": "TODO"
       }
     },
     "404": {
@@ -326,7 +327,9 @@
     "collection_template": {
       "title": "Kolekcia",
       "empty": "Nenašli sa žiadne produkty",
-      "use_fewer_filters_html": "Použite menej filtrov alebo <a class=\"{{ class }}\" href=\"{{ link }}\">všetky odstráňte<\/a>"
+      "use_fewer_filters_html": "Použite menej filtrov alebo <a class=\"{{ class }}\" href=\"{{ link }}\">všetky odstráňte<\/a>",
+      "product_count_simple": "TODO",
+      "product_count": "TODO"
     },
     "video": {
       "load_video": "Načítať video: {{ description }}"
