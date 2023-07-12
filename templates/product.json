@@ -110,13 +110,6 @@
           "disabled": true,
           "settings": {
           }
-        },
-        "4613c021-320a-478f-ba6f-743996b422a9": {
-          "type": "popup",
-          "settings": {
-            "text": "How buying online from us works?",
-            "page": "buyers-process"
-          }
         }
       },
       "block_order": [
@@ -134,8 +127,7 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
-        "d876dbb6-87a9-41b4-a897-dd5fa1339ef6",
-        "4613c021-320a-478f-ba6f-743996b422a9"
+        "d876dbb6-87a9-41b4-a897-dd5fa1339ef6"
       ],
       "settings": {
         "enable_sticky_info": true,
