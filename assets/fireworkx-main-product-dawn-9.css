@@ -1,4 +1,4 @@
-.fwx-main-product .product-media-container {
+/* .fwx-main-product .product-media-container {
   max-height: 400px;
 }
 
@@ -10,12 +10,12 @@
   height: 400px;
   max-height: 400px;
   padding-top: 0;
-}
+} */
 
-.fwx-main-product .product-media-container video {
+/* .fwx-main-product .product-media-container video {
   object-fit: cover;
-}
+} */
 
-.fwx-main-product .product-media-container img {
+/* .fwx-main-product .product-media-container img {
   object-fit: fill;
-}
+} */
