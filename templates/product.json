@@ -46,16 +46,16 @@
           "settings": {
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
           }
         },
         "collapsible-row-0": {
@@ -120,8 +120,8 @@
         "971d9c1c-ab06-4a2e-8e87-381aacf5686e",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
         "description",
+        "buy_buttons",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
