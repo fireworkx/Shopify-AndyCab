@@ -1,0 +1,5 @@
+.fireworkx-image-with-text-container
+  .fireworkx-image-with-text-media-container
+  img {
+  object-fit: contain;
+}
