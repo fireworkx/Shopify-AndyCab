@@ -56,14 +56,14 @@
         "a6185e18-6a64-44b1-8f9d-6398fcf6a0db"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ford-150x150-1-1.webp",
+        "image": "shopify:\/\/shop_images\/ford-collection-logo.png",
         "spaced-section": false,
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "overlap",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
