@@ -34,12 +34,60 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "8229a9c9-72e5-4a52-9429-6d32bd01196d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16158320820395__8229a9c9-72e5-4a52-9429-6d32bd01196d-1689764488b69304e2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Committed to Quality",
+            "heading_size": "h2"
+          }
+        },
+        "template--16158320820395__8229a9c9-72e5-4a52-9429-6d32bd01196d-1689764488b69304e2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Locally manufactured canopies built with internationally recognised components.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16158320820395__8229a9c9-72e5-4a52-9429-6d32bd01196d-1689764488b69304e2-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16158320820395__8229a9c9-72e5-4a52-9429-6d32bd01196d-1689764488b69304e2-0",
+        "template--16158320820395__8229a9c9-72e5-4a52-9429-6d32bd01196d-1689764488b69304e2-1",
+        "template--16158320820395__8229a9c9-72e5-4a52-9429-6d32bd01196d-1689764488b69304e2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/andy-cab-logo-square.jpg",
+        "spaced-section": false,
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
     "163307955296408917",
-    "c015bb92-b56f-4920-aafd-3c64f6cc2c7b"
+    "c015bb92-b56f-4920-aafd-3c64f6cc2c7b",
+    "8229a9c9-72e5-4a52-9429-6d32bd01196d"
   ]
 }
