@@ -1,0 +1,93 @@
+{
+  "sections": {
+    "banner": {
+      "type": "fireworkx-hero",
+      "settings": {
+      }
+    },
+    "product-grid": {
+      "type": "fireworkx-main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "163307955296408917": {
+      "type": "fireworkx-quote-slider",
+      "settings": {
+      }
+    },
+    "8229a9c9-72e5-4a52-9429-6d32bd01196d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16158320820395__8229a9c9-72e5-4a52-9429-6d32bd01196d-1689764488b69304e2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Committed to Quality",
+            "heading_size": "h2"
+          }
+        },
+        "template--16158320820395__8229a9c9-72e5-4a52-9429-6d32bd01196d-1689764488b69304e2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Locally manufactured canopies built with internationally recognised components.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16158320820395__8229a9c9-72e5-4a52-9429-6d32bd01196d-1689764488b69304e2-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16158320820395__8229a9c9-72e5-4a52-9429-6d32bd01196d-1689764488b69304e2-0",
+        "template--16158320820395__8229a9c9-72e5-4a52-9429-6d32bd01196d-1689764488b69304e2-1",
+        "template--16158320820395__8229a9c9-72e5-4a52-9429-6d32bd01196d-1689764488b69304e2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/andy-cab-logo-square.jpg",
+        "spaced-section": false,
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c015bb92-b56f-4920-aafd-3c64f6cc2c7b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script \n            type=\"text\/javascript\" \n            src=\"https:\/\/cdn.grw.reputon.com\/assets\/widget.js?shop=andycab.myshopify.com\"><\/script>\n<div class=\"reputon-google-reviews-widget\"\n                 data-theme=\"light\"\n                 data-autoscroll=\"true\"\n                 data-show-review-photos=\"true\"\n                 data-write-review=\"true\"\n                 data-type=\"carousel_extended\"\n                 data-position-type=\"regular\"\n                 data-position-vertical=\"bottom\"\n                 data-position-horizontal=\"center\"><\/div>",
+        "spaced-section": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "163307955296408917",
+    "8229a9c9-72e5-4a52-9429-6d32bd01196d",
+    "c015bb92-b56f-4920-aafd-3c64f6cc2c7b"
+  ]
+}
