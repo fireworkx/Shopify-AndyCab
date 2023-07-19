@@ -6,5 +6,5 @@
 
 .fireworkx-image-with-text-container
   .fireworkx-image-with-text-content-container {
-  border: none;
+  border: none !important;
 }
