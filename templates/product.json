@@ -27,6 +27,13 @@
           "settings": {
           }
         },
+        "971d9c1c-ab06-4a2e-8e87-381aacf5686e": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Price excludes fitment and delivery fees<\/strong>",
+            "text_style": "body"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -39,16 +46,16 @@
           "settings": {
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
           }
         },
         "collapsible-row-0": {
@@ -97,6 +104,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "d876dbb6-87a9-41b4-a897-dd5fa1339ef6": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -104,15 +117,17 @@
         "title",
         "caption",
         "price",
+        "971d9c1c-ab06-4a2e-8e87-381aacf5686e",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
         "description",
+        "buy_buttons",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "d876dbb6-87a9-41b4-a897-dd5fa1339ef6"
       ],
       "settings": {
         "enable_sticky_info": true,
