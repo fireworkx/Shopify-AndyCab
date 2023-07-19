@@ -63,7 +63,7 @@
   {%- endpaginate -%}
 </div>
 
-
+{% comment %} 
 {% if collection.description != blank %}
   <div class="page-width fwx-collection-description">
     {%- if collection.featured_image != blank -%}
@@ -71,11 +71,12 @@
         src="{{ collection.featured_image | image_url: width: 250 }}"
         loading="lazy" height="" width="" />
     {%- endif -%}
-    {% comment %} <div class="rte">
+    <div class="rte">
       {{ collection.description }}
-    </div> {% endcomment %}
+    </div> 
   </div>
 {% endif %}
+{% endcomment %}
 
 {% schema %}
 {
