@@ -31,45 +31,44 @@
         "template--16158320820395__8229a9c9-72e5-4a52-9429-6d32bd01196d-1689764488b69304e2-0": {
           "type": "heading",
           "settings": {
-            "heading": "Committed to Quality",
+            "heading": "Ford Canopies",
             "heading_size": "h2"
           }
         },
         "template--16158320820395__8229a9c9-72e5-4a52-9429-6d32bd01196d-1689764488b69304e2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Locally manufactured canopies built with internationally recognised components.<\/p>",
+            "text": "<p>Andy Cab has a wide range of <strong>Ford Canopies<\/strong> to fit your <strong>Ford Double Cab<\/strong>, <strong>Super Cab<\/strong> and <strong>Ford Single Cab<\/strong> Bakkie.<\/p><p>We’re able to manufacture and distribute high quality canopies for any of your <strong>Ford Ranger<\/strong> vehicles, whether it be for leisure or business.<\/p>",
             "text_style": "body"
           }
         },
-        "template--16158320820395__8229a9c9-72e5-4a52-9429-6d32bd01196d-1689764488b69304e2-2": {
+        "a6185e18-6a64-44b1-8f9d-6398fcf6a0db": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Download Brochure",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0578\/5393\/5787\/files\/Andy_Cab_Ford_Brochure.pdf"
           }
         }
       },
       "block_order": [
         "template--16158320820395__8229a9c9-72e5-4a52-9429-6d32bd01196d-1689764488b69304e2-0",
         "template--16158320820395__8229a9c9-72e5-4a52-9429-6d32bd01196d-1689764488b69304e2-1",
-        "template--16158320820395__8229a9c9-72e5-4a52-9429-6d32bd01196d-1689764488b69304e2-2"
+        "a6185e18-6a64-44b1-8f9d-6398fcf6a0db"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/andy-cab-logo-square.jpg",
+        "image": "shopify:\/\/shop_images\/ford-150x150-1-1.webp",
         "spaced-section": false,
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "c015bb92-b56f-4920-aafd-3c64f6cc2c7b": {
