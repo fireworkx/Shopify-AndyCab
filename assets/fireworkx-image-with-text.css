@@ -3,3 +3,8 @@
   img {
   object-fit: contain;
 }
+
+.fireworkx-image-with-text-container
+  .fireworkx-image-with-text-content-container {
+  border: none;
+}
