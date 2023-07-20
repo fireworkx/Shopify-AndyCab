@@ -25,52 +25,6 @@
       "settings": {
       }
     },
-    "afff926e-d5bc-41bd-bfe3-e1fd7832e7eb": {
-      "type": "fireworkx-image-with-text",
-      "blocks": {
-        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ford Canopies",
-            "heading_size": "h2"
-          }
-        },
-        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Andy Cab has a wide range of <strong>Ford Canopies<\/strong> to fit your <strong>Ford Double Cab<\/strong>, <strong>Super Cab<\/strong> and <strong>Ford Single Cab<\/strong> Bakkie.<\/p><p>We’re able to manufacture and distribute high quality canopies for any of your <strong>Ford Ranger<\/strong> vehicles, whether it be for leisure or business.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Download Brochure",
-            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0578\/5393\/5787\/files\/Andy_Cab_Ford_Brochure.pdf"
-          }
-        }
-      },
-      "block_order": [
-        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-0",
-        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-1",
-        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/ford-collection-logo.png",
-        "spaced-section": false,
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "c015bb92-b56f-4920-aafd-3c64f6cc2c7b": {
       "type": "custom-liquid",
       "settings": {
@@ -86,7 +40,6 @@
     "banner",
     "product-grid",
     "163307955296408917",
-    "afff926e-d5bc-41bd-bfe3-e1fd7832e7eb",
     "c015bb92-b56f-4920-aafd-3c64f6cc2c7b"
   ]
 }
