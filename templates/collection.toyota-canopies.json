@@ -31,14 +31,14 @@
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-0": {
           "type": "heading",
           "settings": {
-            "heading": "Ford Canopies",
+            "heading": "Toyota Canopies",
             "heading_size": "h2"
           }
         },
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Andy Cab has a wide range of <strong>Ford Canopies<\/strong> to fit your <strong>Ford Double Cab<\/strong>, <strong>Super Cab<\/strong> and <strong>Ford Single Cab<\/strong> Bakkie.<\/p><p>We’re able to manufacture and distribute high quality canopies for any of your <strong>Ford Ranger<\/strong> vehicles, whether it be for leisure or business.<\/p>",
+            "text": "<p>Our durable range of <strong>Toyota<\/strong> canopies are designed to fit the <strong>Toyota Hilux Double Cab, Toyota Hilux Extra Cab<\/strong> and <strong>Toyota Hilux Single Cabs<\/strong>.<\/p><p>For each of these Toyota bakkie shapes we have the canopy for you, whether it be a <strong>Nosecone<\/strong> canopy for your LWB or a colour coded canopy for the <strong>Legend 50<\/strong>.<\/p>",
             "text_style": "body"
           }
         },
@@ -46,7 +46,7 @@
           "type": "button",
           "settings": {
             "button_label": "Download Brochure",
-            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0578\/5393\/5787\/files\/Andy_Cab_Ford_Brochure.pdf"
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0578\/5393\/5787\/files\/Andy_Cab_Toyota_Brochure.pdf?v=1646136516"
           }
         }
       },
@@ -56,7 +56,7 @@
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ford-collection-logo.png",
+        "image": "shopify:\/\/shop_images\/toyota-150x150-1.webp",
         "spaced-section": false,
         "height": "small",
         "desktop_image_width": "small",
