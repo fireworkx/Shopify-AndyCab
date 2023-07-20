@@ -31,32 +31,24 @@
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-0": {
           "type": "heading",
           "settings": {
-            "heading": "Ford Canopies",
+            "heading": "JAC Canopies",
             "heading_size": "h2"
           }
         },
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Andy Cab has a wide range of <strong>Ford Canopies<\/strong> to fit your <strong>Ford Double Cab<\/strong>, <strong>Super Cab<\/strong> and <strong>Ford Single Cab<\/strong> Bakkie.<\/p><p>We’re able to manufacture and distribute high quality canopies for any of your <strong>Ford Ranger<\/strong> vehicles, whether it be for leisure or business.<\/p>",
+            "text": "<p>Since the first range of <strong>JAC bakkies<\/strong> was launched in South Africa in 2021, the JAC brand has arguably become <strong>an established automaker in South Africa<\/strong>.<\/p><p>They have expanded their bakkie and pick-up range greatly in the meantime and now have several product lines available for sale, with the JAC Double Cab proving popular amongst consumers.<\/p><p><strong>Andy Cab<\/strong> manufactures a range of canopies for the JAC X200 <strong>single cab<\/strong> and JAC T6 double cab and the JAC T8 <strong>double cab<\/strong>. <strong>You need to look no further than Andy Cab Canopies for all your JAC canopy needs<\/strong>.<\/p>",
             "text_style": "body"
-          }
-        },
-        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Download Brochure",
-            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0578\/5393\/5787\/files\/Andy_Cab_Ford_Brochure.pdf"
           }
         }
       },
       "block_order": [
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-0",
-        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-1",
-        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2"
+        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ford-collection-logo.png",
+        "image": "shopify:\/\/shop_images\/JAC_-_Motors.webp",
         "spaced-section": false,
         "height": "small",
         "desktop_image_width": "small",
