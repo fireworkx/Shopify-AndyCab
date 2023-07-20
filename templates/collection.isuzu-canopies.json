@@ -31,14 +31,14 @@
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-0": {
           "type": "heading",
           "settings": {
-            "heading": "Ford Canopies",
+            "heading": "Isuzu Canopies",
             "heading_size": "h2"
           }
         },
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Andy Cab has a wide range of <strong>Ford Canopies<\/strong> to fit your <strong>Ford Double Cab<\/strong>, <strong>Super Cab<\/strong> and <strong>Ford Single Cab<\/strong> Bakkie.<\/p><p>We’re able to manufacture and distribute high quality canopies for any of your <strong>Ford Ranger<\/strong> vehicles, whether it be for leisure or business.<\/p>",
+            "text": "<p>Andy Cab’s Range of Bakkie Canopies will fit your <strong>Isuzu Double Cab, Isuzu Extended Cab <\/strong>or<strong> Isuzu Single Cab.<\/strong><\/p><p>It has proven itself over the years and subsequent generations were appreciated for their excellent ride quality and reliability.<\/p><p>It was amongst the first bakkies in South Africa to be offered for sale as a double cab and it used the <strong>first direct-injection turbo-diesel engine available<\/strong> in a local bakkie, back in the ’90s.<\/p><p>In fact, a 2,5-litre diesel model reached the local newspapers in 2018 for clocking 1-million kilometres. Many old Isuzus are still going strong on South African roads.<\/p>",
             "text_style": "body"
           }
         },
@@ -56,7 +56,7 @@
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ford-collection-logo.png",
+        "image": "shopify:\/\/shop_images\/isuzu-150x150-1-1.webp",
         "spaced-section": false,
         "height": "small",
         "desktop_image_width": "small",
