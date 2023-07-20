@@ -31,19 +31,20 @@
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-0": {
           "type": "heading",
           "settings": {
-            "heading": "Ford Canopies",
+            "heading": "New Canopies",
             "heading_size": "h2"
           }
         },
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Andy Cab has a wide range of <strong>Ford Canopies<\/strong> to fit your <strong>Ford Double Cab<\/strong>, <strong>Super Cab<\/strong> and <strong>Ford Single Cab<\/strong> Bakkie.<\/p><p>We’re able to manufacture and distribute high quality canopies for any of your <strong>Ford Ranger<\/strong> vehicles, whether it be for leisure or business.<\/p>",
+            "text": "<p>We use high-quality internationally recognized components for the leading utility vehicle brands. We combine over <strong>20 years of experience<\/strong> to produce high-quality products. <br\/><br\/>With structural integrity throughout our product range that comes standard with an industry leading canopy warranty.<\/p>",
             "text_style": "body"
           }
         },
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Download Brochure",
             "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0578\/5393\/5787\/files\/Andy_Cab_Ford_Brochure.pdf"
@@ -56,7 +57,7 @@
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ford-collection-logo.png",
+        "image": "shopify:\/\/shop_images\/andy-cab-new-canopies.webp",
         "spaced-section": false,
         "height": "small",
         "desktop_image_width": "small",
