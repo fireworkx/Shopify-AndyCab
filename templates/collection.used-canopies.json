@@ -25,16 +25,6 @@
       "settings": {
       }
     },
-    "c015bb92-b56f-4920-aafd-3c64f6cc2c7b": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<script \n            type=\"text\/javascript\" \n            src=\"https:\/\/cdn.grw.reputon.com\/assets\/widget.js?shop=andycab.myshopify.com\"><\/script>\n<div class=\"reputon-google-reviews-widget\"\n                 data-theme=\"light\"\n                 data-autoscroll=\"true\"\n                 data-show-review-photos=\"true\"\n                 data-write-review=\"true\"\n                 data-type=\"carousel_extended\"\n                 data-position-type=\"regular\"\n                 data-position-vertical=\"bottom\"\n                 data-position-horizontal=\"center\"><\/div>",
-        "spaced-section": true,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "00face18-8cd8-4c81-bf82-8fae15ad9748": {
       "type": "fireworkx-image-with-text",
       "blocks": {
@@ -48,7 +38,7 @@
         "template--16171283054763__00face18-8cd8-4c81-bf82-8fae15ad9748-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We have a selection of<strong>good quality used canopies available for sale<\/strong>. The Andy Cab Used Canopy buying department is always on the look-out for top quality used and demo canopies. Why not buy from an online marketplace you may ask? Our canopy comes with a<strong>1 year warranty<\/strong>and<strong>we fit the canopy<\/strong>for you, something you don’t want to waste your weekend doing.<\/p>",
+            "text": "<p>We have a selection of <strong>good quality used canopies available for sale<\/strong>. <\/p><p>The Andy Cab Used Canopy buying department is always on the look-out for top quality used and demo canopies. Why not buy from an online marketplace you may ask? <\/p><p>Our canopy comes with a <strong>1 year warranty <\/strong>and <strong>we fit the canopy <\/strong>for you, something you don’t want to waste your weekend doing.<\/p>",
             "text_style": "body"
           }
         }
@@ -72,13 +62,23 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "c015bb92-b56f-4920-aafd-3c64f6cc2c7b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script \n            type=\"text\/javascript\" \n            src=\"https:\/\/cdn.grw.reputon.com\/assets\/widget.js?shop=andycab.myshopify.com\"><\/script>\n<div class=\"reputon-google-reviews-widget\"\n                 data-theme=\"light\"\n                 data-autoscroll=\"true\"\n                 data-show-review-photos=\"true\"\n                 data-write-review=\"true\"\n                 data-type=\"carousel_extended\"\n                 data-position-type=\"regular\"\n                 data-position-vertical=\"bottom\"\n                 data-position-horizontal=\"center\"><\/div>",
+        "spaced-section": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
     "163307955296408917",
-    "c015bb92-b56f-4920-aafd-3c64f6cc2c7b",
-    "00face18-8cd8-4c81-bf82-8fae15ad9748"
+    "00face18-8cd8-4c81-bf82-8fae15ad9748",
+    "c015bb92-b56f-4920-aafd-3c64f6cc2c7b"
   ]
 }
