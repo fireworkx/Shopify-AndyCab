@@ -127,7 +127,7 @@ const makeEnquiry = {
           }
         }
         if (response.status == 200) {
-          window.dataLayer.push({ event_name: "enquiry_submit" });
+          // window.dataLayer.push({ event_name: "enquiry_submit" });
           this.closeModal();
           this.submitButton.disabled = false;
           this.formIsValid = false;
