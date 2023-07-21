@@ -31,14 +31,14 @@
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-0": {
           "type": "heading",
           "settings": {
-            "heading": "Ford Canopies",
+            "heading": "Nissan Canopies",
             "heading_size": "h2"
           }
         },
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Andy Cab has a wide range of <strong>Ford Canopies<\/strong> to fit your <strong>Ford Double Cab<\/strong>, <strong>Super Cab<\/strong> and <strong>Ford Single Cab<\/strong> Bakkie.<\/p><p>We’re able to manufacture and distribute high quality canopies for any of your <strong>Ford Ranger<\/strong> vehicles, whether it be for leisure or business.<\/p>",
+            "text": "<p>Andy Cab’s Range of Canopies will fit your <strong>Nissan Single Cab<\/strong>, <strong>Nissan NP300 Double<\/strong> or <strong>Single, Nissan NP200 Single Cab<\/strong> and <strong>Nissan Navara Double Cab<\/strong>.<\/p><p>Nissan arguably has the most comprehensive range of bakkies for sale in South Africa, with products that cover all market sectors.<\/p><p><strong>NP200<\/strong> is currently the only unibody, FWD, half ton, ute pickup offered locally, in the full-size pickup sector.<\/p>",
             "text_style": "body"
           }
         },
@@ -46,7 +46,7 @@
           "type": "button",
           "settings": {
             "button_label": "Download Brochure",
-            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0578\/5393\/5787\/files\/Andy_Cab_Ford_Brochure.pdf"
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0578\/5393\/5787\/files\/Andy_Cab_Nissan_Brochure.pdf?v=1661261899"
           }
         }
       },
@@ -56,7 +56,7 @@
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ford-collection-logo.png",
+        "image": "shopify:\/\/shop_images\/nissan-150x150-1.webp",
         "spaced-section": false,
         "height": "small",
         "desktop_image_width": "small",
@@ -67,8 +67,8 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "c015bb92-b56f-4920-aafd-3c64f6cc2c7b": {

@@ -31,14 +31,14 @@
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-0": {
           "type": "heading",
           "settings": {
-            "heading": "Ford Canopies",
+            "heading": "Hyundai Canopies",
             "heading_size": "h2"
           }
         },
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Andy Cab has a wide range of <strong>Ford Canopies<\/strong> to fit your <strong>Ford Double Cab<\/strong>, <strong>Super Cab<\/strong> and <strong>Ford Single Cab<\/strong> Bakkie.<\/p><p>We’re able to manufacture and distribute high quality canopies for any of your <strong>Ford Ranger<\/strong> vehicles, whether it be for leisure or business.<\/p>",
+            "text": "<p>The <strong>Hyundai H100 bakkie<\/strong> has been on sale in South Africa for years.<\/p><p>Upon its launch in <strong>1997<\/strong>, it was just called the Hyundai Bakkie. It has struck a chord with local buyers and today, the H100 is very popular for its <strong>compact<\/strong>, <strong>cab-forward footprint, low running costs<\/strong>, and <strong>flatbed<\/strong>, <strong>1,3-tonne load bin<\/strong>.<\/p><p>Andy Cab canopies offers a canopy for the H100, usefully <strong>extending the pick-up’s practicality<\/strong> and <strong>protecting your cargo<\/strong> from the elements.<\/p><p>The load bed is perfectly flat with no wheel-arches intrusion and the canopy’s roof is level with the H100’s, resulting in a huge, square, and fully usable space.<\/p>",
             "text_style": "body"
           }
         },
@@ -46,7 +46,7 @@
           "type": "button",
           "settings": {
             "button_label": "Download Brochure",
-            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0578\/5393\/5787\/files\/Andy_Cab_Ford_Brochure.pdf"
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0578\/5393\/5787\/files\/Andy_Cab_Hyundai_Brochure.pdf?v=1643614491"
           }
         }
       },
@@ -56,7 +56,7 @@
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ford-collection-logo.png",
+        "image": "shopify:\/\/shop_images\/Hyundai-Logo-250x250-150x150-1.webp",
         "spaced-section": false,
         "height": "small",
         "desktop_image_width": "small",

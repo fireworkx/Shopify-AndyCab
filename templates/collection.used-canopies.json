@@ -25,40 +25,32 @@
       "settings": {
       }
     },
-    "afff926e-d5bc-41bd-bfe3-e1fd7832e7eb": {
+    "00face18-8cd8-4c81-bf82-8fae15ad9748": {
       "type": "fireworkx-image-with-text",
       "blocks": {
-        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-0": {
+        "template--16171283054763__00face18-8cd8-4c81-bf82-8fae15ad9748-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Ford Canopies",
+            "heading": "Used Canopies",
             "heading_size": "h2"
           }
         },
-        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-1": {
+        "template--16171283054763__00face18-8cd8-4c81-bf82-8fae15ad9748-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Andy Cab has a wide range of <strong>Ford Canopies<\/strong> to fit your <strong>Ford Double Cab<\/strong>, <strong>Super Cab<\/strong> and <strong>Ford Single Cab<\/strong> Bakkie.<\/p><p>We’re able to manufacture and distribute high quality canopies for any of your <strong>Ford Ranger<\/strong> vehicles, whether it be for leisure or business.<\/p>",
+            "text": "<p>We have a selection of <strong>good quality used canopies available for sale<\/strong>. <\/p><p>The Andy Cab Used Canopy buying department is always on the look-out for top quality used and demo canopies. Why not buy from an online marketplace you may ask? <\/p><p>Our canopy comes with a <strong>1 year warranty <\/strong>and <strong>we fit the canopy <\/strong>for you, something you don’t want to waste your weekend doing.<\/p>",
             "text_style": "body"
-          }
-        },
-        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Download Brochure",
-            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0578\/5393\/5787\/files\/Andy_Cab_Ford_Brochure.pdf"
           }
         }
       },
       "block_order": [
-        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-0",
-        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-1",
-        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2"
+        "template--16171283054763__00face18-8cd8-4c81-bf82-8fae15ad9748-heading-1",
+        "template--16171283054763__00face18-8cd8-4c81-bf82-8fae15ad9748-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ford-collection-logo.png",
+        "image": "shopify:\/\/shop_images\/andy-cab-used-canopies.webp",
         "spaced-section": false,
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -67,8 +59,8 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "c015bb92-b56f-4920-aafd-3c64f6cc2c7b": {
@@ -86,7 +78,7 @@
     "banner",
     "product-grid",
     "163307955296408917",
-    "afff926e-d5bc-41bd-bfe3-e1fd7832e7eb",
+    "00face18-8cd8-4c81-bf82-8fae15ad9748",
     "c015bb92-b56f-4920-aafd-3c64f6cc2c7b"
   ]
 }
