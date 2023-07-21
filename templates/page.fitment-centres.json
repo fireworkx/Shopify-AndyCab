@@ -534,6 +534,11 @@
         "title": "Zambia",
         "flag_image": "shopify:\/\/shop_images\/zambia-flag.jpg"
       }
+    },
+    "0747365b-f800-4cda-8aad-f170b8c6f95b": {
+      "type": "fireworkx-quote-slider",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -549,6 +554,7 @@
     "163730413420cc84ed",
     "16373042708c7598b2",
     "1634548721201e6aaa",
-    "16373043278ed1803e"
+    "16373043278ed1803e",
+    "0747365b-f800-4cda-8aad-f170b8c6f95b"
   ]
 }
