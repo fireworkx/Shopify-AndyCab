@@ -246,7 +246,7 @@ h4,
 
 @media screen and (min-width: 990px) {
   .spaced-bottom {
-    margin-top: 12rem;
+    margin-bottom: 12rem;
   }
 }
 
@@ -262,7 +262,7 @@ h4,
 
 @media screen and (min-width: 990px) {
   .spaced-section {
-    margin-bottom: 12rem;
+    margin-top: 12rem;
   }
 }
 
