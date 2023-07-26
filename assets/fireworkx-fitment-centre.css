@@ -108,7 +108,7 @@
   box-shadow: var(--box-shadow-link);
 }
 
-.fwx-fitment-centre:first-of-type {
+.fwx-fitment-centre-content + .fwx-fitment-centre {
   padding-top: 3rem;
 }
 
@@ -117,7 +117,7 @@
 }
 
 @media screen and (min-width: 750px) {
-  .fwx-fitment-centre:first-of-type {
+  .fwx-fitment-centre-content + .fwx-fitment-centre {
     padding-top: 6rem;
   }
 
@@ -127,7 +127,7 @@
 }
 
 @media screen and (min-width: 990px) {
-  .fwx-fitment-centre:first-of-type {
+  .fwx-fitment-centre-content + .fwx-fitment-centre {
     padding-top: 8rem;
   }
 
