@@ -4,10 +4,6 @@
   padding-bottom: 0.8rem;
 }
 
-/* @media screen and (min-width: 750px) {
-	.fwx-fitment-centre {
-	}
-} */
 .fwx-fitment-centre details {
   transition: box-shadow 0.15s;
   box-shadow: var(--card-box-shadow);
@@ -116,7 +112,7 @@
   padding-top: 3rem;
 }
 
-.fwx-fitment-centre:last-child {
+.fwx-fitment-centre:last-of-type {
   padding-bottom: 3rem;
 }
 
@@ -125,7 +121,7 @@
     padding-top: 6rem;
   }
 
-  .fwx-fitment-centre:last-child {
+  .fwx-fitment-centre:last-of-type {
     padding-bottom: 6rem;
   }
 }
@@ -135,7 +131,7 @@
     padding-top: 8rem;
   }
 
-  .fwx-fitment-centre:last-child {
+  .fwx-fitment-centre:last-of-type {
     padding-bottom: 8rem;
   }
 }
