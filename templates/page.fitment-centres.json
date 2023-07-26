@@ -535,6 +535,17 @@
         "flag_image": "shopify:\/\/shop_images\/zambia-flag.jpg"
       }
     },
+    "8ac0e3b3-df7a-487a-8175-eb0ee45cbfb0": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "spaced-section": true,
+        "spaced-bottom": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "ae4f5e99-c6fb-4ccd-ad2f-b6963513c970": {
       "type": "fireworkx-quote-slider",
       "settings": {
@@ -555,6 +566,7 @@
     "16373042708c7598b2",
     "1634548721201e6aaa",
     "16373043278ed1803e",
+    "8ac0e3b3-df7a-487a-8175-eb0ee45cbfb0",
     "ae4f5e99-c6fb-4ccd-ad2f-b6963513c970"
   ]
 }
