@@ -238,15 +238,15 @@ h4,
   margin-bottom: 5rem;
 }
 
-@media screen and (min-width: 990px) {
-  .spaced-bottom {
-    margin-top: 12rem;
-  }
-}
-
 @media screen and (min-width: 750px) {
   .spaced-bottom {
     margin-bottom: 8rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .spaced-bottom {
+    margin-top: 12rem;
   }
 }
 
