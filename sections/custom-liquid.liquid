@@ -11,14 +11,14 @@
     }
   }
 {%- endstyle -%}
-<div class="color-{{ section.settings.color_scheme }} gradient {% if section.settings.spaced-section %}spaced-section{% endif %}">
+<div class="color-{{ section.settings.color_scheme }} gradient{% if section.settings.spaced-section %} spaced-section{% endif %}{% if section.settings.spaced-bottom %} spaced-bottom{% endif %}">
   <div class="section-{{ section.id }}-padding">
     {{ section.settings.custom_liquid }}
   </div>
 </div>
 
 {% schema %}
-{
+{ 
   "name": "t:sections.custom-liquid.name",
   "tag": "section",
   "class": "section",
@@ -34,6 +34,12 @@
       "id": "spaced-section",
       "default": false,
       "label": "Add spacing top"
+    },
+    {
+      "type": "checkbox",
+      "id": "spaced-bottom",
+      "default": false,
+      "label": "Add spacing bottom"
     },
     {
       "type": "color_scheme",
