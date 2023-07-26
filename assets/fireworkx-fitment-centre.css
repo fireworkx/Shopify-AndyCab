@@ -112,7 +112,7 @@
   padding-top: 3rem;
 }
 
-.fwx-fitment-centre-content + .fwx-fitment-centre:last-of-type {
+section.fwx-fitment-centre:last-of-type {
   padding-bottom: 3rem !important;
 }
 
