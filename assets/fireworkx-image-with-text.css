@@ -9,7 +9,9 @@
   border: none;
 }
 
-.fireworkx-image-with-text-container .image-with-text__text-item {
+.fireworkx-image-with-text-container
+  .image-with-text__text-item
+  .image-with-text__content {
   justify-content: center;
 }
 
