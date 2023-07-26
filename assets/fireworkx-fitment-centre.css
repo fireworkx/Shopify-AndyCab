@@ -112,6 +112,10 @@
   padding-top: 3rem;
 }
 
+.fitment-centre-page {
+  background-color: red;
+}
+
 .fitment-centre-page .fwx-fitment-centre:last-child {
   padding-bottom: 3rem !important;
 }
