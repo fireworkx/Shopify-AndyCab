@@ -131,7 +131,7 @@
     padding-top: 8rem;
   }
 
-  div.fwx-fitment-centre:last-of-type {
+  section.fwx-fitment-centre:last-of-type {
     padding-bottom: 8rem !important;
   }
 }
