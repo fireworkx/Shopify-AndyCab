@@ -114,8 +114,8 @@
   padding-top: 3rem;
 }
 
-.fitment-centre-page .fwx-fitment-centre:last-child {
-  padding-bottom: 3rem !important;
+.fwx-fitment-centre:has(.last-fitment-centre) {
+  padding-bottom: 3rem;
 }
 
 @media screen and (min-width: 750px) {
@@ -123,8 +123,8 @@
     padding-top: 6rem;
   }
 
-  .fitment-centre-page .fwx-fitment-centre:last-child {
-    padding-bottom: 6rem !important;
+  .fwx-fitment-centre:has(.last-fitment-centre) {
+    padding-bottom: 6rem;
   }
 }
 
@@ -133,7 +133,7 @@
     padding-top: 8rem;
   }
 
-  .fitment-centre-page .fwx-fitment-centre:last-child {
-    padding-bottom: 8rem !important;
+  .fwx-fitment-centre:has(.last-fitment-centre) {
+    padding-bottom: 8rem;
   }
 }

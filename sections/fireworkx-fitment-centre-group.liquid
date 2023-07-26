@@ -1,6 +1,6 @@
 {{ 'fireworkx-fitment-centre.css' | asset_url | stylesheet_tag }}
 
-<div class="page-width">
+<div class="page-width {% if section.settings.last-fitment-centre %}last-fitment-centre{% endif %}">
   <details class="fwx-country">
     <summary type="button">
       <h3> {{ section.settings.flag_image | image_url: width: 52 | img_tag }}{{ section.settings.title }} {% render 'icon-caret' %}</h3>
@@ -51,6 +51,12 @@
       "type": "image_picker",
       "id": "flag_image",
       "label": "Flag image"
+    },    
+    {
+      "type": "checkbox",
+      "id": "last-fitment-centre",
+      "default": false,
+      "label": "Last fitment centre"
     }
   ],
   "blocks": [
