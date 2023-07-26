@@ -9,6 +9,10 @@
   border: none;
 }
 
+.fireworkx-image-with-text-container .image-with-text__text-item {
+  justify-content: center;
+}
+
 .fireworkx-image-with-text-container
   .image-with-text__text-item
   .image-with-text__content {
