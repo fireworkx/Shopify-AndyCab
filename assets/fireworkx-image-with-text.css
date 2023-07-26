@@ -8,3 +8,18 @@
   .fireworkx-image-with-text-content-container {
   border: none;
 }
+
+.fireworkx-image-with-text-container
+  .image-with-text__text-item
+  .image-with-text__content {
+  padding: 40px 0 0 0;
+}
+
+@media screen and (min-width: 750px) {
+  .fireworkx-image-with-text-container
+    .image-with-text__text-item
+    .image-with-text__content {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
