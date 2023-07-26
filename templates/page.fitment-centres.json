@@ -109,7 +109,8 @@
       ],
       "settings": {
         "title": "South Africa (Gauteng)",
-        "flag_image": "shopify:\/\/shop_images\/south-africa.png"
+        "flag_image": "shopify:\/\/shop_images\/south-africa.png",
+        "last-fitment-centre": false
       }
     },
     "1638797545e3ac8c15": {
@@ -147,7 +148,8 @@
       ],
       "settings": {
         "title": "South Africa (Free State)",
-        "flag_image": "shopify:\/\/shop_images\/south-africa.png"
+        "flag_image": "shopify:\/\/shop_images\/south-africa.png",
+        "last-fitment-centre": false
       }
     },
     "16387978539feeb094": {
@@ -175,7 +177,8 @@
       ],
       "settings": {
         "title": "South Africa (Northern Cape)",
-        "flag_image": "shopify:\/\/shop_images\/south-africa.png"
+        "flag_image": "shopify:\/\/shop_images\/south-africa.png",
+        "last-fitment-centre": false
       }
     },
     "1634548724e079b7d5": {
@@ -275,7 +278,8 @@
       ],
       "settings": {
         "title": "South Africa  (Western Cape)",
-        "flag_image": "shopify:\/\/shop_images\/south-africa.png"
+        "flag_image": "shopify:\/\/shop_images\/south-africa.png",
+        "last-fitment-centre": false
       }
     },
     "1638449421e13c1451": {
@@ -323,7 +327,8 @@
       ],
       "settings": {
         "title": "South Africa (Eastern Cape)",
-        "flag_image": "shopify:\/\/shop_images\/south-africa.png"
+        "flag_image": "shopify:\/\/shop_images\/south-africa.png",
+        "last-fitment-centre": false
       }
     },
     "163845018147712f39": {
@@ -373,7 +378,8 @@
       ],
       "settings": {
         "title": "South Africa (Mpumalanga)",
-        "flag_image": "shopify:\/\/shop_images\/south-africa.png"
+        "flag_image": "shopify:\/\/shop_images\/south-africa.png",
+        "last-fitment-centre": false
       }
     },
     "16437979532d93ed10": {
@@ -401,7 +407,8 @@
       ],
       "settings": {
         "title": "South Africa (KwaZulu-Natal)",
-        "flag_image": "shopify:\/\/shop_images\/south-africa.png"
+        "flag_image": "shopify:\/\/shop_images\/south-africa.png",
+        "last-fitment-centre": false
       }
     },
     "163730413420cc84ed": {
@@ -429,7 +436,8 @@
       ],
       "settings": {
         "title": "Namibia",
-        "flag_image": "shopify:\/\/shop_images\/namibia.png"
+        "flag_image": "shopify:\/\/shop_images\/namibia.png",
+        "last-fitment-centre": false
       }
     },
     "16373042708c7598b2": {
@@ -476,7 +484,8 @@
       ],
       "settings": {
         "title": "Zimbabwe",
-        "flag_image": "shopify:\/\/shop_images\/zimbabwe.png"
+        "flag_image": "shopify:\/\/shop_images\/zimbabwe.png",
+        "last-fitment-centre": false
       }
     },
     "1634548721201e6aaa": {
@@ -504,7 +513,8 @@
       ],
       "settings": {
         "title": "Botswana",
-        "flag_image": "shopify:\/\/shop_images\/botswana.png"
+        "flag_image": "shopify:\/\/shop_images\/botswana.png",
+        "last-fitment-centre": false
       }
     },
     "16373043278ed1803e": {
@@ -532,7 +542,8 @@
       ],
       "settings": {
         "title": "Zambia",
-        "flag_image": "shopify:\/\/shop_images\/zambia-flag.jpg"
+        "flag_image": "shopify:\/\/shop_images\/zambia-flag.jpg",
+        "last-fitment-centre": true
       }
     },
     "2653b9b3-5f35-4a51-b304-3e7531d664c8": {
