@@ -48,12 +48,12 @@
         "template--16171283054763__00face18-8cd8-4c81-bf82-8fae15ad9748-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/andy-cab-used-canopies.webp",
+        "image": "shopify:\/\/shop_images\/andy-cab-logo-square.png",
         "spaced-section": true,
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "",
