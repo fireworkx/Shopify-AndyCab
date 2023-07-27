@@ -57,7 +57,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/nissan-150x150-1.webp",
-        "spaced-section": false,
+        "spaced-section": true,
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
