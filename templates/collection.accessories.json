@@ -25,6 +25,53 @@
       "settings": {
       }
     },
+    "367dfdfd-4495-4ff0-898e-ec07a38f0ca3": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16171769921707__367dfdfd-4495-4ff0-898e-ec07a38f0ca3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--16171769921707__367dfdfd-4495-4ff0-898e-ec07a38f0ca3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We use <strong>high-quality internationally recognized components<\/strong> for the leading utility vehicle brands. <\/p><p>We combine over <strong>20 years of experience<\/strong> to produce high-quality products. <\/p><p>With structural integrity throughout our product range that comes standard with an industry leading canopy warranty.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16171769921707__367dfdfd-4495-4ff0-898e-ec07a38f0ca3-button-1": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16171769921707__367dfdfd-4495-4ff0-898e-ec07a38f0ca3-heading-1",
+        "template--16171769921707__367dfdfd-4495-4ff0-898e-ec07a38f0ca3-text-1",
+        "template--16171769921707__367dfdfd-4495-4ff0-898e-ec07a38f0ca3-button-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/andy-cab-logo-square.png",
+        "spaced-section": false,
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "c015bb92-b56f-4920-aafd-3c64f6cc2c7b": {
       "type": "custom-liquid",
       "settings": {
@@ -41,6 +88,7 @@
     "banner",
     "product-grid",
     "163307955296408917",
+    "367dfdfd-4495-4ff0-898e-ec07a38f0ca3",
     "c015bb92-b56f-4920-aafd-3c64f6cc2c7b"
   ]
 }
