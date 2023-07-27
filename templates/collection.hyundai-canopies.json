@@ -57,7 +57,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Hyundai-Logo-250x250-150x150-1.webp",
-        "spaced-section": true,
+        "spaced-section": false,
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
