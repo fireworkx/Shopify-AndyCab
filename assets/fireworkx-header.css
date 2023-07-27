@@ -81,8 +81,11 @@
   color: inherit;
 }
 
-/* DESKTOP TOP NAV */
-.header__inline-menu details[open] > .fwx-new-canopies-submenu {
+/* announce bar spacing dropdown menu styling */
+body:has(.announcement-bar-section)
+  .header__inline-menu
+  details[open]
+  > .fwx-new-canopies-submenu {
   width: 100%;
   position: fixed;
   opacity: 1;
@@ -95,6 +98,33 @@
   z-index: -1;
   box-shadow: var(--card-box-shadow);
   padding: 2.4rem 0;
+}
+
+body:not(:has(.announcement-bar-section))
+  .header__inline-menu
+  details[open]
+  > .fwx-new-canopies-submenu {
+  width: 100%;
+  position: fixed;
+  opacity: 1;
+  transform: translateY(0);
+  animation: animateMenuOpen var(--duration-default) ease;
+  z-index: 1;
+  background: #fff;
+  left: 0;
+  top: 92px;
+  z-index: -1;
+  box-shadow: var(--card-box-shadow);
+  padding: 2.4rem 0;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
+  body:not(:has(.announcement-bar-section))
+    .header__inline-menu
+    details[open]
+    > .fwx-new-canopies-submenu {
+    top: 124px;
+  }
 }
 
 .header__inline-menu details[open] > .fwx-new-canopies-submenu h2 {

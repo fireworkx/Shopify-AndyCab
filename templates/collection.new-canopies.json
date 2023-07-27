@@ -58,7 +58,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/andy-cab-new-canopies.webp",
-        "spaced-section": true,
+        "spaced-section": false,
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
