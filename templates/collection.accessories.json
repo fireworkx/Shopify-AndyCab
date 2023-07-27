@@ -31,7 +31,7 @@
         "template--16171769921707__367dfdfd-4495-4ff0-898e-ec07a38f0ca3-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Accessories",
             "heading_size": "h1"
           }
         },
@@ -62,7 +62,7 @@
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "",
