@@ -11,7 +11,9 @@
         <a href="/pages/warranty" class="button button--secondary">Our Warranty</a>
       </div>
       <div class="fwx-wca-intro-video">
-        <img src="{{ section.settings.why_choose_andy_cab_thumbnail | img_url: '800x400'}}">
+        <a href="{{section.settings.image_link}}">
+          <img src="{{ section.settings.why_choose_andy_cab_thumbnail | img_url: '800x400'}}" loading="lazy">
+        </a>
         {% comment %} <iframe src="https://www.youtube.com/embed/zIMWnvwU1QI" class="fwx-is-overlay" title="Why Choose AndyCab" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe> {% endcomment %}
       </div>
     </div>
@@ -46,6 +48,11 @@
       "type": "image_picker",
       "id": "why_choose_andy_cab_thumbnail",
       "label": "Thumbnail image"
+    },
+    {
+      "type": "url",
+      "id": "image_link",
+      "label": "Image link"
     }
   ],
   "presets": [
