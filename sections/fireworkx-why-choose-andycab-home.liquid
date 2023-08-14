@@ -1,7 +1,7 @@
 {{ 'fireworkx-why-choose-andycab.css' | asset_url | stylesheet_tag }}
 <div class="fwx-wca">
   <div class="page-width">
-    <div class="fwx-wca-intro">
+    <div class="fwx-wca-intro fwx-why-andycab-home">
       <div class="fwx-wca-intro-text">
         <h2>Why choose AndyCab?</h2>
         <p class="fireworkx-large-text">With over 20 years of experience, our quality workmanship has been refined to ensure our customers receive a superior product that we are proud to put our name on.
@@ -11,9 +11,10 @@
         <a href="/pages/warranty" class="button button--secondary">Our Warranty</a>
       </div>
       <div class="fwx-wca-intro-video">
-        <div class="fwx-video-container">
-          <iframe src="https://www.youtube.com/embed/zIMWnvwU1QI" class="fwx-is-overlay" title="Why Choose AndyCab" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-        </div>
+        <a href="{{section.settings.image_link}}">
+          <img src="{{ section.settings.why_choose_andy_cab_thumbnail | img_url: '800x400'}}" loading="lazy">
+        </a>
+        {% comment %} <iframe src="https://www.youtube.com/embed/zIMWnvwU1QI" class="fwx-is-overlay" title="Why Choose AndyCab" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe> {% endcomment %}
       </div>
     </div>
     <div class="fwx-wca-columns">
@@ -39,12 +40,24 @@
 
 {% schema %}
 {
-  "name": "Fireworkx Why AndyCab",
+  "name": "Why AndyCab Home",
   "tag": "section",
   "class": "spaced-section fwx-no-margin-bottom",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "why_choose_andy_cab_thumbnail",
+      "label": "Thumbnail image"
+    },
+    {
+      "type": "url",
+      "id": "image_link",
+      "label": "Image link"
+    }
+  ],
   "presets": [
     {
-      "name": "Fireworkx Why AndyCab"
+      "name": "Why AndyCab Home"
     }
   ]
 }
