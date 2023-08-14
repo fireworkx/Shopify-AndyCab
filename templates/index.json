@@ -3,7 +3,7 @@
     "image_banner": {
       "type": "fireworkx-image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Andy_Cab_Home_Screen_Image.jpg",
+        "image": "shopify:\/\/shop_images\/Andy_Cab_Home_Screen_Image_1.webp",
         "heading": "Locally manufactured canopies built with internationally recognised components.",
         "color_scheme": ""
       }
@@ -111,12 +111,13 @@
       "settings": {
         "textbox": "Find a Fitment Centre",
         "text": "With over 20 Andy Cab fitment centres across Southern Africa, you will find high-quality canopies for sale or on special from our Head Office in Cape Town – all the way to our fitment centres in Namibia and Zimbabwe.",
-        "link": "",
+        "link": "shopify:\/\/pages\/fitment-centres",
         "linktext": "Find a Fitment Centre"
       }
     },
     "75fde80e-3b75-4ba0-98cc-396df90b4b8f": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<script \n            type=\"text\/javascript\" \n            src=\"https:\/\/cdn.grw.reputon.com\/assets\/widget.js?shop=andycab.myshopify.com\"><\/script>\n<div class=\"reputon-google-reviews-widget\"\n                 data-theme=\"light\"\n                 data-autoscroll=\"true\"\n                 data-show-review-photos=\"true\"\n                 data-write-review=\"true\"\n                 data-type=\"carousel_extended\"\n                 data-position-type=\"regular\"\n                 data-position-vertical=\"bottom\"\n                 data-position-horizontal=\"center\"><\/div>",
         "spaced-section": true,
