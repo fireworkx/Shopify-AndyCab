@@ -144,6 +144,12 @@
       "type": "fireworkx-quote-slider",
       "settings": {
       }
+    },
+    "1d6a7a21-8918-4f5d-8c19-7e2cc53078c2": {
+      "type": "fireworkx-why-choose-andycab-home",
+      "settings": {
+        "why_choose_andy_cab_thumbnail": "shopify:\/\/shop_images\/Andy_Cab_Home_Screen_Image_1.webp"
+      }
     }
   },
   "order": [
@@ -153,6 +159,7 @@
     "75fde80e-3b75-4ba0-98cc-396df90b4b8f",
     "16ea5a7d-23d3-499e-90b9-a521740b0349",
     "d5396c3d-d4d7-4c3a-a723-958f9b7c564d",
-    "c483c779-d4cb-4071-8b4c-9c8133f9bb75"
+    "c483c779-d4cb-4071-8b4c-9c8133f9bb75",
+    "1d6a7a21-8918-4f5d-8c19-7e2cc53078c2"
   ]
 }
