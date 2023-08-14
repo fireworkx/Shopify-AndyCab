@@ -101,6 +101,10 @@
   width: 100%;
 }
 
+.fwx-why-andycab-home .fwx-wca-intro-video a {
+  width: inherit;
+}
+
 .fwx-why-andycab-home .fwx-wca-intro-video img {
   width: inherit;
 }
