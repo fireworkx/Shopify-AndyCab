@@ -7,6 +7,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Lighthouse
+        env:
+          SHOP_STORE: andycab.myshopify.com
         uses: shopify/lighthouse-ci-action@1.0
         with:
           app_id: ${{ secrets.SHOP_APP_ID }}
@@ -20,4 +22,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Theme Check
+        env:
+          SHOP_STORE: andycab.myshopify.com
         uses: shopify/theme-check-action@v1
