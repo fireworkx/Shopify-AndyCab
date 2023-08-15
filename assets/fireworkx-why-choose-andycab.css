@@ -107,4 +107,11 @@
 
 .fwx-why-andycab-home .fwx-wca-intro-video img {
   width: inherit;
+  height: 350px;
+}
+
+@media screen and (max-width: 480px) {
+  .fwx-why-andycab-home .fwx-wca-intro-video img {
+    height: 250px;
+  }
 }

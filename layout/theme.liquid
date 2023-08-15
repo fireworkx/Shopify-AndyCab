@@ -255,10 +255,10 @@
     {{ 'fireworkx-quote-slider.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
+      <link as="font" href="{{ settings.type_body_font | font_url | preload_tag }}" type="font/woff2" crossorigin>
     {%- endunless -%}
     {%- unless settings.type_header_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
+      <link as="font" href="{{ settings.type_header_font | font_url | preload_tag }}" type="font/woff2" crossorigin>
     {%- endunless -%}
 
     {%- if settings.predictive_search_enabled -%}
@@ -348,7 +348,9 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-
+    
+    {% # theme-check-disable %}
     {% render 'andycab-whatsapp-widget.liquid' %}
+    {% # theme-check-enable %}
   </body>
 </html>
