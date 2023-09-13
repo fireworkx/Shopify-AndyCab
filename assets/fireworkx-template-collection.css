@@ -1,0 +1,7 @@
+.featured-collection-container .product-grid .card__inner .card__media {
+  position: absolute;
+}
+
+.featured-collection-container .product-grid .card__inner .card__media .media {
+  position: absolute !important;
+}
