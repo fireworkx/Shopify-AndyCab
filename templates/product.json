@@ -29,6 +29,7 @@
         },
         "971d9c1c-ab06-4a2e-8e87-381aacf5686e": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>Price excludes fitment and delivery fees<\/strong>",
             "text_style": "body"
