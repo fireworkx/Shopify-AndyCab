@@ -595,7 +595,8 @@
               "priceCurrency" : {{ cart.currency.iso_code | json }},
               "url" : {{ request.origin | append: variant.url | json }},
               "hasMerchantReturnPolicy": {
-                "value": true
+                "value": true,
+                "applicableCountry": "ZA"
               },      
               "shippingDetails": {
                 "type": "Local Collection",
