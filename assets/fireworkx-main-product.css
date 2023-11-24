@@ -338,3 +338,10 @@ variant-selects {
   width: 100%;
   object-fit: fill;
 }
+
+.product-in-notes {
+  font-size: 14px;
+  font-weight : 500;
+  margin: 10px 0;
+ white-space: pre-line
+}
