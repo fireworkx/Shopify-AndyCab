@@ -192,6 +192,7 @@
                   >
                     <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span> {{- product.selected_or_first_available_variant.sku -}}
                   </p>
+                  
                 {%- when 'custom_liquid' -%}
                   {{ block.settings.custom_liquid }}
                 {%- when 'collapsible_tab' -%}
@@ -334,7 +335,7 @@
                   product.selected_or_first_available_variant.id }}"></div>
                   <!-- End PayJustNow Code -->
 {% endcomment %}
-                
+                  <p class="product-in-notes">{{ product.metafields.product.InternetNotes }} </p>
                   {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
                 {%- when 'rating' -%}
                   {%- if product.metafields.reviews.rating.value != blank -%}
@@ -595,7 +596,9 @@
               "priceCurrency" : {{ cart.currency.iso_code | json }},
               "url" : {{ request.origin | append: variant.url | json }},
               "hasMerchantReturnPolicy": {
-                "value": true
+                "value": true,
+                "applicableCountry": "ZA",
+                "returnPolicyCategory": "ProductReturnFiniteReturnWindow"
               },      
               "shippingDetails": {
                 "type": "Local Collection",
