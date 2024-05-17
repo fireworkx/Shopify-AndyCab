@@ -39,10 +39,9 @@
         },
         "00032308-2326-4b41-8488-afe690a533a6": {
           "type": "fitment_centre",
-          "disabled": true,
           "settings": {
-            "title": "Alpha Accessories",
-            "address": "<p>124 Edward Avenue<\/p><p>Centurion                                    <\/p>",
+            "title": "Protect a Car Roodepoort",
+            "address": "<p>Unit B6, 5Star Junction<\/p><p>Cnr of juice Street and Beyers<br\/>Naude Drive<\/p><p>Honeydew                                  <\/p>",
             "email": "",
             "phone": ""
           }
@@ -219,6 +218,7 @@
         },
         "81a56760-9cc3-4b68-8445-162d90e7d3f3": {
           "type": "fitment_centre",
+          "disabled": true,
           "settings": {
             "title": "Seans Car Audio",
             "address": "<p>4 Pasteur St<\/p><p>Vredenburg <\/p>",
