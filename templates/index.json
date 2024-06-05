@@ -152,6 +152,17 @@
         "why_choose_andy_cab_thumbnail": "shopify:\/\/shop_images\/AndyCab-YouTube-What-We-Do-Thumbnail.jpg",
         "image_link": "https:\/\/andycab.co.za\/pages\/about-us#:~:text=Leave%20a%20Review-,Why%20choose%20AndyCab%3F,-With%20over%2020"
       }
+    },
+    "custom_liquid_CGhN89": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% comment %}\n    google review snippet\n    {% endcomment %}}\n\n    <script \n            type=\"text\/javascript\" \n            src=\"https:\/\/cdn.grw.reputon.com\/assets\/widget.js?shop=andycab.myshopify.com\"  defer><\/script>\n<div class=\"reputon-google-reviews-widget\"\n                 data-theme=\"light\"\n                 data-type=\"basic\"\n                 data-minimize=\"false\"\n                 data-sticky=\"true\"\n                 data-position-vertical=\"bottom\"\n                 data-position-horizontal=\"left\"><\/div>",
+        "spaced-section": false,
+        "spaced-bottom": false,
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -162,6 +173,7 @@
     "16ea5a7d-23d3-499e-90b9-a521740b0349",
     "d5396c3d-d4d7-4c3a-a723-958f9b7c564d",
     "c483c779-d4cb-4071-8b4c-9c8133f9bb75",
-    "2e3f4d88-42d3-4b3e-9260-4ab9b45f20ef"
+    "2e3f4d88-42d3-4b3e-9260-4ab9b45f20ef",
+    "custom_liquid_CGhN89"
   ]
 }
