@@ -91,7 +91,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/AC_Weber_icon_6fa74a1a-b6e1-4995-876d-b53d3ad54b3d.png",
         "spaced-section": false,
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "middle",
