@@ -12,7 +12,6 @@
     "banner": {
       "type": "fireworkx-collection-hero",
       "settings": {
-        "collection_hero_image": "shopify:\/\/shop_images\/hero-hyundai-canopies.png"
       }
     },
     "product-grid": {
