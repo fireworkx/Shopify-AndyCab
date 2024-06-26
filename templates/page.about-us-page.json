@@ -52,9 +52,57 @@
       "settings": {
         "custom_liquid": "<script \n            type=\"text\/javascript\" \n            src=\"https:\/\/cdn.grw.reputon.com\/assets\/widget.js?shop=andycab.myshopify.com\"><\/script>\n<div class=\"reputon-google-reviews-widget\"\n                 data-theme=\"light\"\n                 data-autoscroll=\"true\"\n                 data-show-review-photos=\"true\"\n                 data-write-review=\"true\"\n                 data-type=\"carousel_extended\"\n                 data-position-type=\"regular\"\n                 data-position-vertical=\"bottom\"\n                 data-position-horizontal=\"center\"><\/div>",
         "spaced-section": true,
+        "spaced-bottom": false,
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "image_with_text_wdBAhe": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_aKqRBK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Andy Cab Father's Day Competition",
+            "heading_size": "h2"
+          }
+        },
+        "text_rXiDzj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Congratulations! You found our weber! Submit your details and you're in the running!<br\/><\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_t8D8HM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Enter the Competition",
+            "button_link": "https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSf2O84xzlp8uc_32WZe-oR9MPTujuGNoBBHBHY2s1Ntv168hA\/viewform"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aKqRBK",
+        "text_rXiDzj",
+        "button_t8D8HM"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AC_Weber_icon_6fa74a1a-b6e1-4995-876d-b53d3ad54b3d.png",
+        "spaced-section": false,
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     },
     "fireworkx_why_choose_AndyCab_cta": {
@@ -69,6 +117,7 @@
     "firewrokx_our_process",
     "fireworkx_range_fibreglass",
     "4d10a390-7aed-4974-b56b-c93b0c2fe4d7",
+    "image_with_text_wdBAhe",
     "fireworkx_why_choose_AndyCab_cta"
   ]
 }
