@@ -10,6 +10,13 @@
   }
 }
 
+@media screen and (min-width: 990px) {
+  .fwx-canopy-range {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+  }
+}
+
 .fwx-canopy-range-block {
   border-radius: var(--border-radius);
   padding: 1.6rem;
@@ -56,6 +63,14 @@
 }
 
 @media screen and (min-width: 990px) {
+  .fwx-canopy-range-header .fwx-canopy-features {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
   .fwx-canopy-range-header .fwx-canopy-features {
     position: absolute;
     top: 2rem;
