@@ -1,0 +1,103 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "banner": {
+      "type": "fireworkx-collection-hero",
+      "settings": {
+        "collection_hero_image": "shopify:\/\/shop_images\/hero-kia-canopies.png"
+      }
+    },
+    "product-grid": {
+      "type": "fireworkx-main-collection-product-grid-dawn-9",
+      "settings": {
+        "products_per_page": 16,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false
+      }
+    },
+    "163307955296408917": {
+      "type": "fireworkx-quote-slider",
+      "settings": {
+      }
+    },
+    "afff926e-d5bc-41bd-bfe3-e1fd7832e7eb": {
+      "type": "fireworkx-image-with-text",
+      "blocks": {
+        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kia Canopies",
+            "heading_size": "h2"
+          }
+        },
+        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Kia Motors<\/strong> offers 2 derivatives of their popular flatbed bakkie with a payload of 1,3 t, the <strong>K2700<\/strong> and <strong>K2500<\/strong>.<\/p><p>The <strong>K2700<\/strong> is the <strong>workhorse<\/strong> and the <strong>K2500 is a more luxurious and powerful turbocharged model<\/strong>. Both offer a flatbed with no wheel-arch intrusion and Andy Cab offers canopies that will fit on both of these Kia bakkies.<\/p><p>These flatbed pick-ups are very popular in South Africa, thanks to their<strong> low running costs<\/strong> and<strong> impressive load capacity.<\/strong><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Download Brochure",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0578\/5393\/5787\/files\/Andy_Cab_Kia_Brochure_2024.pdf?v=1714033262"
+          }
+        }
+      },
+      "block_order": [
+        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-0",
+        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-1",
+        "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Kia-Logo-250x250-150x150-1.webp",
+        "spaced-section": true,
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c015bb92-b56f-4920-aafd-3c64f6cc2c7b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script \n            type=\"text\/javascript\" \n            src=\"https:\/\/cdn.grw.reputon.com\/assets\/widget.js?shop=andycab.myshopify.com\"><\/script>\n<div class=\"reputon-google-reviews-widget\"\n                 data-theme=\"light\"\n                 data-autoscroll=\"true\"\n                 data-show-review-photos=\"true\"\n                 data-write-review=\"true\"\n                 data-type=\"carousel_extended\"\n                 data-position-type=\"regular\"\n                 data-position-vertical=\"bottom\"\n                 data-position-horizontal=\"center\"><\/div>",
+        "spaced-section": true,
+        "spaced-bottom": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "163307955296408917",
+    "afff926e-d5bc-41bd-bfe3-e1fd7832e7eb",
+    "c015bb92-b56f-4920-aafd-3c64f6cc2c7b"
+  ]
+}
