@@ -9,6 +9,41 @@
 */
 {
   "sections": {
+    "fireworkx_collection_list_fT4ACm": {
+      "type": "fireworkx-collection-list",
+      "blocks": {
+        "featured_collection_9tVUaH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_Ggq8NW": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "featured_collection_cmw7eC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_9tVUaH",
+        "featured_collection_Ggq8NW",
+        "featured_collection_cmw7eC"
+      ],
+      "settings": {
+        "title": "Our Canopy Range",
+        "subtitle": "Choose your bakkie brand",
+        "link": "",
+        "linktext": "",
+        "style": "fwx-standard"
+      }
+    },
     "fireworkx_fitment_center_cta_YBDJpX": {
       "type": "fireworkx-fitment-center-cta",
       "settings": {
@@ -40,6 +75,7 @@
     }
   },
   "order": [
+    "fireworkx_collection_list_fT4ACm",
     "fireworkx_fitment_center_cta_YBDJpX",
     "fireworkx_grid_products_axDeEf",
     "fireworkx_quote_slider_KEqR7R",
