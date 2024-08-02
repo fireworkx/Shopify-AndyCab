@@ -15,26 +15,89 @@
         "featured_collection_9tVUaH": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "ford-canopies"
           }
         },
         "featured_collection_Ggq8NW": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "toyota-canopies"
           }
         },
         "featured_collection_cmw7eC": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "isuzu-canopies"
+          }
+        },
+        "featured_collection_6VUJ9U": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jac-canopies"
+          }
+        },
+        "featured_collection_dcfw43": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gwm-canopies"
+          }
+        },
+        "featured_collection_wHpDLz": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nissan-canopies"
+          }
+        },
+        "featured_collection_rme3JL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "volkswagen-canopies"
+          }
+        },
+        "featured_collection_BCcytG": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mahindra-canopies"
+          }
+        },
+        "featured_collection_cPVUY6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "isuzu-canopies"
+          }
+        },
+        "featured_collection_4nKyzr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hyundai-canopies"
+          }
+        },
+        "featured_collection_hH6XPh": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kia-canopies"
+          }
+        },
+        "featured_collection_aYJUPr": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mazda-canopies"
           }
         }
       },
       "block_order": [
         "featured_collection_9tVUaH",
         "featured_collection_Ggq8NW",
-        "featured_collection_cmw7eC"
+        "featured_collection_cmw7eC",
+        "featured_collection_6VUJ9U",
+        "featured_collection_dcfw43",
+        "featured_collection_wHpDLz",
+        "featured_collection_rme3JL",
+        "featured_collection_BCcytG",
+        "featured_collection_cPVUY6",
+        "featured_collection_4nKyzr",
+        "featured_collection_hH6XPh",
+        "featured_collection_aYJUPr"
       ],
       "settings": {
         "title": "Our Canopy Range",
