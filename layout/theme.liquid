@@ -1,6 +1,17 @@
 <!doctype html>
 <html class="js" lang="{{ request.locale.iso_code }}">
   <head>
+    <meta name="facebook-domain-verification" content="31hiztnx8pfhs0fnmgf1ibihwcflu0" />
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WHXCBW2');
+    </script>
+    <!-- End Google Tag Manager -->
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -256,6 +267,10 @@
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ 'fireworkx-base.css' | asset_url | stylesheet_tag }}
+    {{ 'fireworkx-collection-list.css' | asset_url | stylesheet_tag }}
+    {{ 'fireworkx-quote-slider.css' | asset_url | stylesheet_tag }}
+    
     <link rel="stylesheet" href="{{ 'component-cart-items.css' | asset_url }}" media="print" onload="this.media='all'">
 
     {%- if settings.cart_type == 'drawer' -%}
@@ -313,7 +328,8 @@
       {{ content_for_layout }}
     </main>
 
-    {% sections 'footer-group' %}
+    {% comment %} {% sections 'footer-group' %} {% endcomment %}
+    {% section 'fireworkx-footer' %}
 
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
@@ -372,5 +388,23 @@
     {%- if settings.cart_type == 'drawer' -%}
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    {% # theme-check-disable %}
+    {% render 'cuedesk-whatsapp-widget.liquid' %}
+    {% # theme-check-enable %}
+
+    {% comment %}
+    google review snippet
+    {% endcomment %}
+    {% if template == 'index' %}
+      <script type="text/javascript" src="https://cdn.grw.reputon.com/assets/widget.js?shop=andycab.myshopify.com"  defer></script>
+        <div class="reputon-google-reviews-widget" style="margin-top: 0 !important;"
+                   data-theme="light"
+                   data-type="basic"
+                   data-minimize="false"
+                   data-sticky="true"
+                   data-position-vertical="bottom"
+                   data-position-horizontal="left"></div>
+      {% endif %}
   </body>
 </html>

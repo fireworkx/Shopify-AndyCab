@@ -11,6 +11,22 @@
   <link rel="stylesheet" href="{{ 'component-mega-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 {%- endif -%}
 
+{%- if settings.cart_type == "drawer" -%}
+  {{ 'component-cart-drawer.css' | asset_url | stylesheet_tag }}
+  {{ 'component-cart.css' | asset_url | stylesheet_tag }}
+  {{ 'component-totals.css' | asset_url | stylesheet_tag }}
+  {{ 'component-price.css' | asset_url | stylesheet_tag }}
+  {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
+  {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
+{%- endif -%}
+
+{{ 'fireworkx-header.css' | asset_url | stylesheet_tag }}
+
+<noscript>{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-search.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-menu-drawer.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-cart-notification.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-cart-items.css' | asset_url | stylesheet_tag }}</noscript>
 
 <style>
   header-drawer {
@@ -304,6 +320,8 @@
   class StickyHeader extends HTMLElement {
     constructor() {
       super();
+      this.nav = document.querySelector(".header__inline-menu");
+      this.dropdowns = this.nav.querySelectorAll("details");
     }
 
     connectedCallback() {
@@ -357,7 +375,10 @@
 
       if (scrollTop > this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
         this.header.classList.add('scrolled-past-header');
-        if (this.preventHide) return;
+
+        // this.header.classList.add('scrolled-past-header');
+        // if (this.preventHide) return;
+
         requestAnimationFrame(this.hide.bind(this));
       } else if (scrollTop < this.currentScrollTop && scrollTop > this.headerBounds.bottom) {
         this.header.classList.add('scrolled-past-header');
@@ -385,6 +406,13 @@
       this.header.classList.add('shopify-section-header-hidden', 'shopify-section-header-sticky');
       this.closeMenuDisclosure();
       this.closeSearchModal();
+
+      // hide canopies dropdown
+      for(let dropdown of this.dropdowns) {
+        if(dropdown.open) { 
+          dropdown.open = false;
+        }
+      }
     }
 
     reveal() {
