@@ -9,6 +9,15 @@
 */
 {
   "sections": {
+    "fireworkx_fitment_center_cta_YBDJpX": {
+      "type": "fireworkx-fitment-center-cta",
+      "settings": {
+        "textbox": "Find a Fitment Centre",
+        "text": "With over 20 Andy Cab fitment centres across Southern Africa, you will find high-quality canopies for sale or on special from our Head Office in Cape Town – all the way to our fitment centres in Namibia and Zimbabwe.",
+        "link": "shopify:\/\/pages\/fitment-centres",
+        "linktext": "Click here"
+      }
+    },
     "fireworkx_grid_products_axDeEf": {
       "type": "fireworkx-grid-products",
       "settings": {
@@ -31,6 +40,7 @@
     }
   },
   "order": [
+    "fireworkx_fitment_center_cta_YBDJpX",
     "fireworkx_grid_products_axDeEf",
     "fireworkx_quote_slider_KEqR7R",
     "fireworkx_why_choose_andycab_home_cQd3GJ"
