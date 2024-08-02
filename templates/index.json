@@ -9,6 +9,14 @@
 */
 {
   "sections": {
+    "fireworkx_grid_products_axDeEf": {
+      "type": "fireworkx-grid-products",
+      "settings": {
+        "title": "Accessories",
+        "link": "shopify:\/\/collections\/accessories",
+        "linktext": "View All Accessories"
+      }
+    },
     "fireworkx_quote_slider_KEqR7R": {
       "type": "fireworkx-quote-slider",
       "settings": {
@@ -23,6 +31,7 @@
     }
   },
   "order": [
+    "fireworkx_grid_products_axDeEf",
     "fireworkx_quote_slider_KEqR7R",
     "fireworkx_why_choose_andycab_home_cQd3GJ"
   ]
