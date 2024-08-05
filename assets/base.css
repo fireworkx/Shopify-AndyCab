@@ -169,6 +169,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 
 .background-secondary {
   background-color: rgba(var(--color-foreground), 0.04);
+  padding: 4rem 0 5rem;
 }
 
 .grid-auto-flow {
