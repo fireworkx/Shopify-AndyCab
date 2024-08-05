@@ -67,6 +67,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/andy-cab-logo-square.png",
+        "spaced-section": true,
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
