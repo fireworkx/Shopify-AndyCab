@@ -1,7 +1,16 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
-      "type": "main-article",
+      "type": "fireworkx-main-article",
       "blocks": {
         "featured_image": {
           "type": "featured_image",
@@ -23,18 +32,64 @@
           }
         },
         "content": {
-          "type": "content"
+          "type": "content",
+          "settings": {
+          }
+        },
+        "5ecbf256-ea31-44ee-b803-6ea9ef7754e4": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
         }
       },
       "block_order": [
         "featured_image",
         "title",
         "share",
-        "content"
-      ]
+        "content",
+        "5ecbf256-ea31-44ee-b803-6ea9ef7754e4"
+      ],
+      "settings": {
+      }
+    },
+    "b6927762-92dc-463c-b6c5-71c028a4c5f3": {
+      "type": "newsletter",
+      "blocks": {
+        "template--16158320754859__b6927762-92dc-463c-b6c5-71c028a4c5f3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our news",
+            "heading_size": "h2"
+          }
+        },
+        "template--16158320754859__b6927762-92dc-463c-b6c5-71c028a4c5f3-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new products and exclusive offers.<\/p>"
+          }
+        },
+        "template--16158320754859__b6927762-92dc-463c-b6c5-71c028a4c5f3-email_form-1": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16158320754859__b6927762-92dc-463c-b6c5-71c028a4c5f3-heading-1",
+        "template--16158320754859__b6927762-92dc-463c-b6c5-71c028a4c5f3-paragraph-1",
+        "template--16158320754859__b6927762-92dc-463c-b6c5-71c028a4c5f3-email_form-1"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "b6927762-92dc-463c-b6c5-71c028a4c5f3"
   ]
 }
