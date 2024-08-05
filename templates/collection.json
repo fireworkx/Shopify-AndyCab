@@ -1,32 +1,55 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "banner": {
-      "type": "main-collection-banner",
+      "type": "fireworkx-hero",
       "settings": {
-        "show_collection_description": true,
-        "show_collection_image": false,
-        "color_scheme": "scheme-1"
       }
     },
     "product-grid": {
-      "type": "main-collection-product-grid",
+      "type": "fireworkx-main-collection-product-grid",
       "settings": {
         "products_per_page": 16,
-        "columns_desktop": 4,
         "image_ratio": "adapt",
         "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
         "show_vendor": false,
         "show_rating": false,
         "enable_filtering": true,
         "enable_sorting": true,
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "collapse_on_larger_devices": false
+      }
+    },
+    "163307955296408917": {
+      "type": "fireworkx-quote-slider",
+      "settings": {
+      }
+    },
+    "c015bb92-b56f-4920-aafd-3c64f6cc2c7b": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script \n            type=\"text\/javascript\" \n            src=\"https:\/\/cdn.grw.reputon.com\/assets\/widget.js?shop=andycab.myshopify.com\"><\/script>\n<div class=\"reputon-google-reviews-widget\"\n                 data-theme=\"light\"\n                 data-autoscroll=\"true\"\n                 data-show-review-photos=\"true\"\n                 data-write-review=\"true\"\n                 data-type=\"carousel_extended\"\n                 data-position-type=\"regular\"\n                 data-position-vertical=\"bottom\"\n                 data-position-horizontal=\"center\"><\/div>",
+        "spaced-section": true,
+        "spaced-bottom": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "163307955296408917",
+    "c015bb92-b56f-4920-aafd-3c64f6cc2c7b"
   ]
 }
