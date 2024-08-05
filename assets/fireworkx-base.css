@@ -665,6 +665,11 @@ h4,
   color: black;
 }
 
+#main-cart-footer .cart__footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 /* collection list */
 .collection-list .card-wrapper {
   background-color: rgba(18, 18, 18, 0.04);
