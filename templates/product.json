@@ -173,31 +173,12 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "1722934004cba0278e": {
-      "type": "apps",
-      "blocks": {
-        "glo_related_products_upsell_app_block_product_naTxWa": {
-          "type": "shopify:\/\/apps\/glo-related-products-upsell\/blocks\/app-block-product\/75cf2d86-3988-45e7-8f28-ada23c99704f",
-          "settings": {
-            "widget": "1",
-            "gashortcode": "<div class=\"globoRelatedProductsCustom\"><\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "glo_related_products_upsell_app_block_product_naTxWa"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "main",
     "fireworkx-how-buying-online",
     "1633079569e84b10cd",
-    "71490deb-d4ad-4fd9-b1b0-d9f28194bf6d",
-    "1722934004cba0278e"
+    "71490deb-d4ad-4fd9-b1b0-d9f28194bf6d"
   ]
 }
