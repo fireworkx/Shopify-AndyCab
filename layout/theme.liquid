@@ -301,7 +301,9 @@
     {% sections 'header-group' %}
 
     <main id="MainContent" class="content-for-layout focus-none {% if template == 'page.fitment-centres' %}fitment-centre-page{% endif %}" role="main" tabindex="-1">
+      {% comment %}
       <div class="globoRecommendationsTop"></div>{{ content_for_layout }}<div class="globoRecommendationsBottom"></div>
+      {% endcomment %}
     </main>
 
     {% comment %}
