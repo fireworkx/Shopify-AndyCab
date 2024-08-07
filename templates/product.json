@@ -180,7 +180,7 @@
         "glo_related_products_upsell_app_block_product_naTxWa": {
           "type": "shopify:\/\/apps\/glo-related-products-upsell\/blocks\/app-block-product\/75cf2d86-3988-45e7-8f28-ada23c99704f",
           "settings": {
-            "widget": "3",
+            "widget": "1",
             "gashortcode": "<div class=\"globoRelatedProductsCustom\"><\/div>"
           }
         }
