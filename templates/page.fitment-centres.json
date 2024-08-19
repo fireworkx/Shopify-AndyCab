@@ -209,7 +209,7 @@
         "6736b00f-75f7-46a5-9643-090b8fd8a254": {
           "type": "fitment_centre",
           "settings": {
-            "title": "Apex Autoshield Malmesbury",
+            "title": "EDF Autofix",
             "address": "<p>16 Arcadia St<\/p><p>Malmesbury<\/p>",
             "email": "",
             "phone": ""
@@ -254,10 +254,9 @@
         },
         "649dd02f-8c8a-4122-b94b-a0bcaa9b22cb": {
           "type": "fitment_centre",
-          "disabled": true,
           "settings": {
-            "title": "Rola Fitment Centre",
-            "address": "<p>31 Park Street<\/p><p>Bredasdorp <\/p>",
+            "title": "Seans Car Audio",
+            "address": "<p>4 Pasteur Street<\/p><p>Vredenburg<\/p>",
             "email": "",
             "phone": ""
           }
