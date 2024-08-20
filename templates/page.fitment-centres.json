@@ -28,6 +28,15 @@
             "title": "Gauteng"
           }
         },
+        "0273415e-a449-4226-808b-838594595ff5": {
+          "type": "fitment_centre",
+          "settings": {
+            "title": "Rhino Sandton",
+            "address": "<p>20 5th St, Wynberg<\/p><p>Sandton<\/p>",
+            "email": "",
+            "phone": ""
+          }
+        },
         "c3061f97-dbf1-42ef-87c6-b9cf4eec04d5": {
           "type": "fitment_centre",
           "settings": {
@@ -73,15 +82,6 @@
             "phone": ""
           }
         },
-        "0273415e-a449-4226-808b-838594595ff5": {
-          "type": "fitment_centre",
-          "settings": {
-            "title": "Rhino Linings Sandton",
-            "address": "<p>20 5th St, Wynberg<\/p><p>Sandton<\/p>",
-            "email": "",
-            "phone": ""
-          }
-        },
         "8144286f-130e-4a2a-b92d-6378cf6b5262": {
           "type": "fitment_centre",
           "disabled": true,
@@ -105,12 +105,12 @@
       },
       "block_order": [
         "0fdfed14-6941-4273-8343-eabc95e2e914",
+        "0273415e-a449-4226-808b-838594595ff5",
         "c3061f97-dbf1-42ef-87c6-b9cf4eec04d5",
         "aae99d3a-615c-4fd9-9008-9ebd8f66c093",
         "00032308-2326-4b41-8488-afe690a533a6",
         "d858f70b-264e-409d-a320-00a40c148f35",
         "a1d5f052-0abe-4676-9734-1151575407eb",
-        "0273415e-a449-4226-808b-838594595ff5",
         "8144286f-130e-4a2a-b92d-6378cf6b5262",
         "18a1df32-abf6-4383-84fc-dfed17a7349a"
       ],
