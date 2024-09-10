@@ -13,7 +13,7 @@
           {%- if block.settings.collection.featured_image != blank -%}
           <img
             src="{{ block.settings.collection.featured_image | image_url: width: 1500 }}"
-            loading="lazy" height="" width="">
+            loading="lazy" height="" width="" alt="{{- block.settings.collection.title | escape -}}">
           {%- endif -%}
           {%- if block.settings.collection.title != blank -%}
           <span class="h4 fwx-is-overlay"> 
