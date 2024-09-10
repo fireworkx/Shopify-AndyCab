@@ -17,7 +17,7 @@
             {%- if product.featured_image != blank -%}
             <img
               src="{{ product.featured_image | img_url: '' }}"
-              loading="lazy" height="" width="">
+              loading="lazy" height="" width="" alt="{{- product.title | escape -}} ">
             {%- endif -%}
             {%- if product.title != blank -%}
             <span class="h4 fwx-is-overlay">
