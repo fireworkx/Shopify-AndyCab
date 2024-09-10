@@ -19,7 +19,7 @@
               <div class="fwx-hero-snippet">
                 {% render 'fireworkx-need-help-or-quote' %}
               </div>
-              <img class="canopy-image" src="{{ source | file_img_url: '550x' }}" width="" height="" loading="lazy">   
+              <img class="canopy-image" src="{{ source | file_img_url: '550x' }}" width="" height="" loading="lazy" alt="{% if template.name == 'collection' %} {{ collection.title }} {% elsif template.name == 'page' %} {{ page.title }} {% endif %}">   
           </div>
         </div>
     </div>
