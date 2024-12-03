@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -21,8 +21,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -33,14 +32,13 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "971d9c1c-ab06-4a2e-8e87-381aacf5686e": {
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "<strong>Price excludes fitment and delivery fees<\/strong>",
+            "text": "<strong>Price excludes fitment and delivery fees</strong>",
             "text_style": "body"
           }
         },
@@ -53,13 +51,11 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -117,8 +113,7 @@
         "d876dbb6-87a9-41b4-a897-dd5fa1339ef6": {
           "type": "rating",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -155,20 +150,18 @@
     },
     "fireworkx-how-buying-online": {
       "type": "fireworkx-how-buying-online",
-      "settings": {
-      }
+      "settings": {}
     },
     "1633079569e84b10cd": {
       "type": "fireworkx-quote-slider",
-      "settings": {
-      }
+      "settings": {}
     },
     "71490deb-d4ad-4fd9-b1b0-d9f28194bf6d": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script \n            type=\"text\/javascript\" \n            src=\"https:\/\/cdn.grw.reputon.com\/assets\/widget.js?shop=andycab.myshopify.com\"><\/script>\n<div class=\"reputon-google-reviews-widget\"\n                 data-theme=\"light\"\n                 data-autoscroll=\"true\"\n                 data-show-review-photos=\"true\"\n                 data-write-review=\"true\"\n                 data-type=\"carousel_extended\"\n                 data-position-type=\"regular\"\n                 data-position-vertical=\"bottom\"\n                 data-position-horizontal=\"center\"><\/div>",
-        "spaced-section": true,
-        "spaced-bottom": true,
+        "custom_liquid": "<script \n            type=\"text/javascript\" \n            src=\"https://cdn.grw.reputon.com/assets/widget.js?shop=andycab.myshopify.com\"></script>\n<div class=\"reputon-google-reviews-widget\"\n                 data-theme=\"light\"\n                 data-autoscroll=\"true\"\n                 data-show-review-photos=\"true\"\n                 data-write-review=\"true\"\n                 data-type=\"carousel_extended\"\n                 data-position-type=\"regular\"\n                 data-position-vertical=\"bottom\"\n                 data-position-horizontal=\"center\"></div>",
+        "spaced-section": false,
+        "spaced-bottom": false,
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
