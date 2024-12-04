@@ -66,7 +66,7 @@
         "heading_8AXhJB": {
           "type": "heading",
           "settings": {
-            "heading": "Talk to Us",
+            "heading": "Talk to us",
             "heading_size": "h1"
           }
         },
@@ -92,7 +92,54 @@
         "button_bmAmdB"
       ],
       "settings": {
-        "image": "shopify://shop_images/Andy_Cab_-_Process_-_3.jpg",
+        "image": "shopify://shop_images/Andy_Cab_-_Process_-_1.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_wRLDtG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_eAM7aP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Reserve your product",
+            "heading_size": "h1"
+          }
+        },
+        "text_jdYf8k": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re available via phone, email or WhatsApp (<em>Click the WhatsApp icon below</em>)</p><p>During this time, we will sort the particulars, finer details of shipment, fitment details or any other questions to make the buying process easier and more efficient experience for you.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_jQFARi": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify://pages/contact-us",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_eAM7aP",
+        "text_jdYf8k",
+        "button_jQFARi"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Andy_Cab_-_Process_-_1.jpg",
         "height": "small",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -111,6 +158,7 @@
   "order": [
     "1633079619888bf7f1",
     "a3976241-e921-4f81-8124-6051d4428bd7",
-    "image_with_text_GE6mdk"
+    "image_with_text_GE6mdk",
+    "image_with_text_wRLDtG"
   ]
 }
