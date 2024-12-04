@@ -127,8 +127,8 @@
         "button_jQFARi": {
           "type": "button",
           "settings": {
-            "button_label": "Contact Us",
-            "button_link": "shopify://pages/contact-us",
+            "button_label": "Browse products",
+            "button_link": "shopify://collections",
             "button_style_secondary": false
           }
         }
