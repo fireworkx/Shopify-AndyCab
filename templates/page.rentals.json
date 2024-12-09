@@ -22,6 +22,48 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_FLjcyc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XCgqFm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rent a Canopy with Andy Cab Canopies",
+            "heading_size": "h2"
+          }
+        },
+        "text_QdDBAW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looking for a reliable and <strong>hassle-free</strong> canopy rental? </p><p>Andy Cab Canopies offers top-quality canopies for all your needs, whether it’s for <strong>outdoor adventures</strong>, <strong>work projects</strong>, or <strong>temporary vehicle upgrades</strong>. </p><p>Our durable canopies are designed to fit perfectly, providing style and protection.<br/><br/><strong>Ready to hire?</strong> Contact us today to find the perfect canopy rental for your vehicle!<br/><br/></p>"
+          }
+        },
+        "button_LJzyQF": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XCgqFm",
+        "text_QdDBAW",
+        "button_LJzyQF"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "form": {
       "type": "fireworkx-contact-form",
       "settings": {
@@ -43,6 +85,7 @@
   "order": [
     "hero",
     "main",
+    "rich_text_FLjcyc",
     "form",
     "fc327cac-f083-4b00-ac9b-e0c3383bc263"
   ]
