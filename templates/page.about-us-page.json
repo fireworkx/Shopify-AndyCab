@@ -1,18 +1,17 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "16328218299580c866": {
       "type": "fireworkx-hero",
-      "settings": {
-      }
+      "settings": {}
     },
     "fireworkx_about_us_slider": {
       "type": "fireworkx-about-us-slider",
@@ -20,19 +19,19 @@
         "d448e8f5-8e08-4ae5-aba5-ea2755071a71": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image01_0e2054b4-cdae-4418-b79e-855256483a9e.jpg"
+            "image": "shopify://shop_images/image01_0e2054b4-cdae-4418-b79e-855256483a9e.jpg"
           }
         },
         "25ca3c08-98b3-4df9-91fb-5c333a068782": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image03_380428bd-824a-40c2-9bdc-4934ba414d3c.jpg"
+            "image": "shopify://shop_images/image03_380428bd-824a-40c2-9bdc-4934ba414d3c.jpg"
           }
         },
         "abc0829c-b934-447e-a581-216ca30e77ed": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image02_b237c5b4-afe9-4680-9b30-809b57df818f.jpg"
+            "image": "shopify://shop_images/image02_b237c5b4-afe9-4680-9b30-809b57df818f.jpg"
           }
         }
       },
@@ -43,23 +42,21 @@
       ],
       "settings": {
         "heading": "High-quality & Locally manufactured",
-        "description": "<p>We use high-quality internationally recognized components for the leading utility vehicle brands. We combine over <strong>20 years of experience<\/strong> to produce high-quality products. With structural integrity throughout our product range that comes standard with an industry leading canopy warranty.<\/p>"
+        "description": "<p>We use high-quality internationally recognized components for the leading utility vehicle brands. We combine over <strong>20 years of experience</strong> to produce high-quality products. With structural integrity throughout our product range that comes standard with an industry leading canopy warranty.</p>"
       }
     },
     "firewrokx_our_process": {
       "type": "fireworkx-our-process",
-      "settings": {
-      }
+      "settings": {}
     },
     "fireworkx_range_fibreglass": {
       "type": "fireworkx-ranges-fibreglass",
-      "settings": {
-      }
+      "settings": {}
     },
     "4d10a390-7aed-4974-b56b-c93b0c2fe4d7": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script \n            type=\"text\/javascript\" \n            src=\"https:\/\/cdn.grw.reputon.com\/assets\/widget.js?shop=andycab.myshopify.com\"><\/script>\n<div class=\"reputon-google-reviews-widget\"\n                 data-theme=\"light\"\n                 data-autoscroll=\"true\"\n                 data-show-review-photos=\"true\"\n                 data-write-review=\"true\"\n                 data-type=\"carousel_extended\"\n                 data-position-type=\"regular\"\n                 data-position-vertical=\"bottom\"\n                 data-position-horizontal=\"center\"><\/div>",
+        "custom_liquid": "<script \n            type=\"text/javascript\" \n            src=\"https://cdn.grw.reputon.com/assets/widget.js?shop=andycab.myshopify.com\"></script>\n<div class=\"reputon-google-reviews-widget\"\n                 data-theme=\"light\"\n                 data-autoscroll=\"true\"\n                 data-show-review-photos=\"false\"\n                 data-write-review=\"true\"\n                 data-type=\"carousel_extended\"\n                 data-position-type=\"regular\"\n                 data-position-vertical=\"bottom\"\n                 data-position-horizontal=\"center\"></div>",
         "spaced-section": true,
         "spaced-bottom": false,
         "color_scheme": "",
@@ -80,7 +77,7 @@
         "text_rXiDzj": {
           "type": "text",
           "settings": {
-            "text": "<p>Congratulations! You found our weber! Submit your details and you're in the running!<br\/><\/p>",
+            "text": "<p>Congratulations! You found our weber! Submit your details and you're in the running!<br/></p>",
             "text_style": "body"
           }
         },
@@ -88,7 +85,8 @@
           "type": "button",
           "settings": {
             "button_label": "Enter the Competition",
-            "button_link": "https:\/\/docs.google.com\/forms\/d\/e\/1FAIpQLSf2O84xzlp8uc_32WZe-oR9MPTujuGNoBBHBHY2s1Ntv168hA\/viewform"
+            "button_link": "https://docs.google.com/forms/d/e/1FAIpQLSf2O84xzlp8uc_32WZe-oR9MPTujuGNoBBHBHY2s1Ntv168hA/viewform",
+            "button_style_secondary": false
           }
         }
       },
@@ -99,13 +97,14 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/AC_Weber_icon_6fa74a1a-b6e1-4995-876d-b53d3ad54b3d.png",
+        "image": "shopify://shop_images/AC_Weber_icon_6fa74a1a-b6e1-4995-876d-b53d3ad54b3d.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "background-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -115,8 +114,7 @@
     },
     "fireworkx_why_choose_AndyCab_cta": {
       "type": "fireworkx-why-choose-andycab",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [
