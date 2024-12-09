@@ -1483,7 +1483,7 @@ if (!customElements.get("bulk-add")) {
   customElements.define("bulk-add", BulkAdd);
 }
 
-const image_container = document.querySelectorAll(".card-image-container")[0];
+const image_container = document.querySelector(".how-to-buy-image");
 const buy_online_container = document.querySelectorAll(
   ".how-buying-content-container"
 )[0];
