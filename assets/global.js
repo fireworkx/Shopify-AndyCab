@@ -1483,12 +1483,12 @@ if (!customElements.get("bulk-add")) {
   customElements.define("bulk-add", BulkAdd);
 }
 
-const image_container = document.querySelector(".how-to-buy-image");
+const image_container = document.querySelectorAll(".card-image-container")[0];
 const buy_online_container = document.querySelectorAll(
   ".how-buying-content-container"
 )[0];
 
-if (buy_online_container) {
+// if (buy_online_container) {
   image_container.addEventListener("click", () => {
     console.log("test")
     window.open("/pages/buyers-process", "_blank");
@@ -1497,4 +1497,4 @@ if (buy_online_container) {
     //   block: "center",
     // });
   });
-}
+// }
