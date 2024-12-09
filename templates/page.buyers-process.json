@@ -20,7 +20,7 @@
           "type": "heading",
           "settings": {
             "heading": "Make an enquiry",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "template--15924919697579__a3976241-e921-4f81-8124-6051d4428bd7-1665139513bdd8c4e4-1": {
@@ -67,7 +67,7 @@
           "type": "heading",
           "settings": {
             "heading": "Talk to us",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_PqiBbL": {
@@ -114,7 +114,7 @@
           "type": "heading",
           "settings": {
             "heading": "Reserve your product",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_jdYf8k": {
@@ -161,7 +161,7 @@
           "type": "heading",
           "settings": {
             "heading": "Make an appointment",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_9UrjVE": {
@@ -209,7 +209,7 @@
           "type": "heading",
           "settings": {
             "heading": "Final payment",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_zMKtNx": {
@@ -257,7 +257,7 @@
           "type": "heading",
           "settings": {
             "heading": "Satisfaction guaranteed",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_VmbGr3": {
