@@ -1490,6 +1490,7 @@ const buy_online_container = document.querySelectorAll(
 
 if (buy_online_container) {
   image_container.addEventListener("click", () => {
+    console.log("test")
     window.open("/pages/buyers-process", "_blank");
     // buy_online_container.scrollIntoView({
     //   behavior: "smooth",
