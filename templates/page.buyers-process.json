@@ -46,7 +46,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/AC_-_Process_1.jpg",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -93,7 +93,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/AC_-_Process_2.jpg",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -140,7 +140,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/AC_-_Process_3.jpg",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -188,7 +188,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/AC_-_Process_4.jpg",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -236,7 +236,7 @@
       ],
       "settings": {
         "image": "shopify://shop_images/AC_-_Process_5.jpg",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
