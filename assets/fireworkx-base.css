@@ -274,8 +274,14 @@ h4,
 
 @media screen and (min-width: 990px) {
   .reputon-google-reviews-widget {
-    margin-top: 12rem;
+    margin-top: 10rem;
   }
+}
+
+.product-related-container {
+  background-color: #ffffff;
+  margin-top: 2rem;
+  padding-top: 2rem;
 }
 
 @media screen and (min-width: 750px) {
@@ -287,6 +293,7 @@ h4,
 @media screen and (min-width: 990px) {
   .product-related-container {
     margin-top: 8rem;
+    padding-top: 4rem;
   }
 }
 
