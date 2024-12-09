@@ -278,6 +278,12 @@ h4,
   }
 }
 
+.product-related-container {
+  background-color: #ffffff;
+  margin-top: 2rem;
+  padding-top: 2rem;
+}
+
 @media screen and (min-width: 750px) {
   .product-related-container {
     margin-top: 4rem;
@@ -287,6 +293,7 @@ h4,
 @media screen and (min-width: 990px) {
   .product-related-container {
     margin-top: 8rem;
+    padding-top: 4rem;
   }
 }
 
