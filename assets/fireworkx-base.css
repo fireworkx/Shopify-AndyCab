@@ -278,6 +278,18 @@ h4,
   }
 }
 
+@media screen and (min-width: 750px) {
+  .product-related-container {
+    margin-top: 4rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .product-related-container {
+    margin-top: 8rem;
+  }
+}
+
 .spaced-section.fwx-no-margin-bottom {
   margin-bottom: 0;
 }

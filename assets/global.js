@@ -1488,11 +1488,13 @@ const buy_online_container = document.querySelectorAll(
   ".how-buying-content-container"
 )[0];
 
-if (buy_online_container) {
+// if (buy_online_container) {
   image_container.addEventListener("click", () => {
-    buy_online_container.scrollIntoView({
-      behavior: "smooth",
-      block: "center",
-    });
+    console.log("test")
+    window.open("/pages/buyers-process", "_blank");
+    // buy_online_container.scrollIntoView({
+    //   behavior: "smooth",
+    //   block: "center",
+    // });
   });
-}
+// }
