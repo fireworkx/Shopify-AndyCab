@@ -1,18 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
       "type": "fireworkx-collection-hero",
       "settings": {
-        "collection_hero_image": "shopify:\/\/shop_images\/hero-hyundai-canopies.png"
+        "collection_hero_image": "shopify://shop_images/hero-hyundai-canopies.png"
       }
     },
     "product-grid": {
@@ -32,8 +32,7 @@
     },
     "163307955296408917": {
       "type": "fireworkx-quote-slider",
-      "settings": {
-      }
+      "settings": {}
     },
     "afff926e-d5bc-41bd-bfe3-e1fd7832e7eb": {
       "type": "fireworkx-image-with-text",
@@ -48,7 +47,7 @@
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>The <strong>Hyundai H100 bakkie<\/strong> has been on sale in South Africa for years.<\/p><p>Upon its launch in <strong>1997<\/strong>, it was just called the Hyundai Bakkie. It has struck a chord with local buyers and today, the H100 is very popular for its <strong>compact<\/strong>, <strong>cab-forward footprint, low running costs<\/strong>, and <strong>flatbed<\/strong>, <strong>1,3-tonne load bin<\/strong>.<\/p><p>Andy Cab canopies offers a canopy for the H100, usefully <strong>extending the pick-up’s practicality<\/strong> and <strong>protecting your cargo<\/strong> from the elements.<\/p><p>The load bed is perfectly flat with no wheel-arches intrusion and the canopy’s roof is level with the H100’s, resulting in a huge, square, and fully usable space.<\/p>",
+            "text": "<p>The <strong>Hyundai H100 bakkie</strong> has been on sale in South Africa for years.</p><p>Upon its launch in <strong>1997</strong>, it was just called the Hyundai Bakkie. It has struck a chord with local buyers and today, the H100 is very popular for its <strong>compact</strong>, <strong>cab-forward footprint, low running costs</strong>, and <strong>flatbed</strong>, <strong>1,3-tonne load bin</strong>.</p><p>Andy Cab canopies offers a canopy for the H100, usefully <strong>extending the pick-up’s practicality</strong> and <strong>protecting your cargo</strong> from the elements.</p><p>The load bed is perfectly flat with no wheel-arches intrusion and the canopy’s roof is level with the H100’s, resulting in a huge, square, and fully usable space.</p>",
             "text_style": "body"
           }
         },
@@ -56,7 +55,7 @@
           "type": "button",
           "settings": {
             "button_label": "Download Brochure",
-            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0578\/5393\/5787\/files\/Andy_Cab_Hyundai_Brouchure.pdf?v=1713873927"
+            "button_link": "https://cdn.shopify.com/s/files/1/0578/5393/5787/files/Andy_Cab_Hyundai_Brouchure.pdf?v=1713873927"
           }
         }
       },
@@ -66,7 +65,7 @@
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Hyundai-Logo-250x250-150x150-1.webp",
+        "image": "shopify://shop_images/Hyundai-Logo-250x250-150x150-1.webp",
         "spaced-section": true,
         "height": "small",
         "desktop_image_width": "small",
@@ -84,7 +83,7 @@
     "c015bb92-b56f-4920-aafd-3c64f6cc2c7b": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script \n            type=\"text\/javascript\" \n            src=\"https:\/\/cdn.grw.reputon.com\/assets\/widget.js?shop=andycab.myshopify.com\"><\/script>\n<div class=\"reputon-google-reviews-widget\"\n                 data-theme=\"light\"\n                 data-autoscroll=\"true\"\n                 data-show-review-photos=\"true\"\n                 data-write-review=\"true\"\n                 data-type=\"carousel_extended\"\n                 data-position-type=\"regular\"\n                 data-position-vertical=\"bottom\"\n                 data-position-horizontal=\"center\"><\/div>",
+        "custom_liquid": "<script \n            type=\"text/javascript\" \n            src=\"https://cdn.grw.reputon.com/assets/widget.js?shop=andycab.myshopify.com\"></script>\n<div class=\"reputon-google-reviews-widget\"\n                 data-theme=\"light\"\n                 data-autoscroll=\"true\"\n                 data-show-review-photos=\"false\"\n                 data-write-review=\"true\"\n                 data-type=\"carousel_extended\"\n                 data-position-type=\"regular\"\n                 data-position-vertical=\"bottom\"\n                 data-position-horizontal=\"center\"></div>",
         "spaced-section": true,
         "spaced-bottom": true,
         "color_scheme": "",
