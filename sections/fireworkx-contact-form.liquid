@@ -71,6 +71,12 @@
             </select>
           </div>
         </div>
+        <div class="fwx-field-group">
+          <div class="fwx-field">
+            <input class="fwx-input" autocomplete="city" type="text" id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="{{ 'templates.contact.form.name' | t }}">
+            <label class="fwx-label" for="ContactForm-city">City</label>
+          </div>
+        </div>
         <div class="fwx-field">
           <textarea
             rows="10"
