@@ -7,7 +7,7 @@
       {% render 'fireworkx-get-in-touch' %}
     </div>
     <div class="fwx-contact-form contact">
-      <h2 class="title">{{ section.settings.heading | escape }} test</h2>
+      <h2 class="title">{{ section.settings.heading | escape }}</h2>
       {%- form 'contact', id: 'ContactForm' -%}
         {%- if form.posted_successfully? -%}
           <div class="form-status form-status-list form__message" tabindex="-1" autofocus>{% render 'icon-success' %} {{ 'templates.contact.form.post_success' | t }}</div>
