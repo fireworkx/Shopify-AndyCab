@@ -62,13 +62,34 @@
           </div>
           <div class="fwx-field">
             <label class="fwx-label" for="ContactForm-getHelp">How can we help you ?</label>
-            <select class="fwx-input" name="contact[{{ 'templates.contact.form.getHelp' | t }}]" id="ContactForm-getHelp">
+            <select class="fwx-input" name="contact[{{ 'templates.contact.form.getHelp' | t }}]" id="ContactForm-getHelp" required>
                 <option value="" disabled selected></option>
                 <option>Canopy Inquiry</option>
                 <option>Spares & Repairs</option>
                 <option>Canopy Rentals</option>
                 <option>Other </option>
             </select>
+          </div>
+        </div>
+        <div class="fwx-field-group">
+          <div class="fwx-field">
+              <label class="fwx-label" for="ContactForm-province">Province</label>
+              <select class="fwx-input" name="contact[Province]" id="ContactForm-province" required>
+                  <option value="" disabled="" selected=""></option>
+                  <option>Gauteng</option>
+                  <option>Western Cape</option>
+                  <option>Kwazulu-Natal</option>
+                  <option>Eastern Cape</option>
+                  <option>Free State</option>
+                  <option>Northern Cape</option>
+                  <option>Limpopo</option>
+                  <option>Mpumalanga</option>
+                  <option>North West</option>
+              </select>
+            </div>
+            <div class="fwx-field">
+            <input class="fwx-input" autocomplete="city" type="text" id="ContactForm-city" name="contact[City]" value="{% if form.city %}{{ form.city }}{% elsif customer %}{{ customer.city }}{% endif %}" placeholder="City" required>
+            <label class="fwx-label" for="ContactForm-city">City</label>
           </div>
         </div>
         <div class="fwx-field">
