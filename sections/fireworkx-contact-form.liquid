@@ -25,7 +25,7 @@
         {%- endif -%}
         <div class="fwx-field-group">
           <div class="fwx-field">
-            <input class="fwx-input" autocomplete="name" type="text" id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="{{ 'templates.contact.form.name' | t }}">
+            <input class="fwx-input" autocomplete="name" type="text" id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="{{ 'templates.contact.form.name' | t }}" required>
             <label class="fwx-label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
           </div>
           <div class="fwx-field">
@@ -99,6 +99,7 @@
             class="text-area fwx-input fwx-textarea"
             name="contact[{{ 'templates.contact.form.comment' | t }}]"
             placeholder="{{ 'templates.contact.form.comment' | t }}"
+            required
           >
             {{- form.body -}}
           </textarea>
