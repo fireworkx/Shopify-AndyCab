@@ -61,7 +61,7 @@
             <label class="fwx-label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }} *</label>
           </div>
           <div class="fwx-field">
-            <label class="fwx-label" for="ContactForm-getHelp">How can we help you ?</label>
+            <label class="fwx-label" for="ContactForm-getHelp">How can we help you ? *</label>
             <select class="fwx-input" name="contact[{{ 'templates.contact.form.getHelp' | t }}]" id="ContactForm-getHelp" required>
                 <option value="" disabled selected></option>
                 <option>Canopy Inquiry</option>
@@ -89,7 +89,7 @@
             </div>
             <div class="fwx-field">
             <input class="fwx-input" autocomplete="city" type="text" id="ContactForm-city" name="contact[City]" value="{% if form.city %}{{ form.city }}{% elsif customer %}{{ customer.city }}{% endif %}" placeholder="City" required>
-            <label class="fwx-label" for="ContactForm-city">City</label>
+            <label class="fwx-label" for="ContactForm-city">City *</label>
           </div>
         </div>
         <div class="fwx-field">
