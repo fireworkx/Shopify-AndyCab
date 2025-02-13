@@ -120,7 +120,7 @@ const makeEnquiry = {
         City: document.querySelector("#fwx-enquiry-city").value,
         Province: document.querySelector("#fwx-enquiry-province").value,
         Message: document.querySelector("#fwx-enquiry-messsage").value,
-        Type: "ContactMeRequest",
+        Type: document.querySelector("#Type").value,
         Url: window.location.href,
         Make: document.querySelector("#fwx-field-product-dms_make").value,
         Model: document.querySelector("#fwx-field-product-dms_model").value,
