@@ -103,6 +103,40 @@ const makeEnquiry = {
     this.submitButton.disabled = true;
     const formDataJson = JSON.stringify(Object.fromEntries(formData));
 
+     fetch(this.apiV2, {
+      method: "POST",
+      body: JSON.stringify({
+        DealershipIdGuid: "85FA8095-89E4-EF11-A6FD-E0C2643B3DEA",
+        Firstname: document.querySelector('input.fwx-input[name="FirstName"]')
+          .value,
+        Surname: document.querySelector('input.fwx-input[name="Surname"]')
+          .value,
+        EmailAddress: document.querySelector(
+          'input.fwx-input[name="EmailAddress"]'
+        ).value,
+        TelephoneNumber: document.querySelector(
+          'input.fwx-input[name="TelephoneNumber"]'
+        ).value,
+        City: document.querySelector("#fwx-enquiry-city").value,
+        Province: document.querySelector("#fwx-enquiry-province").value,
+        Message: document.querySelector("#fwx-enquiry-messsage").value,
+        Type: "ContactMeRequest",
+        Url: window.location.href,
+        Make: document.querySelector("#fwx-field-product-dms_make").value,
+        Model: document.querySelector("#fwx-field-product-dms_model").value,
+        Specification: document.querySelector(
+          "#fwx-field-product-dms_specification"
+        ).value,
+        VehicleId: document.querySelector("#fwx-field-product-Vehicle_UID")
+          .value,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    })
+      .then((data) => console.log(data))
+      .catch((error) => console.log(error));
+    
     fetch(this.api, {
       method: "POST",
       body: formDataJson,
