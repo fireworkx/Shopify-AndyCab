@@ -537,7 +537,8 @@
   "shopify": {
     "checkout": {
       "shipping": {
-        "delivery_title": "Customer details"
+        "delivery_title": "Customer details",
+        "shipping_method_title": "Fulfilment method"
       }
     }
   }
