@@ -17,7 +17,7 @@ const makeEnquiry = {
   formIsValid: false,
   submitButton: document.querySelector("#fwx-enquiry-submit-button"),
   api: "https://pinewood-api.live.fireworkx.com/api/v1/leadsubmit",
-  apiV2: "https://motify-api.dev.fireworkx.net/V0.1/LeadSubmit",
+  apiV2: "https://motify-api-v2.live.fireworkx.net/v2.0/LeadSubmit",
   initSwiper() {
     // Only init swiper if element exists
     if (document.querySelector(".fwx-enquiry-swiper")) {
@@ -106,7 +106,7 @@ const makeEnquiry = {
      fetch(this.apiV2, {
       method: "POST",
       body: JSON.stringify({
-        DealershipIdGuid: "85FA8095-89E4-EF11-A6FD-E0C2643B3DEA",
+        DealershipIdGuid: "8FA14EBB-58F3-EF11-B1C6-6045BD43800A",
         Firstname: document.querySelector('input.fwx-input[name="FirstName"]')
           .value,
         Surname: document.querySelector('input.fwx-input[name="Surname"]')
