@@ -134,8 +134,30 @@ const makeEnquiry = {
         "Content-Type": "application/json",
       },
     })
-      .then((data) => console.log(data))
-      .catch((error) => console.log(error));
+    .catch((error) => {
+      if ((this.formIsValid = false)) {
+        this.submitButton.disabled = false;
+        // Error message
+        document.querySelector(".error-message-container").style.display =
+          "flex";
+      }
+      console.error("Error:", error);
+    })
+    .then((response) => {
+      if (response.status !== 200) {
+        if ((this.formIsValid = false)) {
+          this.submitButton.disabled = false;
+          document.querySelector(".error-message-container").style.display =
+            "flex";
+        }
+      }
+      if (response.status == 200) {
+        // window.dataLayer.push({ event_name: "enquiry_submit" });
+        this.closeModal();
+        this.submitButton.disabled = false;
+        this.formIsValid = false;
+      }
+    });
     
     fetch(this.api, {
       method: "POST",
@@ -144,30 +166,8 @@ const makeEnquiry = {
         "Content-Type": "application/json",
       },
     })
-      .catch((error) => {
-        if ((this.formIsValid = false)) {
-          this.submitButton.disabled = false;
-          // Error message
-          document.querySelector(".error-message-container").style.display =
-            "flex";
-        }
-        console.error("Error:", error);
-      })
-      .then((response) => {
-        if (response.status !== 200) {
-          if ((this.formIsValid = false)) {
-            this.submitButton.disabled = false;
-            document.querySelector(".error-message-container").style.display =
-              "flex";
-          }
-        }
-        if (response.status == 200) {
-          // window.dataLayer.push({ event_name: "enquiry_submit" });
-          this.closeModal();
-          this.submitButton.disabled = false;
-          this.formIsValid = false;
-        }
-      });
+    .then((data) => console.log(data))
+    .catch((error) => console.log(error));
   },
 };
 
