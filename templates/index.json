@@ -1,18 +1,18 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "fireworkx_image_banner_PQUbUG": {
       "type": "fireworkx-image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Andy_Cab_Home_Screen_Image_1.webp",
+        "image": "shopify://shop_images/Andy_Cab_Home_Screen_Image_1.webp",
         "heading": "Locally manufactured and hand-made canopies made with high-quality internationally recognized components.",
         "color_scheme": ""
       }
@@ -91,6 +91,12 @@
           "settings": {
             "collection": "mazda-canopies"
           }
+        },
+        "featured_collection_aqaa3Q": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "foton-canopies"
+          }
         }
       },
       "block_order": [
@@ -105,7 +111,8 @@
         "featured_collection_cPVUY6",
         "featured_collection_4nKyzr",
         "featured_collection_hH6XPh",
-        "featured_collection_aYJUPr"
+        "featured_collection_aYJUPr",
+        "featured_collection_aqaa3Q"
       ],
       "settings": {
         "title": "Our Canopy Range",
@@ -120,7 +127,7 @@
       "settings": {
         "textbox": "Find a Fitment Centre",
         "text": "With over 20 Andy Cab fitment centres across Southern Africa, you will find high-quality canopies for sale or on special from our Head Office in Cape Town – all the way to our fitment centres in Namibia and Zimbabwe.",
-        "link": "shopify:\/\/pages\/fitment-centres",
+        "link": "shopify://pages/fitment-centres",
         "linktext": "Click here"
       }
     },
@@ -128,20 +135,19 @@
       "type": "fireworkx-grid-products",
       "settings": {
         "title": "Accessories",
-        "link": "shopify:\/\/collections\/accessories",
+        "link": "shopify://collections/accessories",
         "linktext": "View All Accessories"
       }
     },
     "fireworkx_quote_slider_KEqR7R": {
       "type": "fireworkx-quote-slider",
-      "settings": {
-      }
+      "settings": {}
     },
     "fireworkx_why_choose_andycab_home_cQd3GJ": {
       "type": "fireworkx-why-choose-andycab-home",
       "settings": {
-        "why_choose_andy_cab_thumbnail": "shopify:\/\/shop_images\/AndyCab-YouTube-What-We-Do-Thumbnail.jpg",
-        "image_link": "https:\/\/andycab.co.za\/pages\/about-us#:~:text=Leave%20a%20Review-,Why%20choose%20AndyCab%3F,-With%20over%2020"
+        "why_choose_andy_cab_thumbnail": "shopify://shop_images/AndyCab-YouTube-What-We-Do-Thumbnail.jpg",
+        "image_link": "https://andycab.co.za/pages/about-us#:~:text=Leave%20a%20Review-,Why%20choose%20AndyCab%3F,-With%20over%2020"
       }
     }
   },
