@@ -3,6 +3,13 @@
   class="section-{{ section.id }}-padding fwx-main-product"
   data-section="{{ section.id }}"
 >
+  <script src="https://embed.payjustnow.com/product/js/product.js" defer></script>
+  <script>
+    console.log({{ product.price }})
+    function onLoad() {
+      setPJNProductAmounts( {{ product.price }} , 3);
+    }
+  </script>
   <div class="page-width">
     {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
     {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
@@ -624,14 +631,6 @@
       }
     </script>
   </div>     
-
-  <script src="https://embed.payjustnow.com/product/js/product.js" defer></script>
-  <script>
-    console.log({{ product.price }})
-    function onLoad() {
-      setPJNProductAmounts( {{ product.price }} , 3);
-    }
-  </script>
 
   <div class="product-related-container">
     <div class="globoRecommendationsBottom"></div>      
