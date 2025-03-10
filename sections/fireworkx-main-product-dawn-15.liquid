@@ -56,6 +56,15 @@
         onload="this.media='all'"
       >
     {%- endif -%}
+
+    <style>
+      .pjn-infolink {
+        display: table;
+      }
+      .pjn-container .pjn-text {
+        display: block;
+      }
+    </style>
  
     {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
 
