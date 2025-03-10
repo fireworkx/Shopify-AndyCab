@@ -3,13 +3,6 @@
   class="section-{{ section.id }}-padding fwx-main-product"
   data-section="{{ section.id }}"
 >
-  <script src="https://embed.payjustnow.com/product/js/product.js" defer></script>
-  <script>
-    console.log({{ product.price }})
-    function onLoad() {
-      setPJNProductAmounts( {{ product.price }} , 3);
-    }
-  </script>
   <div class="page-width">
     {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
     {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
@@ -84,8 +77,7 @@
           
           <div class="card">
 
-            <div id="pjn-product-container"></div>
-            
+          
             <product-info
               id="ProductInfo-{{ section.id }}"
               data-section="{{ section.id }}" 
@@ -123,6 +115,8 @@
                       price_class: 'price--large'
                     -%}
                   </div>
+
+                  <div id="pjn-product-container"></div>
 
                   {%- if product.type != "Used Canopy" -%}
                     <p class="product__text inline-richtext">
