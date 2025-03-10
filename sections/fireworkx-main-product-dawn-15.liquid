@@ -627,8 +627,8 @@
 
   <script src="https://embed.payjustnow.com/product/js/product.js" defer></script>
   <script>
-    console.log()
-    function onLoad({{ product.price }}) {
+    console.log({{ product.price }})
+    function onLoad() {
       setPJNProductAmounts( {{ product.price }} , 3);
     }
   </script>
