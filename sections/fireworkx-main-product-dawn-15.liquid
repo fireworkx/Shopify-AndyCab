@@ -71,6 +71,10 @@
         width: unset;
         max-width: unset;
       }
+
+      .pjn-container .pjn-text p {
+        white-space: normal !important;
+      }
     </style>
  
     {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
