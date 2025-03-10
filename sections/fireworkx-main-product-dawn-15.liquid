@@ -56,6 +56,15 @@
         onload="this.media='all'"
       >
     {%- endif -%}
+
+    <style>
+      .pjn-infolink {
+        display: table;
+      }
+      .pjn-container .pjn-text {
+        display: block;
+      }
+    </style>
  
     {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
 
@@ -64,7 +73,12 @@
         {% render 'product-media-gallery', variant_images: variant_images %}
       </div>
       <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding {% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          
+          
           <div class="card">
+
+            <div id="pjn-product-container"></div>
+            
             <product-info
               id="ProductInfo-{{ section.id }}"
               data-section="{{ section.id }}" 
@@ -610,6 +624,13 @@
       }
     </script>
   </div>     
+
+  <script src="https://embed.payjustnow.com/product/js/product.js" defer></script>
+  <script>
+    function onLoad() {
+      setPJNProductAmounts( {{ product.price }} , 3);
+    }
+  </script>
 
   <div class="product-related-container">
     <div class="globoRecommendationsBottom"></div>      
