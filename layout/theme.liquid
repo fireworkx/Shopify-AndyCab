@@ -311,6 +311,12 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+
+    <script src="https://embed.payjustnow.com/product/js/product.js"></script>
+    <script>
+    function onLoad() {
+    setPJNProductAmounts( {{ product.price }} , 3);
+    }
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}" onload="onLoad()">
