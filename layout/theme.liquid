@@ -314,13 +314,13 @@
     
     {% comment %}
       Pay just now script
-    {% endcomment %}
     <script src="https://embed.payjustnow.com/product/js/product.js" defer></script>
     <script>
       function onLoad() {
         setPJNProductAmounts( {{ product.price }} , 3);
       }
     </script>
+    {% endcomment %}
     
   </head>
 
