@@ -75,6 +75,10 @@
       .pjn-container .pjn-text p {
         white-space: normal !important;
       }
+
+      .pjn-container .pjn-inner {
+        grid-template-columns: 1fr !important;
+      }
     </style>
  
     {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
