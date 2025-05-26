@@ -57,38 +57,29 @@
       >
     {%- endif -%}
 
-<style>
-  .pjn-infolink {
-    display: table;
-  }
+    <style>
+      .pjn-infolink {
+        display: table;
+      }
+      .pjn-container .pjn-text {
+        display: block !important;
+      }
 
-  .pjn-container .pjn-text {
-    display: block !important;
-  }
-
-  .pjn-container .pjn-logo svg {
-    max-height: unset;
-    height: 30px !important;
-    width: unset;
-    max-width: unset;
-  }
-
-  .pjn-container .pjn-inner {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 5px;
-  }
-
-  @media screen and (max-width: 1200px) {
-    .pjn-container .pjn-inner {
-      grid-template-columns: 1fr !important; /* redundant now if you're using flexbox */
-    }
-    .pjn-container .pjn-text p {
-      white-space: normal !important;
-    }
-  }
-</style>
+      .pjn-container .pjn-logo svg {
+        max-height: unset;
+        height: 30px !important;
+        width: unset;
+        max-width: unset;
+      }
+      @media screen and (max-width: 1200px) {
+        .pjn-container .pjn-inner {
+          grid-template-columns: 1fr !important;
+        }
+        .pjn-container .pjn-text p {
+          white-space: normal !important;
+        }
+      }
+    </style>
  
     {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
 
