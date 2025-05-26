@@ -92,6 +92,10 @@
       white-space: normal !important;
     }
   }
+  .pjn-container .pjn-text,
+.pjn-container .pjn-text * {
+  font-size: 15px !important;
+}
 </style>
  
     {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
