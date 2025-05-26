@@ -57,31 +57,42 @@
       >
     {%- endif -%}
 
-    <style>
-      .pjn-infolink {
-        display: table;
-      }
-      .pjn-container .pjn-text {
-        display: block !important;
-      }
+<style>
+  .pjn-infolink {
+    display: table;
+  }
 
-      .pjn-container .pjn-logo svg {
-        max-height: unset;
-        height: 30px !important;
-        width: unset;
-        max-width: unset;
-      }
+  .pjn-container .pjn-text {
+    display: block !important;
+  }
 
-      
-      @media screen and (max-width: 1200px) {
-        .pjn-container .pjn-inner {
-          grid-template-columns: 1fr !important;
-        }
-        .pjn-container .pjn-text p {
-          white-space: normal !important;
-        }
-      }
-    </style>
+  .pjn-container .pjn-logo {
+    display: block !important;
+    margin-bottom: 5px; /* adds spacing below logo */
+  }
+
+  .pjn-container .pjn-logo svg {
+    max-height: unset;
+    height: 30px !important;
+    width: unset;
+    max-width: unset;
+  }
+
+  .pjn-container .pjn-inner {
+    display: block !important; /* force it into block layout */
+  }
+
+  .pjn-container .pjn-text,
+  .pjn-container .pjn-logo {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 1200px) {
+    .pjn-container .pjn-text p {
+      white-space: normal !important;
+    }
+  }
+</style>
  
     {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
 
