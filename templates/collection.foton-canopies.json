@@ -12,7 +12,7 @@
     "banner": {
       "type": "fireworkx-collection-hero",
       "settings": {
-        "collection_hero_image": "shopify://shop_images/hero-ford-canopies.png"
+        "collection_hero_image": "shopify://shop_images/hero-foton-canopies.png"
       }
     },
     "product-grid": {
@@ -40,19 +40,20 @@
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-0": {
           "type": "heading",
           "settings": {
-            "heading": "Ford Canopies",
+            "heading": "Foton Canopies",
             "heading_size": "h2"
           }
         },
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Andy Cab has a wide range of <strong>Ford Canopies</strong> to fit your <strong>Ford Double Cab</strong>, <strong>Super Cab</strong> and <strong>Ford Single Cab</strong> Bakkie.</p><p>We’re able to manufacture and distribute high quality canopies for any of your <strong>Ford Ranger</strong> vehicles, whether it be for leisure or business.</p>",
+            "text": "<p>At Andy Cab Canopies, we design and manufacture high-quality, durable canopies that perfectly complement Foton’s rugged and versatile vehicles.<br/><br/>Whether you drive a Tunland G7 Double Cab or Single Cab Bakkie, our expertly crafted canopies provide enhanced security, weather protection, and functionality for both work and adventure.</p>",
             "text_style": "body"
           }
         },
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Download Brochure",
             "button_link": "https://cdn.shopify.com/s/files/1/0578/5393/5787/files/Andy_Cab_Ford_Brochure_2024.pdf?v=1714033231"
@@ -65,7 +66,7 @@
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2"
       ],
       "settings": {
-        "image": "shopify://shop_images/ford-collection-logo.png",
+        "image": "shopify://shop_images/foton-collection-logo.png",
         "spaced-section": true,
         "height": "small",
         "desktop_image_width": "small",
