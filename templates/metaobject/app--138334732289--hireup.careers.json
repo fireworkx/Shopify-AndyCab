@@ -1,0 +1,31 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hireup-section-3695a894-4361-49f7-ae2e-ae190fd6f7ae": {
+      "type": "apps",
+      "blocks": {
+        "hireup-block-e1cc259c-d3f7-436d-814d-d8e7a906a847": {
+          "type": "shopify://apps/hireup/blocks/careers/3cb123ce-3518-44ed-a036-ac74e405bc76",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "hireup-block-e1cc259c-d3f7-436d-814d-d8e7a906a847"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "hireup-section-3695a894-4361-49f7-ae2e-ae190fd6f7ae"
+  ]
+}
