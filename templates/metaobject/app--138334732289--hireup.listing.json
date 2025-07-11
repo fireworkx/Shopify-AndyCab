@@ -9,6 +9,58 @@
  */
 {
   "sections": {
+    "image_banner_WTdMF9": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_XTyg87": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_eiH7zz": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_hzQqL4": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XTyg87",
+        "text_eiH7zz",
+        "buttons_hzQqL4"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/AndyCabIsuzu6GDoubleCabPlatinumBlueRear_b217c65a-8b2d-4106-9cb6-ce3c6f7658fd.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "hireup-section-c2d47401-e7b0-4c2f-b8dd-bb8b83d17b86": {
       "type": "apps",
       "blocks": {
@@ -26,6 +78,7 @@
     }
   },
   "order": [
+    "image_banner_WTdMF9",
     "hireup-section-c2d47401-e7b0-4c2f-b8dd-bb8b83d17b86"
   ]
 }
