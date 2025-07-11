@@ -9,6 +9,56 @@
  */
 {
   "sections": {
+    "image_banner_8tnPw4": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_WxPEaQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Careers at Andy Cab",
+            "heading_size": "h2"
+          }
+        },
+        "text_pxC8gy": {
+          "type": "text",
+          "settings": {
+            "text": "At Andy Cab, we don’t just build canopies - we build careers. As a trusted leader in the automotive accessories industry, we’re always looking for driven, hands-on individuals to join our team. Whether you’re passionate about sales, skilled in manufacturing, or eager to grow within a dynamic company, Andy Cab offers a supportive environment where your potential can thrive. Browse our current vacancies below and take the next step in your career with us.",
+            "text_style": "body"
+          }
+        },
+        "buttons_dDgT6C": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_WxPEaQ",
+        "text_pxC8gy",
+        "buttons_dDgT6C"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/about-us-page-slider-image-1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "hireup-section-3695a894-4361-49f7-ae2e-ae190fd6f7ae": {
       "type": "apps",
       "blocks": {
@@ -26,6 +76,7 @@
     }
   },
   "order": [
+    "image_banner_8tnPw4",
     "hireup-section-3695a894-4361-49f7-ae2e-ae190fd6f7ae"
   ]
 }
