@@ -75,10 +75,16 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "fireworkx_why_choose_andycab_ELd8nR": {
+      "type": "fireworkx-why-choose-andycab",
+      "name": "Fireworkx Why AndyCab",
+      "settings": {}
     }
   },
   "order": [
     "image_banner_WTdMF9",
-    "hireup-section-c2d47401-e7b0-4c2f-b8dd-bb8b83d17b86"
+    "hireup-section-c2d47401-e7b0-4c2f-b8dd-bb8b83d17b86",
+    "fireworkx_why_choose_andycab_ELd8nR"
   ]
 }
