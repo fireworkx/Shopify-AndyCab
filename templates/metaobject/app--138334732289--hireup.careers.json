@@ -19,12 +19,6 @@
             "heading_size": "hxxl"
           }
         },
-        "text_zj7HTF": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
         "button_njddYA": {
           "type": "button",
           "settings": {
@@ -39,7 +33,6 @@
       },
       "block_order": [
         "heading_WU6kX6",
-        "text_zj7HTF",
         "button_njddYA"
       ],
       "name": "t:sections.rich-text.presets.name",
@@ -50,6 +43,23 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "fireworkx_about_us_slider_KdBdJg": {
+      "type": "fireworkx-about-us-slider",
+      "blocks": {
+        "column_RCyHGi": {
+          "type": "column",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "column_RCyHGi"
+      ],
+      "name": "Fireworkx About us Slider",
+      "settings": {
+        "heading": "Careers at Andy Cab",
+        "description": "<p>At Andy Cab, we don’t just build canopies - we build careers. As a trusted leader in the automotive accessories industry, we’re always looking for driven, hands-on individuals to join our team. Whether you’re passionate about sales, skilled in manufacturing, or eager to grow within a dynamic company, Andy Cab offers a supportive environment where your potential can thrive. </p><p>Browse our current vacancies below and take the next step in your career with us.</p>"
       }
     },
     "image_banner_8tnPw4": {
@@ -120,6 +130,7 @@
   },
   "order": [
     "rich_text_aAeqWH",
+    "fireworkx_about_us_slider_KdBdJg",
     "image_banner_8tnPw4",
     "hireup-section-3695a894-4361-49f7-ae2e-ae190fd6f7ae"
   ]
