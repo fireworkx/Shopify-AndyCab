@@ -9,56 +9,49 @@
  */
 {
   "sections": {
-    "image_banner_WTdMF9": {
-      "type": "image-banner",
+    "rich_text_FL34PV": {
+      "type": "rich-text",
       "blocks": {
-        "heading_XTyg87": {
+        "heading_xtTBVg": {
           "type": "heading",
-          "disabled": true,
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
+            "heading": "Open Position",
+            "heading_size": "hxxl"
           }
         },
-        "text_eiH7zz": {
+        "text_ngW67t": {
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         },
-        "buttons_hzQqL4": {
-          "type": "buttons",
+        "button_BFNhdk": {
+          "type": "button",
           "disabled": true,
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_XTyg87",
-        "text_eiH7zz",
-        "buttons_hzQqL4"
+        "heading_xtTBVg",
+        "text_ngW67t",
+        "button_BFNhdk"
       ],
-      "name": "t:sections.image-banner.presets.name",
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/AndyCabIsuzu6GDoubleCabPlatinumBlueRear_b217c65a-8b2d-4106-9cb6-ce3c6f7658fd.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "hireup-section-c2d47401-e7b0-4c2f-b8dd-bb8b83d17b86": {
@@ -75,11 +68,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "fireworkx_why_choose_andycab_ELd8nR": {
-      "type": "fireworkx-why-choose-andycab",
-      "name": "Fireworkx Why AndyCab",
-      "settings": {}
     },
     "rich_text_dBEGQA": {
       "type": "rich-text",
@@ -123,10 +111,15 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "fireworkx_why_choose_andycab_ELd8nR": {
+      "type": "fireworkx-why-choose-andycab",
+      "name": "Fireworkx Why AndyCab",
+      "settings": {}
     }
   },
   "order": [
-    "image_banner_WTdMF9",
+    "rich_text_FL34PV",
     "hireup-section-c2d47401-e7b0-4c2f-b8dd-bb8b83d17b86",
     "rich_text_dBEGQA",
     "fireworkx_why_choose_andycab_ELd8nR"
