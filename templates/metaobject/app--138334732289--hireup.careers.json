@@ -9,6 +9,49 @@
  */
 {
   "sections": {
+    "rich_text_aAeqWH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WU6kX6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Careers",
+            "heading_size": "hxl"
+          }
+        },
+        "text_zj7HTF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_njddYA": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_WU6kX6",
+        "text_zj7HTF",
+        "button_njddYA"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-5",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image_banner_8tnPw4": {
       "type": "image-banner",
       "blocks": {
@@ -73,54 +116,11 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "rich_text_aAeqWH": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_WU6kX6": {
-          "type": "heading",
-          "settings": {
-            "heading": "Careers",
-            "heading_size": "hxl"
-          }
-        },
-        "text_zj7HTF": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_njddYA": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_WU6kX6",
-        "text_zj7HTF",
-        "button_njddYA"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "scheme-5",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
+    "rich_text_aAeqWH",
     "image_banner_8tnPw4",
-    "hireup-section-3695a894-4361-49f7-ae2e-ae190fd6f7ae",
-    "rich_text_aAeqWH"
+    "hireup-section-3695a894-4361-49f7-ae2e-ae190fd6f7ae"
   ]
 }
