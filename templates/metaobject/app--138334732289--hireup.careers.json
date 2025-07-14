@@ -45,21 +45,6 @@
         "padding_bottom": 52
       }
     },
-    "hireup-section-3695a894-4361-49f7-ae2e-ae190fd6f7ae": {
-      "type": "apps",
-      "blocks": {
-        "hireup-block-e1cc259c-d3f7-436d-814d-d8e7a906a847": {
-          "type": "shopify://apps/hireup/blocks/careers/3cb123ce-3518-44ed-a036-ac74e405bc76",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "hireup-block-e1cc259c-d3f7-436d-814d-d8e7a906a847"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "fireworkx_image_with_text_yVyaYD": {
       "type": "fireworkx-image-with-text",
       "blocks": {
@@ -67,7 +52,7 @@
           "type": "heading",
           "settings": {
             "heading": "Careers at Andy Cab",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_kRgAXw": {
@@ -104,6 +89,21 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "hireup-section-3695a894-4361-49f7-ae2e-ae190fd6f7ae": {
+      "type": "apps",
+      "blocks": {
+        "hireup-block-e1cc259c-d3f7-436d-814d-d8e7a906a847": {
+          "type": "shopify://apps/hireup/blocks/careers/3cb123ce-3518-44ed-a036-ac74e405bc76",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "hireup-block-e1cc259c-d3f7-436d-814d-d8e7a906a847"
+      ],
+      "settings": {
+        "include_margins": true
       }
     }
   },
