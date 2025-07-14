@@ -65,7 +65,7 @@
       "settings": {
         "title": "Careers at Andy Cab",
         "heading_size": "h1",
-        "image_width": "full",
+        "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 1,
         "column_alignment": "left",
