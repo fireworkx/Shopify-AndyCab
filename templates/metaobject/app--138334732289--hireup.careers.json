@@ -93,11 +93,58 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "fireworkx_image_with_text_yVyaYD": {
+      "type": "fireworkx-image-with-text",
+      "blocks": {
+        "heading_xaNNFV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Careers at Andy Cab",
+            "heading_size": "h1"
+          }
+        },
+        "text_kRgAXw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Andy Cab, we don’t just build canopies - we build careers.<br/><br/>As a trusted leader in the automotive accessories industry, we’re always looking for driven, hands-on individuals to join our team.<br/><br/>Whether you’re passionate about sales, skilled in manufacturing, or eager to grow within a dynamic company, Andy Cab offers a supportive environment where your potential can thrive.<br/><br/>Browse our current vacancies below and take the next step in your career with us.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_JqAPjr": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_xaNNFV",
+        "text_kRgAXw",
+        "button_JqAPjr"
+      ],
+      "name": "Fireworks Image With Text",
+      "settings": {
+        "spaced-section": false,
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "rich_text_aAeqWH",
     "multicolumn_kjbEKt",
-    "hireup-section-3695a894-4361-49f7-ae2e-ae190fd6f7ae"
+    "hireup-section-3695a894-4361-49f7-ae2e-ae190fd6f7ae",
+    "fireworkx_image_with_text_yVyaYD"
   ]
 }
