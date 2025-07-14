@@ -76,11 +76,55 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "rich_text_nirqi3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_p68NmK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_y7qLwD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Andy Cab, we don’t just build canopies - we build careers. </p><p>As a trusted leader in the automotive accessories industry, we’re always looking for driven, hands-on individuals to join our team. </p><p>Whether you’re passionate about sales, skilled in manufacturing, or eager to grow within a dynamic company, Andy Cab offers a supportive environment where your potential can thrive. </p><p>Browse our current vacancies below and take the next step in your career with us.</p>"
+          }
+        },
+        "button_JycRzm": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_p68NmK",
+        "text_y7qLwD",
+        "button_JycRzm"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "rich_text_aAeqWH",
     "fireworkx_about_us_slider_KdBdJg",
-    "hireup-section-3695a894-4361-49f7-ae2e-ae190fd6f7ae"
+    "hireup-section-3695a894-4361-49f7-ae2e-ae190fd6f7ae",
+    "rich_text_nirqi3"
   ]
 }
