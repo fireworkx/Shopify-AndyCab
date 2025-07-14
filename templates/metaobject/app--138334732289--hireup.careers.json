@@ -79,10 +79,10 @@
       ],
       "name": "Fireworks Image With Text",
       "settings": {
-        "image": "shopify://shop_images/AndyCab-logo_fce4ddb0-3978-4c39-bf52-1306b798ce71.jpg",
+        "image": "shopify://shop_images/image01_0e2054b4-cdae-4418-b79e-855256483a9e.jpg",
         "spaced-section": false,
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
