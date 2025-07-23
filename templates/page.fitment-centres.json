@@ -39,7 +39,7 @@
           "type": "fitment_centre",
           "settings": {
             "title": "Rhino Sandton",
-            "address": "<p>20 5th St, Wynberg</p><p>Sandton</p>",
+            "address": "<p>20 5th St, Wynberg</p><p>Sandton</p><p><a href=\"https://rhinosandton.co.za/\" target=\"_blank\" title=\"https://rhinosandton.co.za/\">rhinosandton.co.za</a></p>",
             "email": "",
             "phone": ""
           }
@@ -48,7 +48,7 @@
           "type": "fitment_centre",
           "settings": {
             "title": "Autoden",
-            "address": "<p>3 Lenin Street, Raceview</p><p>Alberton</p>",
+            "address": "<p>3 Lenin Street, Raceview</p><p>Alberton</p><p><a href=\"https://www.autoden.net/\" target=\"_blank\" title=\"https://www.autoden.net/\">autoden.net</a></p>",
             "email": "",
             "phone": ""
           }
@@ -75,7 +75,7 @@
           "type": "fitment_centre",
           "settings": {
             "title": "West Side Car Audio",
-            "address": "<p>42 Luipaard Street</p><p>Krugersdorp</p>",
+            "address": "<p>42 Luipaard Street</p><p>Krugersdorp</p><p><a href=\"https://westsidecaraudio.co.za/\" target=\"_blank\" title=\"https://westsidecaraudio.co.za/\">westsidecaraudio.co.za</a></p>",
             "email": "",
             "phone": ""
           }
@@ -429,7 +429,7 @@
           "type": "fitment_centre",
           "settings": {
             "title": "Airite Canopies",
-            "address": "<p>5 Calvin Street, Southern Industrial</p>",
+            "address": "<p>5 Calvin Street, Southern Industrial</p><p><a href=\"https://airitecanopies.com/\" target=\"_blank\" title=\"https://airitecanopies.com/\">airitecanopies.com</a></p>",
             "email": "",
             "phone": ""
           }
@@ -458,7 +458,7 @@
           "type": "fitment_centre",
           "settings": {
             "title": "Accessories FC Harare",
-            "address": "<p>100 McChlery Avenue,Eastlea</p><p>afc.co.zw</p>",
+            "address": "<p>100 McChlery Avenue,Eastlea</p><p><a href=\"https://afc.co.zw/\" target=\"_blank\" title=\"https://afc.co.zw/\">afc.co.zw</a></p>",
             "email": "",
             "phone": ""
           }
