@@ -215,7 +215,7 @@
           "type": "fitment_centre",
           "settings": {
             "title": "National Fitment Solutions",
-            "address": "<p>82 Jan Van Riebeeck Drive</p><p>Paarl </p>",
+            "address": "<p>82 Jan Van Riebeeck Drive</p><p>Paarl</p><p><a href=\"https://nfswc.co.za/\" target=\"_blank\" title=\"https://nfswc.co.za/\">nfswc.co.za</a></p>",
             "email": "",
             "phone": ""
           }
@@ -243,7 +243,7 @@
           "type": "fitment_centre",
           "settings": {
             "title": "Rhino Linings George",
-            "address": "<p>1 Rand St, George Industria,</p><p>George</p>",
+            "address": "<p>1 Rand St, George Industria,</p><p>George</p><p><a href=\"https://www.rhinolinings.co.za/store/rhino-linings-george/\" target=\"_blank\" title=\"https://www.rhinolinings.co.za/store/rhino-linings-george/\">rhinolinings.co.za</a></p>",
             "email": "",
             "phone": ""
           }
@@ -298,7 +298,7 @@
           "type": "fitment_centre",
           "settings": {
             "title": "Karoo 4x4",
-            "address": "<p>40-42 College Road</p><p>Graaff-Reinet</p>",
+            "address": "<p>40-42 College Road</p><p>Graaff-Reinet</p><p><a href=\"http://www.karoo4x4.co.za/\" target=\"_blank\" title=\"http://www.karoo4x4.co.za/\">karoo4x4.co.za</a></p>",
             "email": "",
             "phone": ""
           }
@@ -397,7 +397,7 @@
           "type": "fitment_centre",
           "settings": {
             "title": "Jooste 4x4 Fitment Centre",
-            "address": "<p>13 Ceramic Curve, Alton, Richards Bay</p>",
+            "address": "<p>13 Ceramic Curve, Alton</p><p>Richards Bay</p><p><a href=\"https://www.jooste4x4.co.za/\" target=\"_blank\" title=\"https://www.jooste4x4.co.za/\">jooste4x4.co.za</a></p>",
             "email": "",
             "phone": ""
           }
