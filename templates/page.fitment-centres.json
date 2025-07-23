@@ -66,7 +66,7 @@
           "type": "fitment_centre",
           "settings": {
             "title": "Protect a Car",
-            "address": "<p>Unit B6, 5Star Junction</p><p>Cnr of juice Street and Beyers<br/>Naude Drive, Honeydew       </p><p>Roodepoort                           </p>",
+            "address": "<p>Unit B6, 5Star Junction</p><p>Cnr of juice Street and Beyers<br/>Naude Drive, Honeydew       </p><p>Roodepoort</p><p><a href=\"https://www.protectacar.co.za/\" target=\"_blank\" title=\"https://www.protectacar.co.za/\">protectacar.co.za</a></p>",
             "email": "",
             "phone": ""
           }
@@ -170,7 +170,7 @@
           "type": "fitment_centre",
           "settings": {
             "title": "NC Audio & 4x4",
-            "address": "<p>83A Long Street </p><p>Kimberley</p>",
+            "address": "<p>83A Long Street </p><p>Kimberley</p><p><a href=\"https://www.ncaudio4x4.co.za/\" target=\"_blank\" title=\"https://www.ncaudio4x4.co.za/\">ncaudio4x4.co.za</a></p>",
             "email": "",
             "phone": ""
           }
@@ -309,7 +309,7 @@
           "type": "fitment_centre",
           "settings": {
             "title": "NJH",
-            "address": "<p>Unit 1.4 Arcadia Park, Commercial Road</p><p>East London</p>",
+            "address": "<p>Unit 1.4 Arcadia Park, Commercial Road</p><p>East London</p><p><a href=\"http://www.njhafrica.co.za/\" target=\"_blank\" title=\"http://www.njhafrica.co.za/\">njhafrica.co.za</a></p>",
             "email": "",
             "phone": ""
           }
@@ -318,7 +318,7 @@
           "type": "fitment_centre",
           "settings": {
             "title": "Rhino Linings PE",
-            "address": "<p>11 Hancock Street North End</p><p>Port Elizabeth</p>",
+            "address": "<p>11 Hancock Street North End</p><p>Port Elizabeth</p><p><a href=\"https://rhinoliningspe.co.za/\" target=\"_blank\" title=\"https://rhinoliningspe.co.za/\">rhinoliningspe.co.za</a></p>",
             "email": "",
             "phone": ""
           }
@@ -506,7 +506,7 @@
           "type": "fitment_centre",
           "settings": {
             "title": "Gaborone Canopy Fitment Centre",
-            "address": "<p>Plot 22021, Gaborone West </p><p>Industrial,Gaborone, Botswana</p>",
+            "address": "<p>Plot 22021, Gaborone West </p><p>Industrial,Gaborone, Botswana</p><p><a href=\"https://www.hirange.co.bw/\" target=\"_blank\" title=\"https://www.hirange.co.bw/\">hirange.co.bw</a></p>",
             "email": "",
             "phone": ""
           }
