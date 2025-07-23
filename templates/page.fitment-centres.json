@@ -82,20 +82,18 @@
         },
         "8144286f-130e-4a2a-b92d-6378cf6b5262": {
           "type": "fitment_centre",
-          "disabled": true,
           "settings": {
-            "title": "Cam Glasveselwerke (Pty) Ltd",
-            "address": "<p>Telford Street Duncanville</p><p>Vereeniging</p>",
+            "title": "Motorshield",
+            "address": "<p>244 Beyers Naude Drive</p><p>Northcliff</p><p><a href=\"https://mshield.co.za/\" target=\"_blank\" title=\"https://mshield.co.za/\">mshield.co.za</a></p>",
             "email": "",
             "phone": ""
           }
         },
         "18a1df32-abf6-4383-84fc-dfed17a7349a": {
           "type": "fitment_centre",
-          "disabled": true,
           "settings": {
             "title": "Z Customs",
-            "address": "<p>Unit 32 N12 Industrial Park</p><p>Boksburg</p>",
+            "address": "<p>Unit 32 N12 Industrial Park</p><p>Boksburg</p><p><a href=\"https://zcustoms.co.za/\" target=\"_blank\" title=\"https://zcustoms.co.za/\">zcustoms.co.za</a></p>",
             "email": "",
             "phone": ""
           }
@@ -356,10 +354,9 @@
         },
         "d8c80ce8-3864-4aaf-a7c9-5b8a8d30a8c7": {
           "type": "fitment_centre",
-          "disabled": true,
           "settings": {
-            "title": "Canopy Zone",
-            "address": "<p>65 Steve Bantu Biko Street  Extension 16</p><p>Witbank </p>",
+            "title": "Dynamic Shield",
+            "address": "<p>7 Mystic River Crescent, Riverside Auto Centre</p><p>Nelspruit</p><p><a href=\"https://www.dynamicshield.co.za/\" target=\"_blank\" title=\"https://www.dynamicshield.co.za/\">dynamicshield.co.za</a></p>",
             "email": "",
             "phone": ""
           }
