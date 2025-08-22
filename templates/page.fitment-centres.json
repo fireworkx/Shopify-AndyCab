@@ -29,8 +29,8 @@
         "d858f70b-264e-409d-a320-00a40c148f35": {
           "type": "fitment_centre",
           "settings": {
-            "title": "Andy Cab Distribution Centre",
-            "address": "<p>6 Firefly Street, Rhodesfield, </p><p>Kempton Park</p>",
+            "title": "Andy Cab Kempton Park",
+            "address": "<p>6 Firefly Street, Rhodesfield, Kempton Park</p><p>Johannesburg </p>",
             "email": "",
             "phone": ""
           }
@@ -40,15 +40,6 @@
           "settings": {
             "title": "Rhino Sandton",
             "address": "<p>20 5th St, Wynberg</p><p>Sandton</p><p><a href=\"https://rhinosandton.co.za/\" target=\"_blank\" title=\"https://rhinosandton.co.za/\">rhinosandton.co.za</a></p>",
-            "email": "",
-            "phone": ""
-          }
-        },
-        "c3061f97-dbf1-42ef-87c6-b9cf4eec04d5": {
-          "type": "fitment_centre",
-          "settings": {
-            "title": "Autoden",
-            "address": "<p>3 Lenin Street, Raceview</p><p>Alberton</p><p><a href=\"https://www.autoden.net/\" target=\"_blank\" title=\"https://www.autoden.net/\">autoden.net</a></p>",
             "email": "",
             "phone": ""
           }
@@ -103,7 +94,6 @@
         "0fdfed14-6941-4273-8343-eabc95e2e914",
         "d858f70b-264e-409d-a320-00a40c148f35",
         "0273415e-a449-4226-808b-838594595ff5",
-        "c3061f97-dbf1-42ef-87c6-b9cf4eec04d5",
         "aae99d3a-615c-4fd9-9008-9ebd8f66c093",
         "00032308-2326-4b41-8488-afe690a533a6",
         "a1d5f052-0abe-4676-9734-1151575407eb",
