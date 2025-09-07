@@ -47,12 +47,13 @@
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Andy Cab</strong> proudly manufactures the <strong>Predator Canopy</strong> for the <strong>BYD Shark Double Cab</strong>, available across South Africa. Built for strength, durability, and style, our <strong>BYD</strong> canopies are designed to perfectly fit your bakkie while offering secure storage and rugged protection.<br/> <br/><br/>Whether for work, business, or weekend adventures, the <strong>Predator</strong> canopy gives your <strong>BYD Shark</strong> the ideal balance of practicality and modern design. With nationwide distribution and trusted quality, <strong>Andy Cab</strong> is the go-to choice for <strong>BYD bakkie canopies</strong> in South Africa.</p>",
+            "text": "<p><strong>Andy Cab</strong> proudly manufactures the <strong>Predator Canopy</strong> for the <strong>BYD Shark Double Cab</strong>, available across South Africa. Built for strength, durability, and style, our <strong>BYD</strong> canopies are designed to perfectly fit your bakkie while offering secure storage and rugged protection.<br/><br/>Whether for work, business, or weekend adventures, the <strong>Predator</strong> canopy gives your <strong>BYD Shark</strong> the ideal balance of practicality and modern design. With nationwide distribution and trusted quality, <strong>Andy Cab</strong> is the go-to choice for <strong>BYD bakkie canopies</strong> in South Africa.</p>",
             "text_style": "body"
           }
         },
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Download Brochure",
             "button_link": "https://cdn.shopify.com/s/files/1/0578/5393/5787/files/Andy_Cab_Ford_Brochure_2024.pdf?v=1714033231"
