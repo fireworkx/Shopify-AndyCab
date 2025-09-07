@@ -23,6 +23,12 @@
         "featured_collection_9tVUaH": {
           "type": "featured_collection",
           "settings": {
+            "collection": "byd-canopies"
+          }
+        },
+        "featured_collection_zHH79k": {
+          "type": "featured_collection",
+          "settings": {
             "collection": "ford-canopies"
           }
         },
@@ -101,6 +107,7 @@
       },
       "block_order": [
         "featured_collection_9tVUaH",
+        "featured_collection_zHH79k",
         "featured_collection_Ggq8NW",
         "featured_collection_cmw7eC",
         "featured_collection_6VUJ9U",
