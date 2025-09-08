@@ -20,12 +20,6 @@
     "fireworkx_collection_list_fT4ACm": {
       "type": "fireworkx-collection-list",
       "blocks": {
-        "featured_collection_9tVUaH": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "byd-canopies"
-          }
-        },
         "featured_collection_zHH79k": {
           "type": "featured_collection",
           "settings": {
@@ -103,10 +97,15 @@
           "settings": {
             "collection": "foton-canopies"
           }
+        },
+        "featured_collection_9tVUaH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "byd-canopies"
+          }
         }
       },
       "block_order": [
-        "featured_collection_9tVUaH",
         "featured_collection_zHH79k",
         "featured_collection_Ggq8NW",
         "featured_collection_cmw7eC",
@@ -119,7 +118,8 @@
         "featured_collection_4nKyzr",
         "featured_collection_hH6XPh",
         "featured_collection_aYJUPr",
-        "featured_collection_aqaa3Q"
+        "featured_collection_aqaa3Q",
+        "featured_collection_9tVUaH"
       ],
       "settings": {
         "title": "Our Canopy Range",
