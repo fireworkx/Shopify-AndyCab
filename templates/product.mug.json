@@ -105,7 +105,7 @@
           "settings": {
             "heading": "Technical Specifications",
             "icon": "plane",
-            "content": "<p>Feature \tSpecification<br/>Construction \tHigh-tech composite material<br/>Weight \tApprox. 55 kg<br/>Load Capacity \tSuitable for rooftop tent<br/>Access Points \tDual side doors + rear door<br/>Finish \tSmooth, UV-resistant coating<br/>Colour Options \tCustom factory colour coding available<br/>Warranty – Shell \t3 years<br/>Warranty – Mechanical \t1 year</p>",
+            "content": "<ul><li><strong>Feature:\tSpecification<br/></strong><br/><strong>Construction:</strong> \tHigh-tech composite material</li><li><strong>Weight:</strong> \tApprox. 55 kg</li><li><strong>Load Capacity:</strong> \tSuitable for rooftop tent</li><li><strong>Access Points:</strong> \tDual side doors + rear door</li><li><strong>Finish:</strong> \tSmooth, UV-resistant coating</li><li><strong>Colour Options:</strong> \tCustom factory colour coding available</li><li><strong>Warranty – Shell:</strong> \t3 years</li><li><strong>Warranty – Mechanical:</strong> \t1 year</li></ul>",
             "page": ""
           }
         },
