@@ -85,8 +85,8 @@
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
+            "heading": "Key Features & Benefits",
+            "icon": "star",
             "content": "<ul><li><strong>High-Tech Composite Construction</strong> – ultimate strength and durability with a<br/>premium, smooth finish.<br/></li><li><strong>Lightweight Powerhouse (55 kg)</strong> – easy on your fuel economy but strong enough to carry a rooftop tent.<br/></li><li><strong>Adventure-Ready Versatility</strong> – side doors and rear entry for quick, all-angle access to your gear.<br/></li><li><strong>Custom Colour Options</strong> – match your bakkie and your style with factory-quality colour coding.<br/></li><li><strong>Sleek & Secure Design</strong> – bold, off-road-ready aesthetics combined with a snug, weatherproof fit.<br/></li><li><strong>Peace of Mind Warranty</strong> – 3-year warranty on the fibreglass shell, 1-year on mechanical parts.</li></ul>",
             "page": ""
           }
@@ -95,7 +95,7 @@
           "type": "collapsible_tab",
           "disabled": true,
           "settings": {
-            "heading": "Care Instructions",
+            "heading": "Detailed Description",
             "icon": "heart",
             "content": "",
             "page": ""
