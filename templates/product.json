@@ -36,8 +36,9 @@
         },
         "971d9c1c-ab06-4a2e-8e87-381aacf5686e": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<strong>Excludes fitment and delivery</strong>",
+            "text": "Excludes fitment and delivery",
             "text_style": "body"
           }
         },
