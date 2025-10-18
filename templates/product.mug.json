@@ -289,11 +289,11 @@
         "padding_bottom": 96
       }
     },
-    "custom_liquid_kXkHLF": {
+    "custom_liquid_kQXNKf": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "{%- assign spec_mf = product.metafields.custom.technical_specifications -%}\n\n{%- if spec_mf != blank -%}\n  {%- comment -%}\n    Handle list of metaobjects (Option B recommended)\n  {%- endcomment -%}\n  {%- if spec_mf.type contains 'list.metaobject_reference' -%}\n    {%- assign rows = spec_mf.value -%}\n    {%- if rows and rows.size > 0 -%}\n      <table class=\"specs-table\">\n        <thead>\n          <tr>\n            <th>Feature</th>\n            <th>Specification</th>\n          </tr>\n        </thead>\n        <tbody>\n          {%- for row in rows -%}\n            <tr>\n              {%- comment -%}\n                Metaobject fields are usually accessible as row.feature / row.specification.\n                Fallbacks added in case theme requires .value.\n              {%- endcomment -%}\n              <td>{{ row.feature | default: row.feature.value | escape }}</td>\n              <td>\n                {%- if row.specification != blank -%}\n                  {{ row.specification | escape }}\n                {%- elsif row.specification.value != blank -%}\n                  {{ row.specification.value | escape }}\n                {%- endif -%}\n              </td>\n            </tr>\n          {%- endfor -%}\n        </tbody>\n      </table>\n    {%- endif -%}\n\n  {%- elsif spec_mf.type == 'metaobject_reference' -%}\n    {%- assign row = spec_mf.value -%}\n    {%- if row -%}\n      <table class=\"specs-table\">\n        <thead>\n          <tr>\n            <th>Feature</th>\n            <th>Specification</th>\n          </tr>\n        </thead>\n        <tbody>\n          <tr>\n            <td>{{ row.feature | default: row.feature.value | escape }}</td>\n            <td>{{ row.specification | default: row.specification.value | escape }}</td>\n          </tr>\n        </tbody>\n      </table>\n    {%- endif -%}\n\n  {%- elsif spec_mf.type contains 'rich_text' -%}\n    {%- comment -%} Rich text metafield → render its HTML safely {%- endcomment -%}\n    {{ spec_mf | metafield_tag }}\n\n  {%- else -%}\n    {%- comment -%} Fallback: plain text {%- endcomment -%}\n    <pre class=\"specs-plain\">{{ spec_mf | metafield_text }}</pre>\n  {%- endif -%}\n{%- endif -%}",
+        "custom_liquid": "{% assign mf = product.metafields.custom.technical_specifications %}\n{% if mf and mf.type and mf.type contains 'list.metaobject_reference' %}\n  {% assign rows = mf.value %}\n  {% if rows and rows.size > 0 %}\n    <table class=\"specs-table\">\n      <thead>\n        <tr>\n          <th>Feature</th>\n          <th>Specification</th>\n        </tr>\n      </thead>\n      <tbody>\n        {% for row in rows %}\n          <tr>\n            <td>{{ row.feature | default: row['feature'] | escape }}</td>\n            <td>\n              {% if row.specification != blank %}\n                {{ row.specification | escape }}\n              {% elsif row['specification'] != blank %}\n                {{ row['specification'] | escape }}\n              {% endif %}\n            </td>\n          </tr>\n        {% endfor %}\n      </tbody>\n    </table>\n  {% endif %}\n{% elsif mf and mf.type == 'metaobject_reference' %}\n  {% assign row = mf.value %}\n  {% if row %}\n    <table class=\"specs-table\">\n      <thead>\n        <tr>\n          <th>Feature</th>\n          <th>Specification</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>{{ row.feature | default: row['feature'] | escape }}</td>\n          <td>{{ row.specification | default: row['specification'] | escape }}</td>\n        </tr>\n      </tbody>\n    </table>\n  {% endif %}\n{% elsif mf and mf.type contains 'rich_text' %}\n  {{ mf | metafield_tag }}\n{% endif %}",
         "spaced-section": false,
         "spaced-bottom": false,
         "color_scheme": "",
@@ -309,6 +309,6 @@
     "1633079569e84b10cd",
     "1733729993ae0a6756",
     "71490deb-d4ad-4fd9-b1b0-d9f28194bf6d",
-    "custom_liquid_kXkHLF"
+    "custom_liquid_kQXNKf"
   ]
 }
