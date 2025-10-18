@@ -221,8 +221,8 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Technical Specifications",
-            "icon": "check_mark",
-            "row_content": "<p>{{ metaobjects.specification_row[\"load-capacity\"].feature.value }}{{ metaobjects.specification_row[\"load-capacity\"].specification.value }}</p>",
+            "icon": "ruler",
+            "row_content": "<p>{{ metaobjects.specification_row[\"load-capacity\"].feature.value }} {{ metaobjects.specification_row[\"load-capacity\"].specification.value }}</p>",
             "page": ""
           }
         }
