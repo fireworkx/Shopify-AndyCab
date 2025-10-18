@@ -219,11 +219,11 @@
             "page": ""
           }
         },
-        "collapsible_row_imyQgC": {
+        "collapsible_row_UG9mL8": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Technical Specifications",
-            "icon": "ruler",
+            "heading": "Technical Specification",
+            "icon": "check_mark",
             "row_content": "<p>{{ metaobjects.specification_row.construction.feature.value }}{{ metaobjects.specification_row.construction.specification.value }}</p><p>{{ metaobjects.specification_row.weight.feature.value }}{{ metaobjects.specification_row.weight.specification.value }}</p><p>{{ metaobjects.specification_row[\"load-capacity\"].feature.value }}{{ metaobjects.specification_row[\"load-capacity\"].specification.value }}</p>",
             "page": ""
           }
@@ -233,7 +233,7 @@
         "collapsible_row_g8YaAm",
         "collapsible_row_tVyUT4",
         "collapsible_row_n3cXip",
-        "collapsible_row_imyQgC"
+        "collapsible_row_UG9mL8"
       ],
       "custom_css": [
         ".specs-table {width: 100%; border-collapse: collapse; margin-top: 1.25rem;}",
