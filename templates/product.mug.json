@@ -189,6 +189,18 @@
         "padding_bottom": 52
       }
     },
+    "custom_liquid_kQXNKf": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "{% assign mf = product.metafields.custom.technical_specifications %}\n{% if mf and mf.type and mf.type contains 'list.metaobject_reference' %}\n  {% assign rows = mf.value %}\n  {% if rows and rows.size > 0 %}\n    <table class=\"specs-table\">\n      <thead>\n        <tr>\n          <th>Feature</th>\n          <th>Specification</th>\n        </tr>\n      </thead>\n      <tbody>\n        {% for row in rows %}\n          <tr>\n            <td>{{ row.feature | default: row['feature'] | escape }}</td>\n            <td>\n              {% if row.specification != blank %}\n                {{ row.specification | escape }}\n              {% elsif row['specification'] != blank %}\n                {{ row['specification'] | escape }}\n              {% endif %}\n            </td>\n          </tr>\n        {% endfor %}\n      </tbody>\n    </table>\n  {% endif %}\n{% elsif mf and mf.type == 'metaobject_reference' %}\n  {% assign row = mf.value %}\n  {% if row %}\n    <table class=\"specs-table\">\n      <thead>\n        <tr>\n          <th>Feature</th>\n          <th>Specification</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>{{ row.feature | default: row['feature'] | escape }}</td>\n          <td>{{ row.specification | default: row['specification'] | escape }}</td>\n        </tr>\n      </tbody>\n    </table>\n  {% endif %}\n{% elsif mf and mf.type contains 'rich_text' %}\n  {{ mf | metafield_tag }}\n{% endif %}",
+        "spaced-section": false,
+        "spaced-bottom": false,
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collapsible_content_UryDgV": {
       "type": "collapsible-content",
       "blocks": {
@@ -236,9 +248,10 @@
         "collapsible_row_imyQgC"
       ],
       "custom_css": [
-        ".specs-table {border-collapse: collapse; width: 100%;}",
-        ".specs-table th,.specs-table td {border: 1px solid #ddd; padding: 8px 10px; font-size: 0.95rem; line-height: 1.4;}",
-        ".specs-table th {background: #f7f7f7; text-align: left; font-weight: 600;}"
+        ".specs-table {width: 100%; border-collapse: collapse; margin-top: 1.25rem;}",
+        ".specs-table th,.specs-table td {border: 1px solid #ddd; padding: 8px 10px; font-size: 0.95rem; line-height: 1.45;}",
+        ".specs-table th {background-color: var(--color-background-accent, #f7f7f7); text-align: left; font-weight: 600;}",
+        ".specs-table tr:nth-child(even) td {background-color: var(--color-background, #fafafa);}"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
@@ -288,27 +301,15 @@
         "padding_top": 0,
         "padding_bottom": 96
       }
-    },
-    "custom_liquid_kQXNKf": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "{% assign mf = product.metafields.custom.technical_specifications %}\n{% if mf and mf.type and mf.type contains 'list.metaobject_reference' %}\n  {% assign rows = mf.value %}\n  {% if rows and rows.size > 0 %}\n    <table class=\"specs-table\">\n      <thead>\n        <tr>\n          <th>Feature</th>\n          <th>Specification</th>\n        </tr>\n      </thead>\n      <tbody>\n        {% for row in rows %}\n          <tr>\n            <td>{{ row.feature | default: row['feature'] | escape }}</td>\n            <td>\n              {% if row.specification != blank %}\n                {{ row.specification | escape }}\n              {% elsif row['specification'] != blank %}\n                {{ row['specification'] | escape }}\n              {% endif %}\n            </td>\n          </tr>\n        {% endfor %}\n      </tbody>\n    </table>\n  {% endif %}\n{% elsif mf and mf.type == 'metaobject_reference' %}\n  {% assign row = mf.value %}\n  {% if row %}\n    <table class=\"specs-table\">\n      <thead>\n        <tr>\n          <th>Feature</th>\n          <th>Specification</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td>{{ row.feature | default: row['feature'] | escape }}</td>\n          <td>{{ row.specification | default: row['specification'] | escape }}</td>\n        </tr>\n      </tbody>\n    </table>\n  {% endif %}\n{% elsif mf and mf.type contains 'rich_text' %}\n  {{ mf | metafield_tag }}\n{% endif %}",
-        "spaced-section": false,
-        "spaced-bottom": false,
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
     "custom_liquid_AariNA",
+    "custom_liquid_kQXNKf",
     "collapsible_content_UryDgV",
     "1633079569e84b10cd",
     "1733729993ae0a6756",
-    "71490deb-d4ad-4fd9-b1b0-d9f28194bf6d",
-    "custom_liquid_kQXNKf"
+    "71490deb-d4ad-4fd9-b1b0-d9f28194bf6d"
   ]
 }
