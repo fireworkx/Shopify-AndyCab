@@ -123,7 +123,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Product Overview",
-            "icon": "check_mark",
+            "icon": "question_mark",
             "row_content": "{{ product.metafields.custom.product_overview | metafield_tag }}",
             "page": ""
           }
@@ -132,7 +132,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Key Features & Benefits",
-            "icon": "check_mark",
+            "icon": "clipboard",
             "row_content": "{{ product.metafields.custom.key_features_benefits | metafield_tag }}",
             "page": ""
           }
@@ -141,7 +141,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Detailed Description",
-            "icon": "check_mark",
+            "icon": "star",
             "row_content": "{{ product.metafields.custom.detailed_description | metafield_tag }}",
             "page": ""
           }
@@ -150,7 +150,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Technical Specification",
-            "icon": "check_mark",
+            "icon": "ruler",
             "row_content": "",
             "page": ""
           }
