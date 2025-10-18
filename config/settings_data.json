@@ -396,5 +396,12 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".specs-table {border-collapse: collapse; width: 100%;}",
+      ".specs-table th,.specs-table td {border: 1px solid #ccc; padding: 8px 10px; font-size: 0.9rem; line-height: 1.4;}",
+      ".specs-table th {background-color: #f8f8f8; text-align: left;}"
+    ]
   }
 }
