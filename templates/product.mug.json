@@ -151,7 +151,7 @@
           "settings": {
             "heading": "Technical Specification",
             "icon": "ruler",
-            "row_content": "{{ product.metafields.custom.technical_specs | metafield_tag }}{{ product.metafields.custom.technical_specs | metafield_tag }}",
+            "row_content": "<p>{{ product.metafields.custom.technical_specs.value }}</p>",
             "page": ""
           }
         }
