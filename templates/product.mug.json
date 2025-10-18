@@ -147,30 +147,20 @@
           }
         },
         "collapsible_row_UG9mL8": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Technical Specification",
-            "icon": "ruler",
-            "row_content": "<p>{{ product.metafields.custom.technical_specs | metafield_tag }}</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_4tqbMf": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Technical Specification",
-            "icon": "ruler",
-            "row_content": "<p>{{ product.metafields.custom.technical_specs | metafield_tag }}{{ product.metafields.custom.technical_specs | metafield_tag }}</p>",
-            "page": ""
-          }
-        }
+  "type": "collapsible_row",
+  "settings": {
+    "heading": "Technical Specification",
+    "icon": "ruler",
+    "row_content": "{{ product.metafields.custom.technical_specs | metafield_tag }}",
+    "page": ""
+  }
+}
       },
       "block_order": [
         "collapsible_row_g8YaAm",
         "collapsible_row_tVyUT4",
         "collapsible_row_n3cXip",
-        "collapsible_row_UG9mL8",
-        "collapsible_row_4tqbMf"
+        "collapsible_row_UG9mL8"
       ],
       "custom_css": [
         ".specs-table {width: 100%; border-collapse: collapse; margin-top: 1.25rem;}",
