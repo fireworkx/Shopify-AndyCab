@@ -56,3 +56,38 @@
 .accordion__content img {
   max-width: 100%;
 }
+/* Product Specification Tables */
+.collapsible-content__content .specs-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.collapsible-content__content .specs-table th,
+.collapsible-content__content .specs-table td {
+  border: 1px solid #ddd;
+  padding: 8px 10px;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  vertical-align: top;
+}
+
+.collapsible-content__content .specs-table th {
+  background-color: #f7f7f7;
+  text-align: left;
+  font-weight: 600;
+}
+
+.collapsible-content__content .specs-table tr:nth-child(even) td {
+  background-color: #fafafa;
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 749px) {
+  .collapsible-content__content .specs-table th,
+  .collapsible-content__content .specs-table td {
+    padding: 6px 8px;
+    font-size: 0.85rem;
+  }
+}
