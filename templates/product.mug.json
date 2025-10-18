@@ -183,7 +183,7 @@
           "settings": {
             "heading": "Product Overview",
             "icon": "check_mark",
-            "row_content": "{{ block.settings.page.content }}",
+            "row_content": "{{ product.metafields.custom.product_overview | metafield_tag }}",
             "page": ""
           }
         },
