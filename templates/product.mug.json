@@ -163,8 +163,8 @@
         "collapsible_row_UG9mL8"
       ],
       "custom_css": [
-        ".specs-table {width: 80%; border-collapse: collapse; margin-top: 1.25rem;}",
-        ".specs-table th,.specs-table td {border: 1px solid #ddd; padding: 8px 10px; font-size: 0.95rem; line-height: 1.45;}",
+        ".specs-table {width: 100%; border-collapse: collapse; margin-top: 1.25rem;}",
+        ".specs-table th,.specs-table td {border: 1px solid #ddd; padding: 8px 10px; line-height: 1.45;}",
         ".specs-table th {background-color: var(--color-background-accent, #f7f7f7); text-align: left; font-weight: 600;}",
         ".specs-table tr:nth-child(even) td {background-color: var(--color-background, #fafafa);}"
       ],
