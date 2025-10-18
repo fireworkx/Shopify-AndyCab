@@ -224,7 +224,7 @@
           "settings": {
             "heading": "Technical Specifications",
             "icon": "ruler",
-            "row_content": "<p>{{ metaobjects.specification_row[\"load-capacity\"].feature.value }} {{ metaobjects.specification_row[\"load-capacity\"].specification.value }}</p>",
+            "row_content": "",
             "page": ""
           }
         }
