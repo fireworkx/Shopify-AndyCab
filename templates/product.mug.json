@@ -210,7 +210,7 @@
           "settings": {
             "heading": "Technical Specifications",
             "icon": "check_mark",
-            "row_content": "{{ product.metafields.custom.technical_specifications | metafield_tag }}",
+            "row_content": "<p>{{ product.metafields.custom.technical_specifications | metafield_tag }}</p>",
             "page": ""
           }
         }
