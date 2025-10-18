@@ -175,46 +175,13 @@
         "padding_bottom": 0
       }
     },
-    "1633079569e84b10cd": {
-      "type": "fireworkx-quote-slider",
-      "settings": {}
-    },
-    "1733729993ae0a6756": {
-      "type": "apps",
-      "blocks": {
-        "glo_related_products_upsell_app_block_product_ePpaAJ": {
-          "type": "shopify://apps/tipo-related-products/blocks/app-block-product/75cf2d86-3988-45e7-8f28-ada23c99704f",
-          "settings": {
-            "widget": "3",
-            "gashortcode": ""
-          }
-        }
-      },
-      "block_order": [
-        "glo_related_products_upsell_app_block_product_ePpaAJ"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "71490deb-d4ad-4fd9-b1b0-d9f28194bf6d": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<script \n            type=\"text/javascript\" \n            src=\"https://cdn.grw.reputon.com/assets/widget.js?shop=andycab.myshopify.com\"></script>\n<div class=\"reputon-google-reviews-widget\"\n                 data-theme=\"light\"\n                 data-autoscroll=\"true\"\n                 data-show-review-photos=\"false\"\n                 data-write-review=\"true\"\n                 data-type=\"carousel_extended\"\n                 data-position-type=\"regular\"\n                 data-position-vertical=\"bottom\"\n                 data-position-horizontal=\"center\"></div>",
-        "spaced-section": false,
-        "spaced-bottom": false,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 96
-      }
-    },
     "collapsible_content_UryDgV": {
       "type": "collapsible-content",
       "blocks": {
         "collapsible_row_g8YaAm": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Product Overview",
             "icon": "check_mark",
             "row_content": "",
             "page": ""
@@ -268,6 +235,39 @@
         "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "1633079569e84b10cd": {
+      "type": "fireworkx-quote-slider",
+      "settings": {}
+    },
+    "1733729993ae0a6756": {
+      "type": "apps",
+      "blocks": {
+        "glo_related_products_upsell_app_block_product_ePpaAJ": {
+          "type": "shopify://apps/tipo-related-products/blocks/app-block-product/75cf2d86-3988-45e7-8f28-ada23c99704f",
+          "settings": {
+            "widget": "3",
+            "gashortcode": ""
+          }
+        }
+      },
+      "block_order": [
+        "glo_related_products_upsell_app_block_product_ePpaAJ"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "71490deb-d4ad-4fd9-b1b0-d9f28194bf6d": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script \n            type=\"text/javascript\" \n            src=\"https://cdn.grw.reputon.com/assets/widget.js?shop=andycab.myshopify.com\"></script>\n<div class=\"reputon-google-reviews-widget\"\n                 data-theme=\"light\"\n                 data-autoscroll=\"true\"\n                 data-show-review-photos=\"false\"\n                 data-write-review=\"true\"\n                 data-type=\"carousel_extended\"\n                 data-position-type=\"regular\"\n                 data-position-vertical=\"bottom\"\n                 data-position-horizontal=\"center\"></div>",
+        "spaced-section": false,
+        "spaced-bottom": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 96
       }
     }
   },
