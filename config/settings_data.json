@@ -400,7 +400,7 @@
   "platform_customizations": {
     "custom_css": [
       ".collapsible-content table {width: 100%; border-collapse: collapse; margin: 15px 0;}",
-      ".collapsible-content table td,.collapsible-content table th {font-size: smaller; border: 1px solid black; line-height: 1.4; padding: 10px; text-align: left;}",
+      ".collapsible-content table td,.collapsible-content table th {font-size: 0.95rem; border: 1px solid #ddd; line-height: 1.4; padding: 10px; text-align: left;}",
       ".collapsible-content table th {background-color: #f5f5f5; font-weight: bold;}"
     ]
   }
