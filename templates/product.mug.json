@@ -169,7 +169,7 @@
         "heading": "Find out more",
         "heading_size": "h2",
         "heading_alignment": "center",
-        "layout": "section",
+        "layout": "none",
         "color_scheme": "scheme-5",
         "container_color_scheme": "scheme-2",
         "open_first_collapsible_row": false,
