@@ -3656,7 +3656,7 @@ details-disclosure > details {
 
 .collapsible-content__content .specs-table th,
 .collapsible-content__content .specs-table td {
-  border: 1px solid #ddd;
+  border: 1px solid #f9f9f9;
   padding: 8px 10px;
   font-size: 1.25rem;
   line-height: 1.65;
