@@ -154,13 +154,23 @@
             "row_content": "<p>{{ product.metafields.custom.technical_specs.value }}</p>",
             "page": ""
           }
+        },
+        "collapsible_row_YitCYf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "FAQs",
+            "icon": "question_mark",
+            "row_content": "<p>{{ product.metafields.custom.technical_specs.value }}</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_g8YaAm",
         "collapsible_row_tVyUT4",
         "collapsible_row_n3cXip",
-        "collapsible_row_UG9mL8"
+        "collapsible_row_UG9mL8",
+        "collapsible_row_YitCYf"
       ],
       "custom_css": [
         ".collapsible-content table td,.collapsible-content table th {font-size: 1.55rem; /* Changed from smaller */ border: 1px solid #ddd; /* Changed from black to grey */ line-height: 1.4; padding: 10px; text-align: left;}"
