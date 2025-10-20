@@ -160,7 +160,7 @@
           "settings": {
             "heading": "FAQs",
             "icon": "question_mark",
-            "row_content": "<p>{{ product.metafields.custom.technical_specs.value }}</p>",
+            "row_content": "{{ product.metafields.custom.product_faqs | metafield_tag }}",
             "page": ""
           }
         }
