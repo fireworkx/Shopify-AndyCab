@@ -67,6 +67,15 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
+            "heading": "Product Overview",
+            "icon": "lightning_bolt",
+            "content": "{{ product.metafields.custom.product_overview | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_XnytPH": {
+          "type": "collapsible_tab",
+          "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
             "content": "",
@@ -97,6 +106,7 @@
         "description",
         "buy_buttons",
         "collapsible-row-1",
+        "collapsible_tab_XnytPH",
         "share",
         "d876dbb6-87a9-41b4-a897-dd5fa1339ef6"
       ],
