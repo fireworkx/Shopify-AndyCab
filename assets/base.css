@@ -3681,9 +3681,3 @@ details-disclosure > details {
     font-size: 0.85rem;
   }
 }
-/* Override table styling */
-.collapsible-content__content table td,
-.collapsible-content__content table th {
-    font-size: 0.95rem !important;
-    border: 1px solid #ddd !important;
-}
