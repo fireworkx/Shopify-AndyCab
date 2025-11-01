@@ -12,37 +12,78 @@
     "heading_liquid": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% assign centre_ref = page.metafields.fitment.centre %}{% if centre_ref and centre_ref.value %}{% assign c = centre_ref.value %}<div class='page-width'><h1>Andy Cab Fitment Centre — {{ c.town | escape }}</h1><p class='subtitle'>Authorised Andy Cab fitment & accessories</p></div>{% else %}<div class='page-width'><h1>Andy Cab Fitment Centre</h1></div>{% endif %}"
+        "custom_liquid": "{% assign centre_ref = page.metafields.fitment.centre %}{% if centre_ref and centre_ref.value %}{% assign c = centre_ref.value %}<div class='page-width'><h1>Andy Cab Fitment Centre - {{ c.town | escape }}</h1><p class='subtitle'>Authorised Andy Cab fitment & accessories</p></div>{% else %}<div class='page-width'><h1>Andy Cab Fitment Centre</h1></div>{% endif %}",
+        "spaced-section": false,
+        "spaced-bottom": false,
+        "color_scheme": "scheme-5",
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "hero": {
       "type": "image-banner",
       "settings": {
         "image_overlay_opacity": 0,
-        "show_text_box": false
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "intro_liquid": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% assign centre_ref = page.metafields.fitment.centre %}{% if centre_ref and centre_ref.value %}{% assign c = centre_ref.value %}<div class='page-width rte'><p>Looking for <strong>bakkie canopies in {{ c.town | escape }}</strong>? Visit our authorised Andy Cab fitment centre at {{ c.address_line1 | escape }}{% if c.address_line2 %}, {{ c.address_line2 | escape }}{% endif %}, {{ c.city | escape }}. We fit premium fibreglass canopies and accessories for major bakkie brands with national warranty and local expertise.</p></div>{% else %}<div class='page-width rte'><p>Visit our authorised Andy Cab fitment centre for premium fibreglass canopy fitment and accessories.</p></div>{% endif %}"
+        "custom_liquid": "{% assign centre_ref = page.metafields.fitment.centre %}{% if centre_ref and centre_ref.value %}{% assign c = centre_ref.value %}<div class='page-width rte'><p>Looking for <strong>bakkie canopies in {{ c.town | escape }}</strong>? Visit our authorised Andy Cab fitment centre at {{ c.address_line1 | escape }}{% if c.address_line2 %}, {{ c.address_line2 | escape }}{% endif %}, {{ c.city | escape }}. We fit premium fibreglass canopies and accessories for major bakkie brands with national warranty and local expertise.</p></div>{% else %}<div class='page-width rte'><p>Visit our authorised Andy Cab fitment centre for premium fibreglass canopy fitment and accessories.</p></div>{% endif %}",
+        "spaced-section": false,
+        "spaced-bottom": false,
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "map": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% assign centre_ref = page.metafields.fitment.centre %}{% if centre_ref and centre_ref.value %}{% assign c = centre_ref.value %}<div class='page-width' style='margin-top:1.5rem'><div style='aspect-ratio:16/9; border:0; overflow:hidden; border-radius:12px'><iframe width='100%' height='100%' style='border:0' loading='lazy' referrerpolicy='no-referrer-when-downgrade' src='{% if c.latitude and c.longitude %}https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_EMBED_API_KEY&q={{ c.latitude }},{{ c.longitude }}{% else %}https://maps.google.com/maps?q={{ c.address_line1 | escape | url_encode }}{% if c.address_line2 %},%20{{ c.address_line2 | escape | url_encode }}{% endif %},%20{{ c.city | escape | url_encode }},%20{{ c.region | escape | url_encode }}%20{{ c.postal_code | escape | url_encode }}&z=14&output=embed{% endif %}'></iframe></div></div>{% endif %}"
+        "custom_liquid": "{% assign centre_ref = page.metafields.fitment.centre %}{% if centre_ref and centre_ref.value %}{% assign c = centre_ref.value %}<div class='page-width' style='margin-top:1.5rem'><div style='aspect-ratio:16/9; border:0; overflow:hidden; border-radius:12px'><iframe width='100%' height='100%' style='border:0' loading='lazy' referrerpolicy='no-referrer-when-downgrade' src='{% if c.latitude and c.longitude %}https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_EMBED_API_KEY&q={{ c.latitude }},{{ c.longitude }}{% else %}https://maps.google.com/maps?q={{ c.address_line1 | escape | url_encode }}{% if c.address_line2 %},%20{{ c.address_line2 | escape | url_encode }}{% endif %},%20{{ c.city | escape | url_encode }},%20{{ c.region | escape | url_encode }}%20{{ c.postal_code | escape | url_encode }}&z=14&output=embed{% endif %}'></iframe></div></div>{% endif %}",
+        "spaced-section": false,
+        "spaced-bottom": false,
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "contact_hours_area_liquid": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% assign centre_ref = page.metafields.fitment.centre %}{% if centre_ref and centre_ref.value %}{% assign c = centre_ref.value %}<div class='page-width' style='margin-top:2rem'><div style='display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1.25rem'>\n  <div class='card' style='border:1px solid var(--color-border); border-radius:12px; padding:16px'>\n    <h3>Contact</h3>\n    <div class='rte'><p><strong>Address</strong><br>{{ c.address_line1 | escape }}{% if c.address_line2 %}, {{ c.address_line2 | escape }}{% endif %}, {{ c.city | escape }}, {{ c.region | escape }} {{ c.postal_code | escape }}, {{ c.country | escape }}</p>\n    {% if c.phone %}<p><strong>Phone</strong><br>{{ c.phone | escape }}</p>{% endif %}\n    {% if c.email %}<p><strong>Email</strong><br>{{ c.email | escape }}</p>{% endif %}\n    {% if c.website_url %}<p><a href='{{ c.website_url }}' rel='nofollow'>Visit website</a></p>{% endif %}\n    {% if c.gmb_url %}<p><a href='{{ c.gmb_url }}' rel='nofollow noopener'>View on Google</a></p>{% endif %}</div>\n  </div>\n  <div class='card' style='border:1px solid var(--color-border); border-radius:12px; padding:16px'>\n    <h3>Opening hours</h3>\n    <div class='rte'>{% if c.opening_hours %}{{ c.opening_hours | newline_to_br }}{% else %}<p>Mon–Fri 08:00–17:00<br>Sat 08:00–13:00</p>{% endif %}</div>\n  </div>\n  <div class='card' style='border:1px solid var(--color-border); border-radius:12px; padding:16px'>\n    <h3>Service area</h3>\n    <div class='rte'>{% if c.service_area %}{{ c.service_area | newline_to_br }}{% else %}<p>{{ c.town | escape }} and surrounding suburbs.</p>{% endif %}</div>\n  </div>\n</div></div>{% endif %}"
+        "custom_liquid": "{% assign centre_ref = page.metafields.fitment.centre %}{% if centre_ref and centre_ref.value %}{% assign c = centre_ref.value %}<div class='page-width' style='margin-top:2rem'><div style='display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1.25rem'>\n  <div class='card' style='border:1px solid var(--color-border); border-radius:12px; padding:16px'>\n    <h3>Contact</h3>\n    <div class='rte'><p><strong>Address</strong><br>{{ c.address_line1 | escape }}{% if c.address_line2 %}, {{ c.address_line2 | escape }}{% endif %}, {{ c.city | escape }}, {{ c.region | escape }} {{ c.postal_code | escape }}, {{ c.country | escape }}</p>\n    {% if c.phone %}<p><strong>Phone</strong><br>{{ c.phone | escape }}</p>{% endif %}\n    {% if c.email %}<p><strong>Email</strong><br>{{ c.email | escape }}</p>{% endif %}\n    {% if c.website_url %}<p><a href='{{ c.website_url }}' rel='nofollow'>Visit website</a></p>{% endif %}\n    {% if c.gmb_url %}<p><a href='{{ c.gmb_url }}' rel='nofollow noopener'>View on Google</a></p>{% endif %}</div>\n  </div>\n  <div class='card' style='border:1px solid var(--color-border); border-radius:12px; padding:16px'>\n    <h3>Opening hours</h3>\n    <div class='rte'>{% if c.opening_hours %}{{ c.opening_hours | newline_to_br }}{% else %}<p>Mon–Fri 08:00–17:00<br>Sat 08:00–13:00</p>{% endif %}</div>\n  </div>\n  <div class='card' style='border:1px solid var(--color-border); border-radius:12px; padding:16px'>\n    <h3>Service area</h3>\n    <div class='rte'>{% if c.service_area %}{{ c.service_area | newline_to_br }}{% else %}<p>{{ c.town | escape }} and surrounding suburbs.</p>{% endif %}</div>\n  </div>\n</div></div>{% endif %}",
+        "spaced-section": false,
+        "spaced-bottom": false,
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "why": {
       "type": "image-with-text",
-      "settings": {}
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     },
     "faqs": {
       "type": "collapsible-content",
@@ -50,19 +91,28 @@
         "q1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How long does a canopy fitment take?"
+            "heading": "How long does a canopy fitment take?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
           }
         },
         "q2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Do you fit my bakkie brand?"
+            "heading": "Do you fit my bakkie brand?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
           }
         },
         "q3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What warranty do I get?"
+            "heading": "What warranty do I get?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
           }
         }
       },
@@ -72,19 +122,39 @@
         "q3"
       ],
       "settings": {
-        "heading": "FAQs"
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "cta": {
       "type": "contact-form",
       "settings": {
-        "heading": "Get a quote or booking"
+        "heading": "Get a quote or booking",
+        "heading_size": "h2",
+        "color_scheme": "scheme-2",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "schema": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% assign centre_ref = page.metafields.fitment.centre %}{% if centre_ref and centre_ref.value %}{% assign c = centre_ref.value %}<script type='application/ld+json'>{\"@context\":\"https://schema.org\",\"@type\":\"AutoPartsStore\",\"name\":\"{{ c.name | escape }}\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"{{ c.address_line1 | escape }}{% if c.address_line2 %}, {{ c.address_line2 | escape }}{% endif %}\",\"addressLocality\":\"{{ c.city | escape }}\",\"addressRegion\":\"{{ c.region | escape }}\",\"postalCode\":\"{{ c.postal_code | escape }}\",\"addressCountry\":\"{{ c.country | escape }}\"},\"telephone\":\"{{ c.phone | escape }}\"{% if c.latitude and c.longitude %},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":{{ c.latitude }},\"longitude\":{{ c.longitude }}}{% endif %}{% if c.website_url %},\"url\":\"{{ c.website_url | escape }}\"{% endif %}</script>{% endif %}"
+        "custom_liquid": "{% assign centre_ref = page.metafields.fitment.centre %}{% if centre_ref and centre_ref.value %}{% assign c = centre_ref.value %}<script type='application/ld+json'>{\"@context\":\"https://schema.org\",\"@type\":\"AutoPartsStore\",\"name\":\"{{ c.name | escape }}\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"{{ c.address_line1 | escape }}{% if c.address_line2 %}, {{ c.address_line2 | escape }}{% endif %}\",\"addressLocality\":\"{{ c.city | escape }}\",\"addressRegion\":\"{{ c.region | escape }}\",\"postalCode\":\"{{ c.postal_code | escape }}\",\"addressCountry\":\"{{ c.country | escape }}\"},\"telephone\":\"{{ c.phone | escape }}\"{% if c.latitude and c.longitude %},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":{{ c.latitude }},\"longitude\":{{ c.longitude }}}{% endif %}{% if c.website_url %},\"url\":\"{{ c.website_url | escape }}\"{% endif %}</script>{% endif %}",
+        "spaced-section": false,
+        "spaced-bottom": false,
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
