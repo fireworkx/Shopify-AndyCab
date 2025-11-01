@@ -117,7 +117,7 @@
           "settings": {
             "heading": "What warranty do I get?",
             "icon": "check_mark",
-            "row_content": "<h2>Satisfaction guaranteed</h2><p>With over 20 years of experience, our <strong>quality workmanship</strong> has been refined to ensure our customers receive a superior product that we are proud to put our name on it.</p><p>We provide a <strong>3-year warranty</strong> on the <strong>fiberglass shell</strong> of the canopy and a <strong>1-year warranty</strong> on <strong>mechanical</strong> items.</p>",
+            "row_content": "<h3>Satisfaction guaranteed</h3><p>With over 20 years of experience, our <strong>quality workmanship</strong> has been refined to ensure our customers receive a superior product that we are proud to put our name on it.</p><p>We provide a <strong>3-year warranty</strong> on the <strong>fiberglass shell</strong> of the canopy and a <strong>1-year warranty</strong> on <strong>mechanical</strong> items.</p>",
             "page": ""
           }
         }
