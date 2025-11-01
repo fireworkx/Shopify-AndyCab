@@ -117,7 +117,7 @@
           "settings": {
             "heading": "What warranty do I get?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<h2>Satisfaction guaranteed</h2><p>With over 20 years of experience, our <strong>quality workmanship</strong> has been refined to ensure our customers receive a superior product that we are proud to put our name on it.</p><p>We provide a <strong>3-year warranty</strong> on the <strong>fiberglass shell</strong> of the canopy and a <strong>1-year warranty</strong> on <strong>mechanical</strong> items.</p>",
             "page": ""
           }
         }
@@ -154,6 +154,7 @@
     },
     "schema": {
       "type": "custom-liquid",
+      "name": "SEO Schema Content - Custom Liquid",
       "settings": {
         "custom_liquid": "{% assign centre_ref = page.metafields.fitment.centre %}{% if centre_ref and centre_ref.value %}{% assign c = centre_ref.value %}<script type='application/ld+json'>{\"@context\":\"https://schema.org\",\"@type\":\"AutoPartsStore\",\"name\":\"{{ c.name | escape }}\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"{{ c.address_line1 | escape }}{% if c.address_line2 %}, {{ c.address_line2 | escape }}{% endif %}\",\"addressLocality\":\"{{ c.city | escape }}\",\"addressRegion\":\"{{ c.region | escape }}\",\"postalCode\":\"{{ c.postal_code | escape }}\",\"addressCountry\":\"{{ c.country | escape }}\"},\"telephone\":\"{{ c.phone | escape }}\"{% if c.latitude and c.longitude %},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":{{ c.latitude }},\"longitude\":{{ c.longitude }}}{% endif %}{% if c.website_url %},\"url\":\"{{ c.website_url | escape }}\"{% endif %}</script>{% endif %}",
         "spaced-section": false,
