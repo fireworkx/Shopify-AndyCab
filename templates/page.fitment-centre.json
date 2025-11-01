@@ -23,9 +23,10 @@
     "hero": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify://shop_images/hero-nissan-canopies_c4281db3-f326-4662-b39d-bce857851305.png",
         "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
+        "image_height": "adapt",
+        "desktop_content_position": "top-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "",
@@ -63,9 +64,9 @@
         "custom_liquid": "{% assign centre_ref = page.metafields.fitment.centre %}{% if centre_ref and centre_ref.value %}{% assign c = centre_ref.value %}<div class='page-width' style='margin-top:2rem'><div style='display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1.25rem'>\n  <div class='card' style='border:1px solid var(--color-border); border-radius:12px; padding:16px'>\n    <h3>Contact</h3>\n    <div class='rte'><p><strong>Address</strong><br>{{ c.address_line1 | escape }}{% if c.address_line2 %}, {{ c.address_line2 | escape }}{% endif %}, {{ c.city | escape }}, {{ c.region | escape }} {{ c.postal_code | escape }}, {{ c.country | escape }}</p>\n    {% if c.phone %}<p><strong>Phone</strong><br>{{ c.phone | escape }}</p>{% endif %}\n    {% if c.email %}<p><strong>Email</strong><br>{{ c.email | escape }}</p>{% endif %}\n    {% if c.website_url %}<p><a href='{{ c.website_url }}' rel='nofollow'>Visit website</a></p>{% endif %}\n    {% if c.gmb_url %}<p><a href='{{ c.gmb_url }}' rel='nofollow noopener'>View on Google</a></p>{% endif %}</div>\n  </div>\n  <div class='card' style='border:1px solid var(--color-border); border-radius:12px; padding:16px'>\n    <h3>Opening hours</h3>\n    <div class='rte'>{% if c.opening_hours %}{{ c.opening_hours | newline_to_br }}{% else %}<p>Mon–Fri 08:00–17:00<br>Sat 08:00–13:00</p>{% endif %}</div>\n  </div>\n  <div class='card' style='border:1px solid var(--color-border); border-radius:12px; padding:16px'>\n    <h3>Service area</h3>\n    <div class='rte'>{% if c.service_area %}{{ c.service_area | newline_to_br }}{% else %}<p>{{ c.town | escape }} and surrounding suburbs.</p>{% endif %}</div>\n  </div>\n</div></div>{% endif %}",
         "spaced-section": false,
         "spaced-bottom": false,
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "color_scheme": "scheme-2",
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "why": {
