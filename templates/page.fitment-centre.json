@@ -50,6 +50,7 @@
     },
     "map": {
       "type": "custom-liquid",
+      "name": "Google Map - Custom Liquid",
       "settings": {
         "custom_liquid": "{% assign centre_ref = page.metafields.fitment.centre %}{% if centre_ref and centre_ref.value %}{% assign c = centre_ref.value %}<div class='page-width' style='margin-top:1.5rem'><div style='aspect-ratio:16/9; border:0; overflow:hidden; border-radius:12px'><iframe width='100%' height='100%' style='border:0' loading='lazy' referrerpolicy='no-referrer-when-downgrade' src='{% if c.latitude and c.longitude %}https://www.google.com/maps/embed/v1/place?key=YOUR_GOOGLE_MAPS_EMBED_API_KEY&q={{ c.latitude }},{{ c.longitude }}{% else %}https://maps.google.com/maps?q={{ c.address_line1 | escape | url_encode }}{% if c.address_line2 %},%20{{ c.address_line2 | escape | url_encode }}{% endif %},%20{{ c.city | escape | url_encode }},%20{{ c.region | escape | url_encode }}%20{{ c.postal_code | escape | url_encode }}&z=14&output=embed{% endif %}'></iframe></div></div>{% endif %}",
         "spaced-section": false,
