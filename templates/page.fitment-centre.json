@@ -22,6 +22,7 @@
     },
     "hero": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/hero-nissan-canopies_c4281db3-f326-4662-b39d-bce857851305.png",
         "image_overlay_opacity": 0,
