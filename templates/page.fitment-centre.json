@@ -142,6 +142,7 @@
         "padding_bottom": 36
       }
     },
+
     "cta": {
       "type": "contact-form",
       "settings": {
