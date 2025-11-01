@@ -108,7 +108,7 @@
           "settings": {
             "heading": "Do you fit my bakkie brand?",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Andy Cab has a wide range of<strong> canopies</strong> to fit your bakkie.</p><p>Please <strong>navigate via the main menu</strong> for your <strong>make and model.</strong></p><p>We manufacture and distribute high quality canopies for many vehicles, whether it be for leisure or business.</p>",
             "page": ""
           }
         },
