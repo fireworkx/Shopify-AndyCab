@@ -26,7 +26,7 @@
         "image": "shopify://shop_images/20220629_124921-01.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
-        "desktop_content_position": "top-center",
+        "desktop_content_position": "top-left",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "",
