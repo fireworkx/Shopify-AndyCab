@@ -23,7 +23,7 @@
     "hero": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/mechanic-with-spanner.jpg",
+        "image": "shopify://shop_images/20220629_124921-01.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "top-center",
