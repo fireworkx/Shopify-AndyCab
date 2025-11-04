@@ -16,8 +16,8 @@
         "spaced-section": false,
         "spaced-bottom": false,
         "color_scheme": "scheme-5",
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 4,
+        "padding_bottom": 4
       }
     },
     "hero": {
