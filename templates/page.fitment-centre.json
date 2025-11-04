@@ -12,7 +12,7 @@
     "heading_liquid": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% assign centre_ref = page.metafields.fitment.centre %}{% if centre_ref and centre_ref.value %}{% assign c = centre_ref.value %}<div class='page-width'><h1>Andy Cab Fitment Centre - {{ c.town | escape }}</h1><p class='subtitle'>Authorised Andy Cab fitment & accessories</p></div>{% else %}<div class='page-width'><h1>Fitment Centre</h1></div>{% endif %}",
+        "custom_liquid": "{% assign centre_ref = page.metafields.fitment.centre %}{% if centre_ref and centre_ref.value %}{% assign c = centre_ref.value %}<div class='page-width'><h1>Fitment Centre - {{ c.town | escape }}</h1><p class='subtitle'>Authorised Andy Cab fitment & accessories</p></div>{% else %}<div class='page-width'><h1>Fitment Centre</h1></div>{% endif %}",
         "spaced-section": false,
         "spaced-bottom": false,
         "color_scheme": "scheme-5",
