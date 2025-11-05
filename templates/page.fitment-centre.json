@@ -156,7 +156,7 @@
             "text_alignment": "center",
             "form_alignment": "center",
             "padding_top": 20,
-            "padding_bottom": 24,
+            "padding_bottom": 20,
             "padding_right": 0,
             "padding_left": 0
           }
@@ -178,7 +178,7 @@
         "spaced-bottom": false,
         "color_scheme": "",
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 4
       }
     }
   },
