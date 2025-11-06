@@ -147,6 +147,21 @@
         "padding_bottom": 0
       }
     },
+    "17624197893f84ce03": {
+      "type": "apps",
+      "blocks": {
+        "trafficly_visitors_counter_trafficly_UHcw8V": {
+          "type": "shopify://apps/trafficly-visitors-counter/blocks/trafficly/ff0a9f47-c478-468c-8fa1-f5a7bb122960",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "trafficly_visitors_counter_trafficly_UHcw8V"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "1633079569e84b10cd": {
       "type": "fireworkx-quote-slider",
       "settings": {}
@@ -179,28 +194,13 @@
         "padding_top": 0,
         "padding_bottom": 96
       }
-    },
-    "17624197893f84ce03": {
-      "type": "apps",
-      "blocks": {
-        "trafficly_visitors_counter_trafficly_UHcw8V": {
-          "type": "shopify://apps/trafficly-visitors-counter/blocks/trafficly/ff0a9f47-c478-468c-8fa1-f5a7bb122960",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "trafficly_visitors_counter_trafficly_UHcw8V"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
-    "17624197893f84ce03",
     "main",
-    "1633079569e84b10cd",
+    "17624197893f84ce03",
     "1733729993ae0a6756",
+    "1633079569e84b10cd",
     "71490deb-d4ad-4fd9-b1b0-d9f28194bf6d"
   ]
 }
