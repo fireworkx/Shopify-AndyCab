@@ -73,15 +73,6 @@
             "page": ""
           }
         },
-        "collapsible_tab_XnytPH": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "",
-            "page": "shipping-returns-policy"
-          }
-        },
         "share": {
           "type": "share",
           "disabled": true,
@@ -106,7 +97,6 @@
         "description",
         "buy_buttons",
         "collapsible-row-1",
-        "collapsible_tab_XnytPH",
         "share",
         "d876dbb6-87a9-41b4-a897-dd5fa1339ef6"
       ],
@@ -165,6 +155,15 @@
             "page": ""
           }
         },
+        "collapsible_row_WinAbd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "truck",
+            "row_content": "",
+            "page": "shipping-returns-policy"
+          }
+        },
         "collapsible_row_YitCYf": {
           "type": "collapsible_row",
           "settings": {
@@ -180,6 +179,7 @@
         "collapsible_row_tVyUT4",
         "collapsible_row_n3cXip",
         "collapsible_row_UG9mL8",
+        "collapsible_row_WinAbd",
         "collapsible_row_YitCYf"
       ],
       "custom_css": [
