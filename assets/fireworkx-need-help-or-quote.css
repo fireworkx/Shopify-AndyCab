@@ -24,7 +24,7 @@
 
 .fwx-get-quote-online {
 	display: grid;
-	gap: 1.2rem; /* slightly smaller vertical gap */
+	gap: 0.8rem; /* slightly smaller vertical gap */
 	width: 100%;
 }
 
