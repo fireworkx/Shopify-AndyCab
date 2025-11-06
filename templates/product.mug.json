@@ -155,15 +155,6 @@
             "page": ""
           }
         },
-        "collapsible_row_WinAbd": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "row_content": "",
-            "page": "shipping-returns-policy"
-          }
-        },
         "collapsible_row_YitCYf": {
           "type": "collapsible_row",
           "settings": {
@@ -172,6 +163,15 @@
             "row_content": "{{ product.metafields.custom.product_faqs | metafield_tag }}",
             "page": ""
           }
+        },
+        "collapsible_row_WinAbd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "truck",
+            "row_content": "",
+            "page": "shipping-returns-policy"
+          }
         }
       },
       "block_order": [
@@ -179,8 +179,8 @@
         "collapsible_row_tVyUT4",
         "collapsible_row_n3cXip",
         "collapsible_row_UG9mL8",
-        "collapsible_row_WinAbd",
-        "collapsible_row_YitCYf"
+        "collapsible_row_YitCYf",
+        "collapsible_row_WinAbd"
       ],
       "custom_css": [
         ".collapsible-content table td,.collapsible-content table th {font-size: 1.55rem; /* Changed from smaller */ border: 1px solid #ddd; /* Changed from black to grey */ line-height: 1.4; padding: 10px; text-align: left;}"
