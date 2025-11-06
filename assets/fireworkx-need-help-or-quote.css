@@ -1,77 +1,78 @@
 .fwx-quote-container {
-	background: #ffffff;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	gap: 2rem;
-	padding: 0.8rem 1.6rem 1.4rem; /* reduced top padding */
-	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25), 0px 4px 6px rgba(0, 0, 0, 0.25);
-	border-radius: 1rem;
-	justify-content: center;
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.6rem 1.6rem;
+  background: #ffffff;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25), 0px 4px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+  justify-content: center;
 }
 
 @media screen and (min-width: 750px) {
-	.fwx-quote-container {
-		padding: 2rem 3rem 2rem; /* reduced top padding */
-	}
+  .fwx-quote-container {
+    padding: 2rem 4rem;
+    padding-bottom: 2rem;
+  }
 }
 
 @media screen and (min-width: 990px) {
-	.fwx-quote-container {
-		justify-content: flex-start;
-	}
+  .fwx-quote-container {
+    justify-content: flex-start;
+  }
 }
 
 .fwx-get-quote-online {
-	display: grid;
-	gap: 0.8rem; /* slightly smaller vertical gap */
-	width: 100%;
+  display: grid;
+  gap: 2rem;
+  width: 100%;
 }
 
 .fwx-get-quote-online h3 {
-	margin-top: 0.2rem; /* reduced any default heading spacing */
-	margin-bottom: 0.5rem;
-	text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 @media screen and (min-width: 990px) {
-	.fwx-get-quote-online h3 {
-		text-align: left;
-		font-size: 3.2rem;
-		margin-top: 0;
-	}
+  .fwx-get-quote-online h3 {
+    text-align: left;
+    font-size: 3.2rem;
+  }
 }
 
 .fwx-get-quote-online button {
-	width: 100%;
+  width: 100%;
 }
 
 .fwx-quote-container .fwx-contact {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media screen and (min-width: 990px) {
-	.fwx-quote-container .fwx-contact {
-		gap: 1rem;
-	}
+  .fwx-quote-container .fwx-contact {
+    gap: 1rem;
+  }
 }
 
 .fwx-quote-container .fwx-contact a {
-	font-weight: bold;
-	text-decoration: none;
-	color: #012169;
+  font-weight: bold;
+  text-decoration: none;
+  color: #012169;
 }
 
 @media screen and (min-width: 990px) {
-	.fwx-quote-container .fwx-contact a {
-		font-size: 1.6rem;
-	}
+  .fwx-quote-container .fwx-contact a {
+    font-size: 1.6rem;
+  }
 }
 
 @media screen and (min-width: 1140px) {
-	.fwx-quote-container .fwx-contact a {
-		font-size: 2rem;
-	}
+  .fwx-quote-container .fwx-contact a {
+    font-size: 2rem;
+  }
 }
