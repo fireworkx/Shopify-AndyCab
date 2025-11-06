@@ -4,7 +4,7 @@
 	flex-wrap: wrap;
 	align-items: center;
 	gap: 2rem;
-	padding: 0.8rem 1.6rem 2.4rem; /* reduced top padding */
+	padding: 0.8rem 1.6rem 1.4rem; /* reduced top padding */
 	box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25), 0px 4px 6px rgba(0, 0, 0, 0.25);
 	border-radius: 1rem;
 	justify-content: center;
