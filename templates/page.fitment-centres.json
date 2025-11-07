@@ -55,6 +55,7 @@
         },
         "00032308-2326-4b41-8488-afe690a533a6": {
           "type": "fitment_centre",
+          "disabled": true,
           "settings": {
             "title": "Protect a Car",
             "address": "<p>Unit B6, 5Star Junction</p><p>Cnr of juice Street and Beyers<br/>Naude Drive, Honeydew       </p><p>Roodepoort</p><p><a href=\"https://www.protectacar.co.za/\" target=\"_blank\" title=\"https://www.protectacar.co.za/\">protectacar.co.za</a></p>",
@@ -82,6 +83,7 @@
         },
         "18a1df32-abf6-4383-84fc-dfed17a7349a": {
           "type": "fitment_centre",
+          "disabled": true,
           "settings": {
             "title": "Z Customs",
             "address": "<p>Unit 32 N12 Industrial Park</p><p>Boksburg</p><p><a href=\"https://zcustoms.co.za/\" target=\"_blank\" title=\"https://zcustoms.co.za/\">zcustoms.co.za</a></p>",
@@ -335,6 +337,7 @@
         },
         "c4abbf28-a7f5-410f-9176-97de04514c0c": {
           "type": "fitment_centre",
+          "disabled": true,
           "settings": {
             "title": "Bekker's Canopy Centre",
             "address": "<p>30 Voortrekker Street, Uitbreiding</p><p>Witbank </p>",
@@ -344,6 +347,7 @@
         },
         "d8c80ce8-3864-4aaf-a7c9-5b8a8d30a8c7": {
           "type": "fitment_centre",
+          "disabled": true,
           "settings": {
             "title": "Dynamic Shield",
             "address": "<p>7 Mystic River Crescent, Riverside Auto Centre</p><p>Nelspruit</p><p><a href=\"https://www.dynamicshield.co.za/\" target=\"_blank\" title=\"https://www.dynamicshield.co.za/\">dynamicshield.co.za</a></p>",
@@ -368,6 +372,7 @@
         "d8c80ce8-3864-4aaf-a7c9-5b8a8d30a8c7",
         "32b93ddd-653d-4743-bf15-bc6f504de437"
       ],
+      "disabled": true,
       "settings": {
         "title": "South Africa (Mpumalanga)",
         "flag_image": "shopify://shop_images/south-africa.png",
@@ -520,6 +525,7 @@
         },
         "7f884f2b-637e-4d56-bb06-9796701f4551": {
           "type": "fitment_centre",
+          "disabled": true,
           "settings": {
             "title": "Toptech Autoworks Ltd",
             "address": "<p>Luanshya Road, Lusaka, Zambia</p>",
@@ -532,6 +538,7 @@
         "9b305136-e94c-4e77-a129-c84b3f9609a6",
         "7f884f2b-637e-4d56-bb06-9796701f4551"
       ],
+      "disabled": true,
       "settings": {
         "title": "Zambia",
         "flag_image": "shopify://shop_images/zambia-flag.jpg",
