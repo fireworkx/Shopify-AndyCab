@@ -117,12 +117,13 @@
         "featured_collection_rYd3ew",
         "featured_collection_ayKXyt"
       ],
+      "custom_css": [],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "New Canopies",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "color_scheme": "scheme-1",
         "show_view_all": false,
         "columns_mobile": "1",
