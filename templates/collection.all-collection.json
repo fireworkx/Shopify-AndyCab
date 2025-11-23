@@ -16,40 +16,110 @@
     "collection_list_NYBMyV": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_g7hMdN": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "{{ collection }}"
-          }
-        },
         "featured_collection_zCEG3r": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "byd-canopies"
           }
         },
         "featured_collection_4NWXKV": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "ford-canopies"
           }
         },
         "featured_collection_7wDYEY": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "foton-canopies"
+          }
+        },
+        "featured_collection_dhTBzt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "gwm-canopies"
+          }
+        },
+        "featured_collection_mxrra3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hyundai-canopies"
+          }
+        },
+        "featured_collection_VwJHYE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "isuzu-canopies"
+          }
+        },
+        "featured_collection_VJzBAA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jac-canopies"
+          }
+        },
+        "featured_collection_38x87J": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kia-canopies"
+          }
+        },
+        "featured_collection_yjzRFt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mahindra-canopies"
+          }
+        },
+        "featured_collection_ymVpbM": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mazda-canopies"
+          }
+        },
+        "featured_collection_JEd4QJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "nissan-canopies"
+          }
+        },
+        "featured_collection_dgtdaL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "suzuki-canopies"
+          }
+        },
+        "featured_collection_rYd3ew": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "toyota-canopies"
+          }
+        },
+        "featured_collection_ayKXyt": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "volkswagen-canopies"
           }
         }
       },
       "block_order": [
-        "featured_collection_g7hMdN",
         "featured_collection_zCEG3r",
         "featured_collection_4NWXKV",
-        "featured_collection_7wDYEY"
+        "featured_collection_7wDYEY",
+        "featured_collection_dhTBzt",
+        "featured_collection_mxrra3",
+        "featured_collection_VwJHYE",
+        "featured_collection_VJzBAA",
+        "featured_collection_38x87J",
+        "featured_collection_yjzRFt",
+        "featured_collection_ymVpbM",
+        "featured_collection_JEd4QJ",
+        "featured_collection_dgtdaL",
+        "featured_collection_rYd3ew",
+        "featured_collection_ayKXyt"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
-        "title": "Collections",
+        "title": "Canopies",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 3,
