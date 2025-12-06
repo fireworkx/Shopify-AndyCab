@@ -74,8 +74,8 @@
   {%- endif -%}
   {%- assign og_image_url = '' -%}
   {%- comment -%} Try to get image from fitment.centre metaobject {%- endcomment -%}
-  {%- if page.metafields.fitment.centre.open_graph_image -%}
-    {%- assign og_image_url = page.metafields.fitment.centre.open_graph_image | image_url: width: 1200 -%}
+  {%- if page.metafields.fitment.centre.value.open_graph_image -%}
+    {%- assign og_image_url = page.metafields.fitment.centre.value.open_graph_image | image_url: width: 1200 -%}
   {%- elsif page.metafields.custom.open_graph_image -%}
     {%- assign og_image_url = page.metafields.custom.open_graph_image | image_url: width: 1200 -%}
   {%- endif -%}
@@ -138,6 +138,8 @@
 {%- if page_description -%}
   <meta name="twitter:description" content="{{ page_description | escape }}">
 {%- endif -%}
+
+
 
     {% render 'meta-tags' %}
 
