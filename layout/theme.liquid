@@ -36,6 +36,7 @@
     {% if page_description %}
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
+
 {%- comment -%} Open Graph Tags {%- endcomment -%}
 <meta property="og:site_name" content="{{ shop.name }}">
 <meta property="og:url" content="{{ canonical_url }}">
@@ -72,12 +73,29 @@
     <meta property="og:description" content="{{ page.content | strip_html | truncatewords: 50 | escape }}">
   {%- endif -%}
   {%- assign og_image_url = '' -%}
-  {%- if page.image -%}
-    {%- assign og_image_url = page.image | image_url: width: 1200 -%}
-  {%- elsif settings.share_image -%}
-    {%- assign og_image_url = settings.share_image | image_url: width: 1200 -%}
-  {%- elsif settings.logo -%}
-    {%- assign og_image_url = settings.logo | image_url: width: 1200 -%}
+  {%- comment -%} Try to get image from fitment.centre metaobject {%- endcomment -%}
+  {%- if page.metafields.fitment.centre.open_graph_image -%}
+    {%- assign og_image_url = page.metafields.fitment.centre.open_graph_image | image_url: width: 1200 -%}
+  {%- elsif page.metafields.custom.open_graph_image -%}
+    {%- assign og_image_url = page.metafields.custom.open_graph_image | image_url: width: 1200 -%}
+  {%- endif -%}
+  {%- comment -%} If no metafield, try to extract first image from content {%- endcomment -%}
+  {%- if og_image_url == '' and page.content contains '<img' -%}
+    {%- assign img_tag = page.content | split: '<img' | last -%}
+    {%- if img_tag contains 'src="' -%}
+      {%- assign img_url = img_tag | split: 'src="' | last | split: '"' | first -%}
+      {%- if img_url contains 'cdn.shopify.com' -%}
+        {%- assign og_image_url = img_url | split: '?' | first -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+  {%- comment -%} Fall back to theme defaults {%- endcomment -%}
+  {%- if og_image_url == '' -%}
+    {%- if settings.share_image -%}
+      {%- assign og_image_url = settings.share_image | image_url: width: 1200 -%}
+    {%- elsif settings.logo -%}
+      {%- assign og_image_url = settings.logo | image_url: width: 1200 -%}
+    {%- endif -%}
   {%- endif -%}
   {%- if og_image_url != '' -%}
     <meta property="og:image" content="https:{{ og_image_url }}">
