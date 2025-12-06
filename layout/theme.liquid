@@ -71,15 +71,19 @@
   {%- if page.content -%}
     <meta property="og:description" content="{{ page.content | strip_html | truncatewords: 50 | escape }}">
   {%- endif -%}
+  {%- assign og_image_url = '' -%}
   {%- if page.image -%}
-    <meta property="og:image" content="https:{{ page.image | image_url: width: 1200 }}">
-    <meta property="og:image:secure_url" content="https:{{ page.image | image_url: width: 1200 }}">
+    {%- assign og_image_url = page.image | image_url: width: 1200 -%}
   {%- elsif settings.share_image -%}
-    <meta property="og:image" content="https:{{ settings.share_image | image_url: width: 1200 }}">
-    <meta property="og:image:secure_url" content="https:{{ settings.share_image | image_url: width: 1200 }}">
+    {%- assign og_image_url = settings.share_image | image_url: width: 1200 -%}
   {%- elsif settings.logo -%}
-    <meta property="og:image" content="https:{{ settings.logo | image_url: width: 1200 }}">
-    <meta property="og:image:secure_url" content="https:{{ settings.logo | image_url: width: 1200 }}">
+    {%- assign og_image_url = settings.logo | image_url: width: 1200 -%}
+  {%- endif -%}
+  {%- if og_image_url != '' -%}
+    <meta property="og:image" content="https:{{ og_image_url }}">
+    <meta property="og:image:secure_url" content="https:{{ og_image_url }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
   {%- endif -%}
 
 {%- elsif template.name == 'collection' -%}
@@ -96,12 +100,17 @@
   {%- if page_description -%}
     <meta property="og:description" content="{{ page_description | escape }}">
   {%- endif -%}
+  {%- assign og_image_url = '' -%}
   {%- if settings.share_image -%}
-    <meta property="og:image" content="https:{{ settings.share_image | image_url: width: 1200 }}">
-    <meta property="og:image:secure_url" content="https:{{ settings.share_image | image_url: width: 1200 }}">
+    {%- assign og_image_url = settings.share_image | image_url: width: 1200 -%}
   {%- elsif settings.logo -%}
-    <meta property="og:image" content="https:{{ settings.logo | image_url: width: 1200 }}">
-    <meta property="og:image:secure_url" content="https:{{ settings.logo | image_url: width: 1200 }}">
+    {%- assign og_image_url = settings.logo | image_url: width: 1200 -%}
+  {%- endif -%}
+  {%- if og_image_url != '' -%}
+    <meta property="og:image" content="https:{{ og_image_url }}">
+    <meta property="og:image:secure_url" content="https:{{ og_image_url }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
   {%- endif -%}
 {%- endif -%}
 
