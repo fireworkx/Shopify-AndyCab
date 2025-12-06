@@ -36,7 +36,81 @@
     {% if page_description %}
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
+{%- comment -%} Open Graph Tags {%- endcomment -%}
+<meta property="og:site_name" content="{{ shop.name }}">
+<meta property="og:url" content="{{ canonical_url }}">
+<meta property="og:type" content="website">
 
+{%- if template.name == 'product' -%}
+  <meta property="og:type" content="product">
+  <meta property="og:title" content="{{ product.title | strip_html | escape }}">
+  <meta property="og:description" content="{{ product.description | strip_html | truncatewords: 50 | escape }}">
+  {%- if product.featured_image -%}
+    <meta property="og:image" content="https:{{ product.featured_image | image_url: width: 1200 }}">
+    <meta property="og:image:secure_url" content="https:{{ product.featured_image | image_url: width: 1200 }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="1200">
+  {%- endif -%}
+  <meta property="og:price:amount" content="{{ product.price | money_without_currency | strip_html }}">
+  <meta property="og:price:currency" content="{{ cart.currency.iso_code }}">
+
+{%- elsif template.name == 'article' -%}
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{{ article.title | strip_html | escape }}">
+  <meta property="og:description" content="{{ article.excerpt_or_content | strip_html | truncatewords: 50 | escape }}">
+  {%- if article.image -%}
+    <meta property="og:image" content="https:{{ article.image | image_url: width: 1200 }}">
+    <meta property="og:image:secure_url" content="https:{{ article.image | image_url: width: 1200 }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+  {%- endif -%}
+
+{%- elsif template.name == 'page' -%}
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title | strip_html | escape }}">
+  {%- if page.content -%}
+    <meta property="og:description" content="{{ page.content | strip_html | truncatewords: 50 | escape }}">
+  {%- endif -%}
+  {%- if page.image -%}
+    <meta property="og:image" content="https:{{ page.image | image_url: width: 1200 }}">
+    <meta property="og:image:secure_url" content="https:{{ page.image | image_url: width: 1200 }}">
+  {%- elsif settings.share_image -%}
+    <meta property="og:image" content="https:{{ settings.share_image | image_url: width: 1200 }}">
+    <meta property="og:image:secure_url" content="https:{{ settings.share_image | image_url: width: 1200 }}">
+  {%- elsif settings.logo -%}
+    <meta property="og:image" content="https:{{ settings.logo | image_url: width: 1200 }}">
+    <meta property="og:image:secure_url" content="https:{{ settings.logo | image_url: width: 1200 }}">
+  {%- endif -%}
+
+{%- elsif template.name == 'collection' -%}
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ collection.title | strip_html | escape }}">
+  <meta property="og:description" content="{{ collection.description | strip_html | truncatewords: 50 | escape }}">
+  {%- if collection.image -%}
+    <meta property="og:image" content="https:{{ collection.image | image_url: width: 1200 }}">
+    <meta property="og:image:secure_url" content="https:{{ collection.image | image_url: width: 1200 }}">
+  {%- endif -%}
+
+{%- else -%}
+  <meta property="og:title" content="{{ page_title | escape }}">
+  {%- if page_description -%}
+    <meta property="og:description" content="{{ page_description | escape }}">
+  {%- endif -%}
+  {%- if settings.share_image -%}
+    <meta property="og:image" content="https:{{ settings.share_image | image_url: width: 1200 }}">
+    <meta property="og:image:secure_url" content="https:{{ settings.share_image | image_url: width: 1200 }}">
+  {%- elsif settings.logo -%}
+    <meta property="og:image" content="https:{{ settings.logo | image_url: width: 1200 }}">
+    <meta property="og:image:secure_url" content="https:{{ settings.logo | image_url: width: 1200 }}">
+  {%- endif -%}
+{%- endif -%}
+
+{%- comment -%} Twitter Card Tags {%- endcomment -%}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ page_title | escape }}">
+{%- if page_description -%}
+  <meta name="twitter:description" content="{{ page_description | escape }}">
+{%- endif -%}
     {% render 'meta-tags' %}
 
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
