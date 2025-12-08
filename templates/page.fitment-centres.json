@@ -330,7 +330,7 @@
             "email": "",
             "phone": "",
             "view_fitment_centre_text": "View Fitment Centre",
-            "view_fitment_centre_url": ""
+            "view_fitment_centre_url": "shopify://pages/fitment-centre-graaff-reinet"
           }
         },
         "015311ab-bcba-4bcc-979f-28eda3e03a69": {
@@ -352,7 +352,7 @@
             "email": "",
             "phone": "",
             "view_fitment_centre_text": "View Fitment Centre",
-            "view_fitment_centre_url": ""
+            "view_fitment_centre_url": "shopify://pages/fitment-centre-fairview"
           }
         }
       },
