@@ -22,10 +22,19 @@
               {% endif %}
               <div class="fwx-contact-buttons">
                 {% if block.settings.email != blank %}
-                  <a href="mailto:{{ block.settings.email }}" class="button button--transparent button--small">{% render 'icon-email' %} Send a message</a>
+                  <a href="mailto:{{ block.settings.email }}" class="button button--transparent button--small">
+                    {% render 'icon-email' %} Send a message
+                  </a>
                 {% endif %}
                 {% if block.settings.phone != blank %}
-                  <a href="tel:{{ block.settings.phone | replace: ' ', '' }}" class="button button--transparent button--small">{% render 'icon-phone' %} Call us</a>
+                  <a href="tel:{{ block.settings.phone | replace: ' ', '' }}" class="button button--transparent button--small">
+                    {% render 'icon-phone' %} Call us
+                  </a>
+                {% endif %}
+                {% if block.settings.view_fitment_centre_url != blank %}
+                  <a href="{{ block.settings.view_fitment_centre_url }}" class="button button--transparent button--small">
+                    {{ block.settings.view_fitment_centre_text | default: 'View Fitment Centre' }}
+                  </a>
                 {% endif %}
               </div>
             </div>
@@ -96,6 +105,17 @@
           "type": "text",
           "id": "phone",
           "label": "Phone Number"
+        },
+        {
+          "type": "text",
+          "id": "view_fitment_centre_text",
+          "label": "View Fitment Centre link text",
+          "default": "View Fitment Centre"
+        },
+        {
+          "type": "url",
+          "id": "view_fitment_centre_url",
+          "label": "View Fitment Centre page URL"
         }
       ]
     }
