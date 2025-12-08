@@ -32,7 +32,9 @@
             "title": "Andy Cab Kempton Park",
             "address": "<p>6 Firefly Street, Rhodesfield, Kempton Park</p><p>Johannesburg </p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": "shopify://pages/fitment-centre-kempton-park"
           }
         },
         "0273415e-a449-4226-808b-838594595ff5": {
@@ -41,7 +43,9 @@
             "title": "Rhino Sandton",
             "address": "<p>20 5th St, Wynberg</p><p>Sandton</p><p><a href=\"https://rhinosandton.co.za/\" target=\"_blank\" title=\"https://rhinosandton.co.za/\">rhinosandton.co.za</a></p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         },
         "aae99d3a-615c-4fd9-9008-9ebd8f66c093": {
@@ -50,7 +54,9 @@
             "title": "Fez Simplicity",
             "address": "<p>Unit 1, 3 Van Der Bijl St, Alrode South</p><p>Alberton</p><p><a href=\"https://www.fezsimplicity.com/\" target=\"_blank\" title=\"https://www.fezsimplicity.com/\">fezsimplicity.com</a></p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         },
         "00032308-2326-4b41-8488-afe690a533a6": {
@@ -60,7 +66,9 @@
             "title": "Protect a Car",
             "address": "<p>Unit B6, 5Star Junction</p><p>Cnr of juice Street and Beyers<br/>Naude Drive, Honeydew       </p><p>Roodepoort</p><p><a href=\"https://www.protectacar.co.za/\" target=\"_blank\" title=\"https://www.protectacar.co.za/\">protectacar.co.za</a></p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         },
         "a1d5f052-0abe-4676-9734-1151575407eb": {
@@ -69,7 +77,9 @@
             "title": "West Side Car Audio",
             "address": "<p>42 Luipaard Street</p><p>Krugersdorp</p><p><a href=\"https://westsidecaraudio.co.za/andycab-canopies/\" target=\"_blank\" title=\"https://westsidecaraudio.co.za/andycab-canopies/\">westsidecaraudio.co.za</a></p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         },
         "8144286f-130e-4a2a-b92d-6378cf6b5262": {
@@ -78,7 +88,9 @@
             "title": "Motorshield",
             "address": "<p>244 Beyers Naude Drive</p><p>Northcliff</p><p><a href=\"https://mshield.co.za/\" target=\"_blank\" title=\"https://mshield.co.za/\">mshield.co.za</a></p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         },
         "18a1df32-abf6-4383-84fc-dfed17a7349a": {
@@ -88,7 +100,9 @@
             "title": "Z Customs",
             "address": "<p>Unit 32 N12 Industrial Park</p><p>Boksburg</p><p><a href=\"https://zcustoms.co.za/\" target=\"_blank\" title=\"https://zcustoms.co.za/\">zcustoms.co.za</a></p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         }
       },
@@ -123,7 +137,9 @@
             "title": "Bloemfontein Canopy Centre",
             "address": "<p>54 Glenweg Road, Hilton</p><p>Bloemfontein </p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         },
         "70c0f62c-ecb8-43e8-a0aa-430c62970699": {
@@ -132,7 +148,9 @@
             "title": "Mr Canopy",
             "address": "<p>137 Constantia St, Dagbreek</p><p>Welkom</p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         }
       },
@@ -162,7 +180,9 @@
             "title": "NC Audio & 4x4",
             "address": "<p>83A Long Street </p><p>Kimberley</p><p><a href=\"https://www.ncaudio4x4.co.za/\" target=\"_blank\" title=\"https://www.ncaudio4x4.co.za/\">ncaudio4x4.co.za</a></p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         }
       },
@@ -191,7 +211,9 @@
             "title": "Andy Cab Cape Town",
             "address": "<p>14 Hawkins Avenue, Epping 1</p><p>Cape Town</p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         },
         "6736b00f-75f7-46a5-9643-090b8fd8a254": {
@@ -200,7 +222,9 @@
             "title": "EDF Autofix",
             "address": "<p>16 Arcadia St</p><p>Malmesbury</p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         },
         "fb4ff44c-717b-437b-bb7e-39683a35032c": {
@@ -209,7 +233,9 @@
             "title": "National Fitment Solutions",
             "address": "<p>82 Jan Van Riebeeck Drive</p><p>Paarl</p><p><a href=\"https://nfswc.co.za/\" target=\"_blank\" title=\"https://nfswc.co.za/\">nfswc.co.za</a></p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         },
         "81a56760-9cc3-4b68-8445-162d90e7d3f3": {
@@ -219,7 +245,9 @@
             "title": "Seans Car Audio",
             "address": "<p>4 Pasteur St</p><p>Vredenburg </p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         },
         "6c5ecf48-1041-40db-8c08-41f5069ce7dc": {
@@ -228,7 +256,9 @@
             "title": "CV Valet Vredendal",
             "address": "<p>2 Dorp Street</p><p>Vredendal</p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         },
         "a97b3483-75ef-4847-84b3-23260dd9bb6a": {
@@ -237,7 +267,9 @@
             "title": "Rhino Linings George",
             "address": "<p>1 Rand St, George Industria,</p><p>George</p><p><a href=\"https://www.rhinolinings.co.za/store/rhino-linings-george/\" target=\"_blank\" title=\"https://www.rhinolinings.co.za/store/rhino-linings-george/\">rhinolinings.co.za</a></p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         },
         "649dd02f-8c8a-4122-b94b-a0bcaa9b22cb": {
@@ -246,7 +278,9 @@
             "title": "Seans Car Audio",
             "address": "<p>4 Pasteur Street</p><p>Vredenburg</p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         },
         "8e0c1194-7bde-432f-b01a-eb019b2cbe09": {
@@ -256,7 +290,9 @@
             "title": "Swellendam Canopies",
             "address": "<p>11 Baker Straat</p><p>Swellendam </p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         }
       },
@@ -292,7 +328,9 @@
             "title": "Karoo 4x4",
             "address": "<p>40-42 College Road</p><p>Graaff-Reinet</p><p><a href=\"http://www.karoo4x4.co.za/\" target=\"_blank\" title=\"http://www.karoo4x4.co.za/\">karoo4x4.co.za</a></p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         },
         "015311ab-bcba-4bcc-979f-28eda3e03a69": {
@@ -301,7 +339,9 @@
             "title": "NJH",
             "address": "<p>Unit 1.4 Arcadia Park, Commercial Road</p><p>East London</p><p><a href=\"http://www.njhafrica.co.za/\" target=\"_blank\" title=\"http://www.njhafrica.co.za/\">njhafrica.co.za</a></p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         },
         "5da200df-e6d2-4805-9e69-b4ee54a1b02d": {
@@ -310,7 +350,9 @@
             "title": "Rhino Linings PE",
             "address": "<p>19 Blackwood Crescent,Fairview</p><p>Port Elizabeth</p><p>Gqeberha</p><p><a href=\"https://rhinoliningspe.co.za/product/andy-cab-canopy/\" target=\"_blank\" title=\"https://rhinoliningspe.co.za/product/andy-cab-canopy/\">rhinoliningspe.co.za</a></p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         }
       },
@@ -342,7 +384,9 @@
             "title": "Bekker's Canopy Centre",
             "address": "<p>30 Voortrekker Street, Uitbreiding</p><p>Witbank </p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         },
         "d8c80ce8-3864-4aaf-a7c9-5b8a8d30a8c7": {
@@ -352,7 +396,9 @@
             "title": "Dynamic Shield",
             "address": "<p>7 Mystic River Crescent, Riverside Auto Centre</p><p>Nelspruit</p><p><a href=\"https://www.dynamicshield.co.za/\" target=\"_blank\" title=\"https://www.dynamicshield.co.za/\">dynamicshield.co.za</a></p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         },
         "32b93ddd-653d-4743-bf15-bc6f504de437": {
@@ -362,7 +408,9 @@
             "title": "Protect A Car Nelspruit",
             "address": "<p> 14 Amanzi Weir Building Riverside Park</p><p>Nelspruit </p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         }
       },
@@ -394,7 +442,9 @@
             "title": "Jooste 4x4 Fitment Centre",
             "address": "<p>13 Ceramic Curve, Alton</p><p>Richards Bay</p><p><a href=\"https://www.jooste4x4.co.za/\" target=\"_blank\" title=\"https://www.jooste4x4.co.za/\">jooste4x4.co.za</a></p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         }
       },
@@ -423,7 +473,9 @@
             "title": "Airite Canopies",
             "address": "<p>5 Calvin Street, Southern Industrial</p><p><a href=\"https://airitecanopies.com/\" target=\"_blank\" title=\"https://airitecanopies.com/\">airitecanopies.com</a></p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         }
       },
@@ -452,7 +504,9 @@
             "title": "Accessories FC Harare",
             "address": "<p>100 McChlery Avenue,Eastlea</p><p><a href=\"https://afc.co.zw/\" target=\"_blank\" title=\"https://afc.co.zw/\">afc.co.zw</a></p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         },
         "7e83404a-5734-49c5-aae4-0eee86e1a07b": {
@@ -469,7 +523,9 @@
             "title": "Blisworth Trading T/A Dai-Ichi Auto",
             "address": "<p>3 Bessborough Street Belmont</p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         }
       },
@@ -500,7 +556,9 @@
             "title": "Gaborone Canopy Fitment Centre",
             "address": "<p>Plot 22021, Gaborone West </p><p>Industrial,Gaborone, Botswana</p><p><a href=\"https://www.hirange.co.bw/\" target=\"_blank\" title=\"https://www.hirange.co.bw/\">hirange.co.bw</a></p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         }
       },
@@ -530,7 +588,9 @@
             "title": "Toptech Autoworks Ltd",
             "address": "<p>Luanshya Road, Lusaka, Zambia</p>",
             "email": "",
-            "phone": ""
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
           }
         }
       },
