@@ -616,7 +616,6 @@
         },
         "fitment_centre_JJyG43": {
           "type": "fitment_centre",
-          "disabled": true,
           "settings": {
             "title": "Nox Tinting",
             "address": "<p>Inkhonyane Street King Sobhuza</p>",
@@ -631,7 +630,6 @@
         "province_UeFyjB",
         "fitment_centre_JJyG43"
       ],
-      "disabled": true,
       "settings": {
         "title": "Eswatini",
         "flag_image": "shopify://shop_images/eswatini.png",
