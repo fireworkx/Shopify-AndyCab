@@ -618,7 +618,7 @@
           "type": "fitment_centre",
           "settings": {
             "title": "Nox Tinting",
-            "address": "<p>Inkhonyane Street King Sobhuza</p>",
+            "address": "<p>Inkhonyane Street </p><p>King Sobhuza</p>",
             "email": "",
             "phone": "086 286 1002",
             "view_fitment_centre_text": "View Fitment Centre",
