@@ -618,12 +618,12 @@
           "type": "fitment_centre",
           "disabled": true,
           "settings": {
-            "title": "Toptech Autoworks Ltd",
-            "address": "<p>Luanshya Road, Lusaka, Zambia</p>",
+            "title": "Nox Tinting",
+            "address": "<p>Inkhonyane Street King Sobhuza</p>",
             "email": "",
-            "phone": "",
+            "phone": "086 286 1002",
             "view_fitment_centre_text": "View Fitment Centre",
-            "view_fitment_centre_url": ""
+            "view_fitment_centre_url": "shopify://pages/fitment-centre-matsapha"
           }
         }
       },
