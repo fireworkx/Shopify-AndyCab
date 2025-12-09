@@ -605,6 +605,39 @@
         "last-fitment-centre": true
       }
     },
+    "fireworkx_fitment_centre_group_Lg63b9": {
+      "type": "fireworkx-fitment-centre-group",
+      "blocks": {
+        "province_UeFyjB": {
+          "type": "province",
+          "settings": {
+            "title": "Lusaka"
+          }
+        },
+        "fitment_centre_JJyG43": {
+          "type": "fitment_centre",
+          "disabled": true,
+          "settings": {
+            "title": "Toptech Autoworks Ltd",
+            "address": "<p>Luanshya Road, Lusaka, Zambia</p>",
+            "email": "",
+            "phone": "",
+            "view_fitment_centre_text": "View Fitment Centre",
+            "view_fitment_centre_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "province_UeFyjB",
+        "fitment_centre_JJyG43"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Eswatini",
+        "flag_image": "shopify://shop_images/eswatini.png",
+        "last-fitment-centre": true
+      }
+    },
     "2653b9b3-5f35-4a51-b304-3e7531d664c8": {
       "type": "custom-liquid",
       "settings": {
@@ -635,6 +668,7 @@
     "16373042708c7598b2",
     "1634548721201e6aaa",
     "16373043278ed1803e",
+    "fireworkx_fitment_centre_group_Lg63b9",
     "2653b9b3-5f35-4a51-b304-3e7531d664c8",
     "ae4f5e99-c6fb-4ccd-ad2f-b6963513c970"
   ]
