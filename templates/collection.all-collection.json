@@ -76,6 +76,12 @@
             "collection": "mazda-canopies"
           }
         },
+        "featured_collection_WQhJGJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mitsubishi-canopies"
+          }
+        },
         "featured_collection_JEd4QJ": {
           "type": "featured_collection",
           "settings": {
@@ -112,6 +118,7 @@
         "featured_collection_38x87J",
         "featured_collection_yjzRFt",
         "featured_collection_ymVpbM",
+        "featured_collection_WQhJGJ",
         "featured_collection_JEd4QJ",
         "featured_collection_dgtdaL",
         "featured_collection_rYd3ew",
