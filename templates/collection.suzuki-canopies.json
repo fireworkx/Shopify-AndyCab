@@ -44,6 +44,13 @@
             "heading_size": "h2"
           }
         },
+        "text_6fGbJj": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Andy Cab's Suzuki Super Carry canopies</strong> offer a perfect-fit solution with secure, weather-resistant load protection. Designed for real working conditions, they maximise usable load space and give your <strong>Suzuki Super Carry</strong> a tougher, more professional finish for daily work.<br/><br/>The Suzuki Super Carry is a popular light commercial vehicle in South Africa, valued for its reliability, efficiency and everyday practicality. Trusted by small businesses and delivery operators, it’s built to keep running costs low while getting the job done.<br/></p>",
+            "text_style": "body"
+          }
+        },
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2": {
           "type": "button",
           "settings": {
@@ -54,6 +61,7 @@
       },
       "block_order": [
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-0",
+        "text_6fGbJj",
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2"
       ],
       "settings": {
