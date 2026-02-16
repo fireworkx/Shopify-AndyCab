@@ -24,7 +24,7 @@
       "type": "custom-liquid",
       "name": "Location Content - Custom Liquid",
       "settings": {
-        "custom_liquid": "{% assign centre_ref = page.metafields.fitment.centre %}{% if centre_ref and centre_ref.value %}{% assign c = centre_ref.value %}<div class='page-width rte'><p>Looking for <strong>bakkie canopies in {{ c.town | escape }}</strong>? <p>Visit our authorised Andy Cab fitment centre at {{ c.address_line1 | escape }}{% if c.address_line2 %}, {{ c.address_line2 | escape }}{% endif %}, {{ c.city | escape }}. <p>We fit premium fibreglass canopies and accessories for major bakkie brands with national warranty and local expertise.</p></div>{% else %}<div class='page-width rte'><p>Visit our authorised Andy Cab fitment centre for premium fibreglass canopy fitment and accessories.</p></div>{% endif %}",
+        "custom_liquid": "{% assign centre_ref = page.metafields.fitment.centre %}{% if centre_ref and centre_ref.value %}{% assign c = centre_ref.value %}<div class='page-width rte'><h3>Looking for <strong>bakkie canopies in {{ c.town | escape }}</strong>? <p>Visit our authorised Andy Cab fitment centre at {{ c.address_line1 | escape }}{% if c.address_line2 %}, {{ c.address_line2 | escape }}{% endif %}, {{ c.city | escape }}. <p>We fit premium fibreglass canopies and accessories for major bakkie brands with national warranty and local expertise.</p></div>{% else %}<div class='page-width rte'><p>Visit our authorised Andy Cab fitment centre for premium fibreglass canopy fitment and accessories.</p></div>{% endif %}",
         "spaced-section": false,
         "spaced-bottom": false,
         "color_scheme": "",
