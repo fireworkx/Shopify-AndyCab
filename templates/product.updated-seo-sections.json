@@ -63,16 +63,6 @@
             "show_gift_card_recipient": false
           }
         },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Product Highlights",
-            "icon": "lightning_bolt",
-            "content": "{{ product.metafields.custom.product_overview | metafield_tag }}",
-            "page": ""
-          }
-        },
         "share": {
           "type": "share",
           "disabled": true,
@@ -96,7 +86,6 @@
         "quantity_selector",
         "description",
         "buy_buttons",
-        "collapsible-row-1",
         "share",
         "d876dbb6-87a9-41b4-a897-dd5fa1339ef6"
       ],
