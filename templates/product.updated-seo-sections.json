@@ -172,7 +172,7 @@
         "collapsible_row_WinAbd"
       ],
       "custom_css": [
-        ".collapsible-content table td,.collapsible-content table th {font-size: 1.65rem; /* Changed from smaller */ border: 1px solid #ddd; /* Changed from black to grey */ line-height: 1.4; padding: 10px; text-align: left;}"
+        ".collapsible-content table td,.collapsible-content table th {font-size: 1.6rem; /* Changed from smaller */ border: 1px solid #ddd; /* Changed from black to grey */ line-height: 1.4; padding: 10px; text-align: left;}"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
