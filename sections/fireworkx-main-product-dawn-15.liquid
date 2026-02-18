@@ -57,46 +57,6 @@
       >
     {%- endif -%}
 
-<style>
-  .pjn-infolink {
-    display: table;
-  }
-
-  .pjn-container .pjn-text {
-    display: block !important;
-  }
-
-  .pjn-container .pjn-logo {
-    display: block !important;
-    margin-bottom: 5px; /* adds spacing below logo */
-  }
-
-  .pjn-container .pjn-logo svg {
-    max-height: unset;
-    height: 20px !important;
-    width: unset;
-    max-width: unset;
-  }
-
-  .pjn-container .pjn-inner {
-    display: block !important; /* force it into block layout */
-  }
-
-  .pjn-container .pjn-text,
-  .pjn-container .pjn-logo {
-    width: 100%;
-  }
-
-  @media screen and (max-width: 1200px) {
-    .pjn-container .pjn-text p {
-      white-space: normal !important;
-    }
-  }
-  .pjn-container .pjn-text,
-.pjn-container .pjn-text * {
-  font-size: 15px !important;
-}
-</style>
  
     {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
 
