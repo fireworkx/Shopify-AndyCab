@@ -89,7 +89,9 @@
         "share",
         "d876dbb6-87a9-41b4-a897-dd5fa1339ef6"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".pjn-container {display: none !important; }"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "media_size": "large",
