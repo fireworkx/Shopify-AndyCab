@@ -104,6 +104,10 @@
           "type": "rating",
           "disabled": true,
           "settings": {}
+        },
+        "trafficly_visitors_counter_trafficly_i7jGVD": {
+          "type": "shopify://apps/trafficly-visitors-counter/blocks/trafficly/ff0a9f47-c478-468c-8fa1-f5a7bb122960",
+          "settings": {}
         }
       },
       "block_order": [
@@ -120,10 +124,11 @@
         "collapsible-row-2",
         "collapsible-row-3",
         "share",
-        "d876dbb6-87a9-41b4-a897-dd5fa1339ef6"
+        "d876dbb6-87a9-41b4-a897-dd5fa1339ef6",
+        "trafficly_visitors_counter_trafficly_i7jGVD"
       ],
       "custom_css": [
-        ".pjn-container {display: none !important; }"
+        ".pjn-container {display: none !important;}"
       ],
       "settings": {
         "enable_sticky_info": true,
