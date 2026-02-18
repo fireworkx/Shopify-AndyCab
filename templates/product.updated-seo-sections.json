@@ -63,6 +63,10 @@
             "show_gift_card_recipient": false
           }
         },
+        "trafficly_visitors_counter_trafficly_MLVgM7": {
+          "type": "shopify://apps/trafficly-visitors-counter/blocks/trafficly/ff0a9f47-c478-468c-8fa1-f5a7bb122960",
+          "settings": {}
+        },
         "share": {
           "type": "share",
           "disabled": true,
@@ -86,11 +90,12 @@
         "quantity_selector",
         "description",
         "buy_buttons",
+        "trafficly_visitors_counter_trafficly_MLVgM7",
         "share",
         "d876dbb6-87a9-41b4-a897-dd5fa1339ef6"
       ],
       "custom_css": [
-        ".pjn-container {display: none !important; }"
+        ".pjn-container {display: none !important;}"
       ],
       "settings": {
         "enable_sticky_info": true,
