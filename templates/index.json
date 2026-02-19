@@ -109,6 +109,12 @@
           "settings": {
             "collection": "byd-canopies"
           }
+        },
+        "featured_collection_iQbKwQ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dfsk-canopies"
+          }
         }
       },
       "block_order": [
@@ -126,7 +132,8 @@
         "featured_collection_aYJUPr",
         "featured_collection_wtnNXy",
         "featured_collection_aqaa3Q",
-        "featured_collection_9tVUaH"
+        "featured_collection_9tVUaH",
+        "featured_collection_iQbKwQ"
       ],
       "settings": {
         "title": "Our Canopy Range",
