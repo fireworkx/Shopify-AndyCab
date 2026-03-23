@@ -17,12 +17,13 @@
         "announcement_cBczN9": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
-            "link": ""
+            "text": "Easter Competition Time – Find the EASTER EGG to enter | Ts & Cs apply",
+            "link": "https://www.facebook.com/share/p/18aDXQfdNF/"
           }
         },
         "announcement-bar-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Welcome to our store",
             "link": ""
@@ -33,9 +34,8 @@
         "announcement_cBczN9",
         "announcement-bar-0"
       ],
-      "disabled": true,
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-5",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
