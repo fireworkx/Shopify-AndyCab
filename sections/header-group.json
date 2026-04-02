@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_cBczN9": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Easter Competition Time – Find the EASTER BUNNY to enter | Ts & Cs apply",
             "link": "https://www.facebook.com/share/p/18aDXQfdNF/"
