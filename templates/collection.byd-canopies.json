@@ -12,7 +12,7 @@
     "banner": {
       "type": "fireworkx-collection-hero",
       "settings": {
-        "collection_hero_image": "shopify://shop_images/hero-byd-canopies_8924a45f-4d5d-42b1-8ac4-27800c09edaa.png"
+        "collection_hero_image": "shopify://shop_images/hero-byd-canopies.png"
       }
     },
     "product-grid": {
