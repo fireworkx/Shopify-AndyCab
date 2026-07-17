@@ -22,7 +22,7 @@
         "text_HeJjcB": {
           "type": "text",
           "settings": {
-            "text": "{{ product.metafields.fwx.size.value }}| {{ product.metafields.fwx.year.value }}",
+            "text": "{{ product.metafields.fwx.size.value }} | {{ product.metafields.fwx.year.value }}",
             "text_style": "uppercase"
           }
         },
