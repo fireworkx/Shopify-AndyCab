@@ -29,7 +29,7 @@
         "text_fCkPhG": {
           "type": "text",
           "settings": {
-            "text": "<strong>{{ product.metafields.fwx.canopy_features.value }}</strong>",
+            "text": "{{ product.metafields.fwx.canopy_features.value }}",
             "text_style": "uppercase"
           }
         },
