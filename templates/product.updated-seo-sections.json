@@ -19,6 +19,20 @@
             "text_style": "uppercase"
           }
         },
+        "text_HeJjcB": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>{{ product.metafields.fwx.size.value }}</strong><strong>| </strong><strong>{{ product.metafields.fwx.year.value }}</strong>",
+            "text_style": "uppercase"
+          }
+        },
+        "text_fCkPhG": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>{{ product.metafields.fwx.canopy_features.value }}</strong>",
+            "text_style": "uppercase"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {}
@@ -82,6 +96,8 @@
       },
       "block_order": [
         "vendor",
+        "text_HeJjcB",
+        "text_fCkPhG",
         "title",
         "caption",
         "price",
