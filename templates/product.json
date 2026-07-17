@@ -14,14 +14,38 @@
       "blocks": {
         "vendor": {
           "type": "text",
+          "name": "Make",
           "settings": {
-            "text": "{{ product.vendor }}",
+            "text": "<strong>{{ product.vendor }}</strong>",
             "text_style": "uppercase"
           }
         },
         "title": {
           "type": "title",
           "settings": {}
+        },
+        "text_R4wtCi": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "text_nW7Mp6": {
+          "type": "text",
+          "name": "Canopy Size & Year",
+          "settings": {
+            "text": "{{ product.metafields.fwx.size.value }} | {{ product.metafields.fwx.year.value }}",
+            "text_style": "uppercase"
+          }
+        },
+        "text_EU6Xcb": {
+          "type": "text",
+          "name": "Canopy Features & Spec",
+          "settings": {
+            "text": "{{ product.metafields.fwx.canopy_features.value }}",
+            "text_style": "uppercase"
+          }
         },
         "caption": {
           "type": "text",
@@ -113,6 +137,9 @@
       "block_order": [
         "vendor",
         "title",
+        "text_R4wtCi",
+        "text_nW7Mp6",
+        "text_EU6Xcb",
         "caption",
         "price",
         "971d9c1c-ab06-4a2e-8e87-381aacf5686e",
