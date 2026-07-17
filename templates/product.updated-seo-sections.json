@@ -15,14 +15,14 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "{{ product.vendor }}",
+            "text": "<strong>{{ product.vendor }}</strong>",
             "text_style": "uppercase"
           }
         },
         "text_HeJjcB": {
           "type": "text",
           "settings": {
-            "text": "<strong>{{ product.metafields.fwx.size.value }}</strong><strong>| </strong><strong>{{ product.metafields.fwx.year.value }}</strong>",
+            "text": "{{ product.metafields.fwx.size.value }}| {{ product.metafields.fwx.year.value }}",
             "text_style": "uppercase"
           }
         },
