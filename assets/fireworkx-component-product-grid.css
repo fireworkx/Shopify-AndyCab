@@ -62,3 +62,27 @@
 	display: flex;
 	flex-direction: column;
 }
+
+
+/* Match filter dropdown styling to Contact Us form inputs/selects (.fwx-input) */
+.fwx-filter-select {
+  padding: 1.2rem;
+    font-size: 1.4rem;
+	  border-radius: var(--border-radius-small);
+	    border: 0.2rem solid var(--grey);
+		  transition: border-color 0.15s;
+		    background: white;
+			  cursor: pointer;
+			  }
+
+			  @media screen and (min-width: 460px) {
+			    .fwx-filter-select {
+				    padding: 1.6rem;
+					    font-size: 1.6rem;
+						  }
+						  }
+
+						  .fwx-filter-select:hover,
+						  .fwx-filter-select:focus {
+						    border-color: var(--color-foreground);
+							}
