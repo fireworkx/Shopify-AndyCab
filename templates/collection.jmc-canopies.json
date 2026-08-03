@@ -12,7 +12,7 @@
     "banner": {
       "type": "fireworkx-collection-hero",
       "settings": {
-        "collection_hero_image": "shopify://shop_images/hero-byd-canopies.png"
+        "collection_hero_image": "shopify://shop_images/hero-jmc-canopies.png"
       }
     },
     "product-grid": {
@@ -47,7 +47,7 @@
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Andy Cab</strong> proudly manufactures the <strong>Predator Canopy</strong> for the <strong>BYD Shark Double Cab</strong>, available across South Africa. Built for strength, durability, and style, our <strong>BYD</strong> canopies are designed to perfectly fit your bakkie while offering secure storage and rugged protection.<br/><br/>Whether for work, business, or weekend adventures, the <strong>Predator</strong> canopy gives your <strong>BYD Shark</strong> the ideal balance of practicality and modern design. With nationwide distribution and trusted quality, <strong>Andy Cab</strong> is the go-to choice for <strong>BYD bakkie canopies</strong> in South Africa.</p>",
+            "text": "<p>Andy Cab manufactures and supplies <strong>JMC Canopies</strong> designed specifically to fit your <strong>JMC Single Cab</strong> bakkie. Whether you need a reliable solution for work, deliveries, or fleet operations, our <strong>JMC Single Cab Canopy</strong> is built to provide superior protection, security, and durability.</p><p> </p><p>Our <strong>JMC bakkie canopies</strong> offer secure load storage, excellent weather resistance, and a professional finish, making them the ideal choice for contractors, tradespeople, delivery services, and commercial fleets. Every <strong>JMC canopy</strong> is engineered to withstand demanding conditions while improving productivity and protecting your valuable equipment.</p><p> </p><p>Proudly manufactured in <strong>South Africa</strong>, Andy Cab has over 20 years of experience producing high-quality <strong>JMC Single Cab Canopies</strong> that are built to last. With a nationwide network of fitment centres across <strong>South Africa</strong>, we make it easy to find the perfect <strong>JMC bakkie canopy</strong> for your business or personal needs.</p>",
             "text_style": "body"
           }
         },
@@ -55,7 +55,7 @@
           "type": "button",
           "settings": {
             "button_label": "Download Brochure",
-            "button_link": "https://cdn.shopify.com/s/files/1/0578/5393/5787/files/Andy_Cab_BYD_Brochure.pdf?v=1777383810"
+            "button_link": "https://cdn.shopify.com/s/files/1/0578/5393/5787/files/Andy_Cab_JMC_Brochure.pdf?v=1785779908"
           }
         }
       },
@@ -65,7 +65,7 @@
         "template--16170297917611__afff926e-d5bc-41bd-bfe3-e1fd7832e7eb-16897774075c8f98c2-2"
       ],
       "settings": {
-        "image": "shopify://shop_images/byd-collection-logo.jpg",
+        "image": "shopify://shop_images/JMC-logo.jpg",
         "spaced-section": true,
         "height": "small",
         "desktop_image_width": "small",
