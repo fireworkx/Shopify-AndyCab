@@ -121,6 +121,12 @@
           "settings": {
             "collection": "peugeot-canopies"
           }
+        },
+        "featured_collection_pfHFWK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jmc-canopies"
+          }
         }
       },
       "block_order": [
@@ -140,7 +146,8 @@
         "featured_collection_aqaa3Q",
         "featured_collection_9tVUaH",
         "featured_collection_iQbKwQ",
-        "featured_collection_jCwqVz"
+        "featured_collection_jCwqVz",
+        "featured_collection_pfHFWK"
       ],
       "settings": {
         "title": "Our Canopy Range",
