@@ -709,6 +709,7 @@ class ModalDialog extends HTMLElement {
       this.addEventListener("pointerup", (event) => {
         if (
           event.pointerType === "mouse" &&
+              event.button === 0 &&                       // ignore right-click (2) and middle-click (1)
           !event.target.closest("deferred-media, product-model")
         )
           this.hide();
