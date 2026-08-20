@@ -16,7 +16,7 @@
       }
     },
     "product-grid": {
-      "type": "fireworkx-main-collection-product-grid-dawn-9",
+      "type": "fireworkx-main-collection-product-grid-dawn-9-old",
       "settings": {
         "products_per_page": 16,
         "image_ratio": "adapt",
@@ -55,7 +55,7 @@
           "type": "button",
           "settings": {
             "button_label": "Download Brochure",
-            "button_link": "https://cdn.shopify.com/s/files/1/0578/5393/5787/files/Andy_Cab_Mitsubishi_Canopy_Brochure.pdf?v=1766039586"
+            "button_link": "https://cdn.shopify.com/s/files/1/0578/5393/5787/files/Andy_Cab_Mitsubishi_Triton_Brochure.pdf?v=1787229347"
           }
         }
       },
