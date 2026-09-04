@@ -128,14 +128,15 @@
         "d876dbb6-87a9-41b4-a897-dd5fa1339ef6"
       ],
       "custom_css": [
-        ".pjn-container {display: none !important;}"
+        ".pjn-container {display: none !important;}",
+        "@media screen and (min-width: 990px) { .product--large .thumbnail-list { grid-template-columns: repeat(4, 1fr); } }"
       ],
       "settings": {
         "enable_sticky_info": true,
         "media_size": "large",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "thumbnail_slider",
+        "gallery_layout": "thumbnail",
         "media_position": "left",
         "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
