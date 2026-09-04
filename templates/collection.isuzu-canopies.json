@@ -15,6 +15,50 @@
         "collection_hero_image": "shopify://shop_images/hero-isuzu-canopies.png"
       }
     },
+    "rich_text_jGhXz4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_EMtNUU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Browse or filter for your model or size",
+            "heading_size": "h2"
+          }
+        },
+        "text_FxCj9k": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You can narrow down your search by filtering on either your <strong>vehicle model</strong> or by the <strong>size</strong> (e.g. single cab, double cab, etc)</p>"
+          }
+        },
+        "button_EGaPXj": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_EMtNUU",
+        "text_FxCj9k",
+        "button_EGaPXj"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "product-grid": {
       "type": "fireworkx-main-collection-product-grid-dawn-9",
       "settings": {
@@ -94,6 +138,7 @@
   },
   "order": [
     "banner",
+    "rich_text_jGhXz4",
     "product-grid",
     "163307955296408917",
     "afff926e-d5bc-41bd-bfe3-e1fd7832e7eb",
