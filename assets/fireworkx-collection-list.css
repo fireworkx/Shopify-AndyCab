@@ -118,71 +118,90 @@
    FWX Filter Bar
    Add to fireworkx-collection-list.css (or include as separate asset)
    ============================================================ */
- 
+
 .fwx-filter-bar {
-  padding-top: 1.6rem;
-  padding-bottom: 1.6rem;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
 }
- 
+
 .fwx-filter-dropdowns {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
   align-items: center;
+  gap: 1.2rem;
+  background: #ffffff;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.25), 0px 4px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+  padding: 1.6rem 2rem;
+  box-sizing: border-box;
 }
- 
+
 .fwx-filter-group {
-  flex: 1 1 auto;
+  position: relative;
+  flex: 1 1 calc(50% - 0.6rem);
   min-width: 18rem;
 }
- 
+
 .fwx-filter-select {
   width: 100%;
-  padding: 0.9rem 1.2rem;
-  border: 0.1rem solid rgba(var(--color-foreground), 0.2);
-  border-radius: var(--inputs-radius, 0.4rem);
-  background-color: rgb(var(--color-background));
-  color: rgb(var(--color-foreground));
+  padding: 1rem 3.2rem 1rem 1.4rem;
+  border: 0.1rem solid #d5dbe6;
+  border-radius: 0;
+  background-color: #f5f8fc;
+  color: #012169;
+  font-weight: 600;
   font-size: 1.4rem;
   line-height: 1.4;
   cursor: pointer;
-  appearance: auto;
-  transition: border-color 0.2s ease;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none'%3E%3Cpath d='M1 1L6 6L11 1' stroke='%23012169' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1.4rem center;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
 }
- 
+
 .fwx-filter-select:hover {
-  border-color: rgba(var(--color-foreground), 0.5);
+  border-color: #012169;
 }
- 
+
 .fwx-filter-select:focus {
-  outline: 0.2rem solid rgb(var(--color-foreground));
-  outline-offset: 0.2rem;
+  outline: none;
+  border-color: #012169;
+  box-shadow: 0 0 0 0.2rem rgba(1, 33, 105, 0.15);
 }
- 
+
 .fwx-filter-select option:disabled {
   color: rgba(var(--color-foreground), 0.4);
 }
- 
+
 .fwx-filter-clear {
   display: inline-block;
   font-size: 1.3rem;
+  font-weight: 600;
   text-decoration: underline;
-  color: rgb(var(--color-foreground));
+  color: #012169;
   white-space: nowrap;
   padding: 0.4rem 0;
   flex-shrink: 0;
 }
- 
+
 .fwx-filter-clear:hover {
   opacity: 0.7;
 }
- 
+
 @media screen and (max-width: 749px) {
-  .fwx-filter-group {
-    min-width: calc(50% - 0.5rem);
-    flex: 1 1 calc(50% - 0.5rem);
+  .fwx-filter-dropdowns {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1.2rem 1.6rem;
   }
- 
+
+  .fwx-filter-group {
+    min-width: 0;
+    flex: 1 1 auto;
+    width: 100%;
+  }
+
   .fwx-filter-clear {
     width: 100%;
     text-align: center;
